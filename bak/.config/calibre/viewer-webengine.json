@@ -1,0 +1,79 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 955,
+      "width": 740,
+      "x": -3,
+      "y": -30
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 922,
+      "width": 734,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 922,
+      "width": 734,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAD////9////4gAAAuAAAAOcAAAAAAAAAAAAAALdAAADmQAAAAAAAAAABeAAAAAAAAAAAAAAAt0AAAOZ"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 2.0,
+      "geometry_in_logical_pixels": {
+        "height": 1003,
+        "width": 1504,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x0BCA",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1003,
+        "width": 1504
+      },
+      "virtual_geometry": {
+        "height": 1003,
+        "width": 1504,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIUA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAkQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACUAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAMwA////AAAC3gAAA5oAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Herman Pontzer PhD"
+        ],
+        "key": "/home/usainzg/Calibre Library/Herman Pontzer PhD/Burn (2)/Burn - Herman Pontzer PhD.epub",
+        "pathtoebook": "/home/usainzg/Calibre Library/Herman Pontzer PhD/Burn (2)/Burn - Herman Pontzer PhD.epub",
+        "timestamp": "2025-10-28T09:00:13.625Z",
+        "title": "Burn"
+      }
+    ]
+  }
+}

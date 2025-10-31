@@ -1,0 +1,9 @@
+(
+    output: "all",
+    source: Path("/home/usainzg/Pictures/beautiful-scenery-green-fir-trees-surrounded-by-high-rocky-mountains.jpg"),
+    filter_by_theme: false,
+    rotation_frequency: 300,
+    filter_method: Lanczos,
+    scaling_mode: Zoom,
+    sampling_method: Alphanumeric,
+)

@@ -1,0 +1,124 @@
+I[09:36:32.705] clangd version 20.1.8
+I[09:36:32.705] Features: linux
+I[09:36:32.705] PID: 35444
+I[09:36:32.705] Working directory: /home/usainzg/Projects/u-sdb
+I[09:36:32.705] argv[0]: /usr/bin/clangd
+I[09:36:32.705] Starting LSP over stdin/stdout
+I[09:36:32.706] <-- initialize(0)
+I[09:36:32.706] --> reply:initialize(0) 0 ms
+I[09:36:32.708] <-- initialized
+I[09:36:32.715] <-- textDocument/didOpen
+I[09:36:32.716] Loaded compilation database from /home/usainzg/Projects/build/compile_commands.json
+I[09:36:32.716] ASTWorker building file /home/usainzg/Projects/u-sdb/src/libsdb.cpp version 1 with command 
+[/home/usainzg/Projects/build]
+/usr/bin/clang++ --driver-mode=g++ -I/home/usainzg/Projects/u-sdb/include -I/home/usainzg/Projects/u-sdb/src/include -g -o src/CMakeFiles/libsdb.dir/libsdb.cpp.o -c -resource-dir=/usr/lib/clang/20 -- /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+I[09:36:32.716] --> window/workDoneProgress/create(0)
+I[09:36:32.716] Enqueueing 3 commands for indexing
+I[09:36:32.717] <-- reply(0)
+I[09:36:32.717] --> $/progress
+I[09:36:32.717] --> $/progress
+I[09:36:32.718] --> textDocument/clangd.fileStatus
+I[09:36:32.804] --> $/progress
+I[09:36:32.804] --> $/progress
+I[09:36:32.907] <-- textDocument/documentLink(1)
+I[09:36:32.907] <-- textDocument/inlayHint(2)
+I[09:36:32.911] <-- $/setTrace
+I[09:36:32.911] unhandled notification $/setTrace
+I[09:36:32.990] Built preamble of size 3942900 for file /home/usainzg/Projects/u-sdb/src/libsdb.cpp version 1 in 0.27 seconds
+I[09:36:32.990] --> workspace/semanticTokens/refresh(1)
+I[09:36:32.991] Indexing c++17 standard library in the context of /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+I[09:36:32.998] --> textDocument/publishDiagnostics
+I[09:36:32.998] --> textDocument/inactiveRegions
+I[09:36:32.998] --> reply:textDocument/documentLink(1) 91 ms
+I[09:36:32.998] --> reply:textDocument/inlayHint(2) 91 ms
+I[09:36:32.998] --> textDocument/clangd.fileStatus
+I[09:36:33.068] <-- reply(1)
+I[09:36:33.075] <-- textDocument/foldingRange(3)
+I[09:36:33.075] --> reply:textDocument/foldingRange(3) 0 ms
+I[09:36:33.122] <-- textDocument/documentLink(4)
+I[09:36:33.122] --> reply:textDocument/documentLink(4) 0 ms
+I[09:36:33.123] --> textDocument/clangd.fileStatus
+I[09:36:33.127] <-- textDocument/semanticTokens/full(5)
+I[09:36:33.127] --> reply:textDocument/semanticTokens/full(5) 0 ms
+I[09:36:33.127] <-- textDocument/documentSymbol(6)
+I[09:36:33.127] --> reply:textDocument/documentSymbol(6) 0 ms
+I[09:36:33.127] --> textDocument/clangd.fileStatus
+I[09:36:33.441] <-- textDocument/codeAction(7)
+I[09:36:33.441] <-- textDocument/documentLink(8)
+I[09:36:33.441] <-- $/setTrace
+I[09:36:33.441] unhandled notification $/setTrace
+I[09:36:33.441] <-- $/setTrace
+I[09:36:33.441] unhandled notification $/setTrace
+I[09:36:33.441] --> reply:textDocument/codeAction(7) 0 ms
+I[09:36:33.441] --> reply:textDocument/documentLink(8) 0 ms
+I[09:36:33.441] --> textDocument/clangd.fileStatus
+I[09:36:33.512] <-- textDocument/documentSymbol(9)
+I[09:36:33.512] --> reply:textDocument/documentSymbol(9) 0 ms
+I[09:36:33.512] --> textDocument/clangd.fileStatus
+I[09:36:33.517] <-- $/setTrace
+I[09:36:33.517] unhandled notification $/setTrace
+I[09:36:33.954] <-- textDocument/codeAction(10)
+I[09:36:33.954] <-- $/cancelRequest
+I[09:36:33.954] <-- textDocument/codeAction(11)
+I[09:36:33.954] --> reply:textDocument/codeAction(10) 0 ms, error: Task was cancelled.
+I[09:36:33.954] <-- $/setTrace
+I[09:36:33.954] unhandled notification $/setTrace
+I[09:36:33.954] <-- $/setTrace
+I[09:36:33.954] unhandled notification $/setTrace
+I[09:36:33.954] <-- $/cancelRequest
+I[09:36:33.954] <-- textDocument/codeAction(12)
+I[09:36:33.954] --> reply:textDocument/codeAction(11) 0 ms
+I[09:36:33.954] <-- textDocument/documentLink(13)
+I[09:36:33.954] --> reply:textDocument/codeAction(12) 0 ms
+I[09:36:33.954] --> reply:textDocument/documentLink(13) 0 ms
+I[09:36:33.954] --> textDocument/clangd.fileStatus
+[Error - 9:36:33 AM] Request textDocument/codeAction failed.
+[object Object]
+I[09:36:34.989] Indexed c++17 standard library (incomplete due to errors): 14392 symbols, 11464 filtered
+I[09:36:35.412] <-- $/setTrace
+I[09:36:35.412] unhandled notification $/setTrace
+I[09:36:35.412] <-- $/setTrace
+I[09:36:35.412] unhandled notification $/setTrace
+I[09:36:37.440] <-- textDocument/codeAction(14)
+I[09:36:37.440] <-- textDocument/documentSymbol(15)
+I[09:36:37.440] --> reply:textDocument/codeAction(14) 0 ms
+I[09:36:37.440] --> reply:textDocument/documentSymbol(15) 0 ms
+I[09:36:37.440] --> textDocument/clangd.fileStatus
+I[09:36:37.479] <-- textDocument/inlayHint(16)
+I[09:36:37.480] <-- textDocument/documentLink(17)
+I[09:36:37.480] --> reply:textDocument/inlayHint(16) 0 ms
+I[09:36:37.480] --> reply:textDocument/documentLink(17) 0 ms
+I[09:36:37.480] --> textDocument/clangd.fileStatus
+I[09:36:37.634] <-- textDocument/foldingRange(18)
+I[09:36:37.634] --> reply:textDocument/foldingRange(18) 0 ms
+I[09:36:37.705] <-- $/setTrace
+I[09:36:37.705] unhandled notification $/setTrace
+I[09:36:37.757] <-- $/setTrace
+I[09:36:37.757] unhandled notification $/setTrace
+I[09:36:37.778] <-- textDocument/codeAction(19)
+I[09:36:37.778] --> reply:textDocument/codeAction(19) 0 ms
+I[09:36:37.778] --> textDocument/clangd.fileStatus
+I[09:36:37.778] <-- textDocument/semanticTokens/full/delta(20)
+I[09:36:37.778] --> reply:textDocument/semanticTokens/full/delta(20) 0 ms
+I[09:36:37.778] --> textDocument/clangd.fileStatus
+I[09:36:37.779] <-- textDocument/documentSymbol(21)
+I[09:36:37.779] --> reply:textDocument/documentSymbol(21) 0 ms
+I[09:36:37.779] --> textDocument/clangd.fileStatus
+I[09:36:38.893] <-- textDocument/codeAction(22)
+I[09:36:38.893] <-- $/cancelRequest
+I[09:36:38.893] <-- textDocument/codeAction(23)
+I[09:36:38.893] <-- $/cancelRequest
+I[09:36:38.893] <-- textDocument/codeAction(24)
+I[09:36:38.893] --> reply:textDocument/codeAction(22) 0 ms, error: Task was cancelled.
+I[09:36:38.893] --> reply:textDocument/codeAction(23) 0 ms, error: Task was cancelled.
+I[09:36:38.893] --> reply:textDocument/codeAction(24) 0 ms
+I[09:36:38.893] --> textDocument/clangd.fileStatus
+[Error - 9:36:38 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 9:36:38 AM] Request textDocument/codeAction failed.
+[object Object]
+I[09:36:39.248] <-- textDocument/documentLink(25)
+I[09:36:39.248] --> reply:textDocument/documentLink(25) 0 ms
+I[09:36:39.248] --> textDocument/clangd.fileStatus
+I[09:36:39.778] <-- textDocument/didClose
+I[09:36:39.778] --> textDocument/publishDiagnostics

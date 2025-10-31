@@ -1,0 +1,112 @@
+I[09:29:42.159] clangd version 20.1.8
+I[09:29:42.159] Features: linux
+I[09:29:42.159] PID: 69049
+I[09:29:42.159] Working directory: /home/usainzg/Projects/u-sdb
+I[09:29:42.159] argv[0]: /usr/bin/clangd
+I[09:29:42.159] Starting LSP over stdin/stdout
+I[09:29:42.159] <-- initialize(0)
+I[09:29:42.162] --> reply:initialize(0) 3 ms
+I[09:29:42.167] <-- initialized
+I[09:29:42.176] <-- textDocument/didOpen
+I[09:29:42.177] Loaded compilation database from /home/usainzg/Projects/build/compile_commands.json
+I[09:29:42.177] ASTWorker building file /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp version 1 with command inferred from /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+[/home/usainzg/Projects/build]
+/usr/bin/clang++ --driver-mode=g++ -I/home/usainzg/Projects/u-sdb/include -I/home/usainzg/Projects/u-sdb/src/include -g -c -resource-dir=/usr/lib/clang/20 -- /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp
+I[09:29:42.177] --> window/workDoneProgress/create(0)
+I[09:29:42.177] Enqueueing 3 commands for indexing
+I[09:29:42.178] <-- reply(0)
+I[09:29:42.178] --> $/progress
+I[09:29:42.178] --> $/progress
+I[09:29:42.178] --> textDocument/clangd.fileStatus
+I[09:29:42.186] Built preamble of size 259108 for file /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp version 1 in 0.01 seconds
+I[09:29:42.186] --> workspace/semanticTokens/refresh(1)
+I[09:29:42.187] Indexing c++17 standard library in the context of /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp
+I[09:29:42.188] <-- reply(1)
+I[09:29:42.191] --> textDocument/publishDiagnostics
+I[09:29:42.191] --> textDocument/inactiveRegions
+I[09:29:42.191] --> textDocument/clangd.fileStatus
+I[09:29:42.223] --> $/progress
+I[09:29:42.223] --> $/progress
+I[09:29:42.457] <-- textDocument/documentLink(1)
+I[09:29:42.457] <-- textDocument/inlayHint(2)
+I[09:29:42.457] --> reply:textDocument/documentLink(1) 0 ms
+I[09:29:42.457] --> reply:textDocument/inlayHint(2) 0 ms
+I[09:29:42.457] --> textDocument/clangd.fileStatus
+I[09:29:42.457] <-- textDocument/semanticTokens/full(3)
+I[09:29:42.457] --> reply:textDocument/semanticTokens/full(3) 0 ms
+I[09:29:42.458] --> textDocument/clangd.fileStatus
+I[09:29:42.458] <-- $/setTrace
+I[09:29:42.458] unhandled notification $/setTrace
+I[09:29:42.581] <-- textDocument/foldingRange(4)
+I[09:29:42.581] --> reply:textDocument/foldingRange(4) 0 ms
+I[09:29:42.668] <-- textDocument/documentLink(5)
+I[09:29:42.668] <-- textDocument/documentSymbol(6)
+I[09:29:42.668] --> reply:textDocument/documentLink(5) 0 ms
+I[09:29:42.668] --> reply:textDocument/documentSymbol(6) 0 ms
+I[09:29:42.668] --> textDocument/clangd.fileStatus
+I[09:29:42.958] <-- textDocument/codeAction(7)
+I[09:29:42.958] <-- $/cancelRequest
+I[09:29:42.958] <-- $/setTrace
+I[09:29:42.958] unhandled notification $/setTrace
+I[09:29:42.958] --> reply:textDocument/codeAction(7) 0 ms
+I[09:29:42.958] <-- $/setTrace
+I[09:29:42.958] unhandled notification $/setTrace
+I[09:29:42.958] --> textDocument/clangd.fileStatus
+I[09:29:42.983] <-- $/cancelRequest
+I[09:29:42.983] <-- textDocument/codeAction(8)
+I[09:29:42.983] <-- $/cancelRequest
+I[09:29:42.983] --> reply:textDocument/codeAction(8) 0 ms, error: Task was cancelled.
+I[09:29:42.983] --> textDocument/clangd.fileStatus
+I[09:29:42.983] <-- textDocument/codeAction(9)
+I[09:29:42.983] <-- textDocument/documentLink(10)
+I[09:29:42.983] <-- $/setTrace
+I[09:29:42.983] unhandled notification $/setTrace
+I[09:29:42.983] --> reply:textDocument/codeAction(9) 0 ms
+I[09:29:42.983] --> reply:textDocument/documentLink(10) 0 ms
+I[09:29:42.983] --> textDocument/clangd.fileStatus
+I[09:29:43.025] <-- textDocument/documentSymbol(11)
+I[09:29:43.025] --> reply:textDocument/documentSymbol(11) 0 ms
+I[09:29:43.026] --> textDocument/clangd.fileStatus
+[Error - 9:29:43 AM] Request textDocument/codeAction failed.
+[object Object]
+I[09:29:43.047] <-- $/setTrace
+I[09:29:43.047] unhandled notification $/setTrace
+I[09:29:43.074] <-- $/setTrace
+I[09:29:43.074] unhandled notification $/setTrace
+I[09:29:43.204] <-- textDocument/codeAction(12)
+I[09:29:43.204] <-- textDocument/documentLink(13)
+I[09:29:43.204] --> reply:textDocument/codeAction(12) 0 ms
+I[09:29:43.204] --> reply:textDocument/documentLink(13) 0 ms
+I[09:29:43.204] --> textDocument/clangd.fileStatus
+I[09:29:44.295] Indexed c++17 standard library (incomplete due to errors): 14392 symbols, 11464 filtered
+I[09:29:45.000] <-- textDocument/foldingRange(14)
+I[09:29:45.000] --> reply:textDocument/foldingRange(14) 0 ms
+I[09:29:45.068] <-- textDocument/documentSymbol(15)
+I[09:29:45.068] <-- $/setTrace
+I[09:29:45.068] unhandled notification $/setTrace
+I[09:29:45.068] <-- textDocument/documentSymbol(16)
+I[09:29:45.068] <-- textDocument/inlayHint(17)
+I[09:29:45.069] --> reply:textDocument/documentSymbol(15) 0 ms
+I[09:29:45.069] --> reply:textDocument/documentSymbol(16) 0 ms
+I[09:29:45.069] --> reply:textDocument/inlayHint(17) 0 ms
+I[09:29:45.069] --> textDocument/clangd.fileStatus
+I[09:29:45.963] <-- textDocument/documentHighlight(18)
+I[09:29:45.963] --> reply:textDocument/documentHighlight(18) 0 ms
+I[09:29:45.963] --> textDocument/clangd.fileStatus
+I[09:29:46.571] <-- textDocument/codeAction(19)
+I[09:29:46.571] <-- $/cancelRequest
+I[09:29:46.571] <-- textDocument/codeAction(20)
+I[09:29:46.571] --> reply:textDocument/codeAction(19) 0 ms, error: Task was cancelled.
+I[09:29:46.571] <-- $/cancelRequest
+I[09:29:46.571] <-- textDocument/codeAction(21)
+I[09:29:46.571] --> reply:textDocument/codeAction(20) 0 ms, error: Task was cancelled.
+I[09:29:46.571] --> reply:textDocument/codeAction(21) 0 ms
+I[09:29:46.571] --> textDocument/clangd.fileStatus
+[Error - 9:29:46 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 9:29:46 AM] Request textDocument/codeAction failed.
+[object Object]
+I[09:29:47.747] <-- $/setTrace
+I[09:29:47.747] unhandled notification $/setTrace
+I[09:29:49.618] <-- textDocument/didClose
+I[09:29:49.618] --> textDocument/publishDiagnostics

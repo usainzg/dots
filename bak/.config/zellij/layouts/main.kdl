@@ -1,0 +1,16 @@
+layout {
+    pane split_direction="horizontal" {
+        pane split_direction="vertical" {
+            pane name="Editor" command="nvim" size="100"
+	        pane split_direction="horizontal" stacked=true {
+                pane name="Files" command="yazi"
+                pane name="Version Control" command="lazygit"
+                pane name="Terminal" focus=true
+		            pane name="Tasks"
+            }
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+    }
+}

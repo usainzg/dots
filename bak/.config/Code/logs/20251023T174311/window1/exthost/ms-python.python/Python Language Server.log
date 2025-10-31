@@ -1,0 +1,42 @@
+2025-10-23 17:43:16.323 [info] (Client) Pylance client (2025.8.3) started with python extension (2025.16.0)
+2025-10-23 17:43:17.009 [info] (12747) Server root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-23 17:43:17.009 [info] (12747) Pylance language server 2025.8.3 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-23 17:43:17.012 [info] (12747) Starting service instance "glowish" for workspace "/home/usainzg/Projects/glowish"
+2025-10-23 17:43:17.071 [info] (12747) Setting environmentName for service "glowish": "3.13.7 (glowish venv)"
+2025-10-23 17:43:17.071 [info] (12747) Setting pythonPath for service "glowish": "/home/usainzg/Projects/glowish/.venv/bin/python"
+2025-10-23 17:43:17.072 [info] (12747) No include entries specified; assuming /home/usainzg/Projects/glowish
+2025-10-23 17:43:17.072 [info] (12747) Auto-excluding **/node_modules
+2025-10-23 17:43:17.072 [info] (12747) Auto-excluding **/__pycache__
+2025-10-23 17:43:17.072 [info] (12747) Auto-excluding **/.*
+2025-10-23 17:43:17.088 [info] (12747) Assuming Python version 3.13.7.final.0
+2025-10-23 17:43:17.138 [info] (12747) Settings have not changed. Skipping update.
+2025-10-23 17:43:17.139 [info] (12747) Starting Mcp server id:4927 ...
+2025-10-23 17:43:17.149 [info] (12747) Found 22 source files
+2025-10-23 17:43:17.526 [info] (12747) BG: Priority queue background worker(2) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-23 17:43:17.526 [info] (12747) BG: Priority queue background worker(2) started
+2025-10-23 17:43:27.826 [info] (12747) BG: Indexer background runner(3) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist (index)
+2025-10-23 17:43:27.826 [info] (12747) BG: Indexing(3) started
+2025-10-23 17:43:28.149 [info] (12747) BG: scanned(3) 727 files over 1 exec env
+2025-10-23 17:43:29.845 [info] (12747) BG: indexed(3) 727 files over 1 exec env
+2025-10-23 17:43:29.950 [info] (12747) BG: Indexing finished(3).
+2025-10-23 17:50:10.181 [info] (12747) Settings have not changed. Skipping update.
+2025-10-23 17:51:33.304 [info] (12747) Starting service instance "<default>" for workspace ""
+2025-10-23 17:51:33.345 [info] (12747) Setting environmentName for service "<default>": "3.13.7 (glowish venv)"
+2025-10-23 17:51:33.345 [info] (12747) Setting pythonPath for service "<default>": "/home/usainzg/Projects/glowish/.venv/bin/python"
+2025-10-23 17:51:33.345 [info] (12747) No include entries specified; assuming /<default workspace root>
+2025-10-23 17:51:33.345 [info] (12747) Auto-excluding **/node_modules
+2025-10-23 17:51:33.345 [info] (12747) Auto-excluding **/__pycache__
+2025-10-23 17:51:33.346 [info] (12747) Auto-excluding **/.*
+2025-10-23 17:51:33.370 [info] (12747) Assuming Python version 3.13.7.final.0
+2025-10-23 17:51:33.416 [error] (12747) File or directory "/<default workspace root>" does not exist.
+2025-10-23 17:51:33.416 [info] (12747) No source files found.
+2025-10-23 17:51:33.810 [info] (12747) BG: Priority queue background worker(5) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-23 17:51:33.810 [info] (12747) BG: Priority queue background worker(5) started
+2025-10-23 18:02:32.174 [info] (12747) Found 22 source files
+2025-10-23 18:02:37.632 [info] (12747) BG: Indexer background runner(6) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist (refresh)
+2025-10-23 18:02:37.632 [info] (12747) BG: Indexing(6) started
+2025-10-23 18:02:37.801 [info] (12747) BG: scanned(6) 582 files over 1 exec env
+2025-10-23 18:02:38.424 [info] (12747) BG: indexed(6) 582 files over 1 exec env
+2025-10-23 18:02:38.476 [info] (12747) BG: Indexing finished(6).
+2025-10-23 18:14:21.478 [info] (12747) Settings have not changed. Skipping update.
+2025-10-23 18:14:21.478 [info] (12747) Settings have not changed. Skipping update.

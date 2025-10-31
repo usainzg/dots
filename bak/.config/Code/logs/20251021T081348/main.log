@@ -1,0 +1,9 @@
+2025-10-21 08:13:48.167 [info] update#setState disabled
+2025-10-21 08:13:48.168 [info] update#ctor - updates are disabled by user preference
+2025-10-21 08:14:10.192 [info] Extension host with pid 124666 exited with code: 0, signal: unknown.
+2025-10-21 08:14:10.246 [info] Extension host with pid 124631 exited with code: 0, signal: unknown.
+2025-10-21 08:14:11.247 [error] Extension host with pid 124631 still exists, forcefully killing it...
+2025-10-21 08:14:19.375 [info] Extension host with pid 128605 exited with code: 0, signal: unknown.
+2025-10-21 08:14:19.398 [info] Extension host with pid 128604 exited with code: 0, signal: unknown.
+2025-10-21 08:15:41.796 [info] Extension host with pid 129093 exited with code: 0, signal: unknown.
+2025-10-21 08:15:41.829 [info] Extension host with pid 129092 exited with code: 0, signal: unknown.

@@ -1,0 +1,10 @@
+chromeFlags: []
+forceSteamDeck: false
+enableTrayIcon: true
+hardwareAcceleration: default
+linux:
+  gtkVersion: "3"
+  ozonePlatform: x11
+macos:
+  enableVibrancy: true
+  vibrancyType: sidebar

@@ -1,0 +1,107 @@
+2025-10-23 18:36:21.824 [info] Native locator: Refresh started
+2025-10-23 18:36:21.844 [info] Native locator: Refresh started
+2025-10-23 18:36:22.019 [info] > pyenv which python
+2025-10-23 18:36:22.019 [info] cwd: .
+2025-10-23 18:36:24.388 [info] Native locator: Refresh finished in 2865 ms
+2025-10-23 18:36:24.390 [info] Python interpreter path: ./.venv/bin/python
+2025-10-23 18:36:25.269 [info] Starting Pylance language server.
+2025-10-23 18:36:42.223 [info] Native locator: Refresh started
+2025-10-23 18:36:42.328 [info] Native locator: Refresh finished in 104 ms
+2025-10-23 18:37:19.104 [info] Running installed packages checker:  {
+  id: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  sysPrefix: '/home/usainzg/Projects/glowish/.venv',
+  envType: 'Unknown',
+  envName: '',
+  envPath: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  path: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.13.7',
+    major: 3,
+    minor: 13,
+    patch: 7,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.13.7',
+  detailedDisplayName: 'Python 3.13.7',
+  type: undefined
+} /home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py /home/usainzg/Projects/glowish/requirements.txt
+2025-10-23 18:37:19.104 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-10-23 18:37:19.105 [error] Error while getting installed packages check result:
+ Error: spawn /home/usainzg/Projects/glowish/.venv/bin/python ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/usainzg/Projects/glowish/.venv/bin/python',
+  path: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  spawnargs: [
+    '/home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py',
+    '/home/usainzg/Projects/glowish/requirements.txt'
+  ]
+}
+2025-10-23 18:37:24.071 [info] Running installed packages checker:  {
+  id: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  sysPrefix: '/home/usainzg/Projects/glowish/.venv',
+  envType: 'Unknown',
+  envName: '',
+  envPath: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  path: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.13.7',
+    major: 3,
+    minor: 13,
+    patch: 7,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.13.7',
+  detailedDisplayName: 'Python 3.13.7',
+  type: undefined
+} /home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py /home/usainzg/Projects/glowish/requirements.txt
+2025-10-23 18:37:24.071 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-10-23 18:37:24.072 [error] Error while getting installed packages check result:
+ Error: spawn /home/usainzg/Projects/glowish/.venv/bin/python ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/usainzg/Projects/glowish/.venv/bin/python',
+  path: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  spawnargs: [
+    '/home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py',
+    '/home/usainzg/Projects/glowish/requirements.txt'
+  ]
+}
+2025-10-23 18:37:24.391 [info] Discover tests for workspace name: undefined - uri: /home/usainzg/.config/Code/User/settings.json
+2025-10-23 18:37:24.851 [info] Discover tests for workspace name: undefined - uri: /home/usainzg/.config/Code/User/settings.json
+2025-10-23 19:11:57.016 [info] Discover tests for workspace name: undefined - uri: /home/usainzg/.config/Code/User/settings.json
+2025-10-23 19:12:00.988 [info] Discover tests for workspace name: undefined - uri: /home/usainzg/.config/Code/User/settings.json
+2025-10-23 19:26:21.945 [info] Running installed packages checker:  {
+  id: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  sysPrefix: '/home/usainzg/Projects/glowish/.venv',
+  envType: 'Venv',
+  envName: 'glowish',
+  envPath: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  path: '/home/usainzg/Projects/glowish/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.13.7',
+    major: 3,
+    minor: 13,
+    patch: 7,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.13.7 (glowish)',
+  detailedDisplayName: 'Python 3.13.7 (glowish)',
+  type: 'Virtual'
+} /home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py /home/usainzg/Projects/glowish/requirements.txt
+2025-10-23 19:26:21.945 [info] > ./.venv/bin/python ~/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py ./requirements.txt

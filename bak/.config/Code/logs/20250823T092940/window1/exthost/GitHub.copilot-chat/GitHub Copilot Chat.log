@@ -1,0 +1,31 @@
+2025-08-23 09:29:45.441 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-08-23 09:29:45.441 [info] Using the Electron fetcher.
+2025-08-23 09:29:45.441 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-08-23 09:29:45.441 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-08-23 09:29:45.441 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-08-23 09:29:45.581 [info] Logged in as usainzg
+2025-08-23 09:29:46.476 [info] Got Copilot token for usainzg
+2025-08-23 09:29:46.487 [info] activationBlocker from 'languageModelAccess' took for 874ms
+2025-08-23 09:29:46.536 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-08-23 09:29:46.536 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-08-23 09:29:46.553 [info] Registering default platform agent...
+2025-08-23 09:29:46.554 [info] activationBlocker from 'conversationFeature' took for 943ms
+2025-08-23 09:29:46.608 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-23 09:29:46.939 [info] Fetched model metadata in 1321ms e7dca3b7-72ce-405a-9754-48622b4e75ca
+2025-08-23 09:29:52.624 [info] Refetch model metadata: Succeeded in 540ms 14edd9cd-9150-4599-8664-4afac1c27b51 (8D58:C6EA6:480A64:6F436F:68A96DF0) using node-fetch with status 200.
+2025-08-23 09:29:53.081 [info] Refetch model metadata: Succeeded in 453ms cc96bb3e-5b05-4fb6-bf29-2d673fb958e7 (98AA:2C4FDE:460690:6D44E7:68A96DF0) using node-http with status 200.
+2025-08-23 09:29:53.528 [info] Refetch model metadata: Succeeded in 444ms 4da2562e-0c12-44e0-aec8-96950a27736b (98B8:125B60:4B96D6:72BA0E:68A96DF1) using electron-fetch with status 200.
+2025-08-23 09:30:01.250 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-08-23 09:30:01.250 [info] Using the Electron fetcher.
+2025-08-23 09:30:01.250 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-08-23 09:30:01.250 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-08-23 09:30:01.250 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-08-23 09:30:01.386 [info] Logged in as usainzg
+2025-08-23 09:30:02.180 [info] Got Copilot token for usainzg
+2025-08-23 09:30:02.199 [info] activationBlocker from 'languageModelAccess' took for 708ms
+2025-08-23 09:30:02.270 [info] copilot token chat_enabled: true, sku: free_educational_quota
+2025-08-23 09:30:02.270 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-08-23 09:30:02.287 [info] Registering default platform agent...
+2025-08-23 09:30:02.288 [info] activationBlocker from 'conversationFeature' took for 800ms
+2025-08-23 09:30:02.303 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-23 09:30:02.326 [info] Fetched model metadata in 827ms a9e57707-8216-43ac-91e6-25edc6141ec3

@@ -1,0 +1,62 @@
+INFO 7/31/2025, 10:53:41 AM  launch with argv [/usr/share/typora/Typora, --enable-wayland-ime]
+INFO 7/31/2025, 10:53:41 AM  ------------------start------------------
+DEBUG 7/31/2025, 10:53:41 AM  prepDatabase /home/usainzg/.config/Typora/profile.data
+DEBUG 7/31/2025, 10:53:41 AM  prepDatabase /home/usainzg/.config/Typora/history.data
+INFO 7/31/2025, 10:53:41 AM  OS is linux 6.15.8-arch1-1
+INFO 7/31/2025, 10:53:41 AM  launchFromDiffVersion, pre version is undefined
+INFO 7/31/2025, 10:53:41 AM  start LM in devVersion=false
+INFO 7/31/2025, 10:53:41 AM  [watch L]
+DEBUG 7/31/2025, 10:53:41 AM  prepDatabase /home/usainzg/.config/Typora/k23NGR6OsE
+INFO 7/31/2025, 10:53:41 AM  ls put SLicense
+DEBUG 7/31/2025, 10:53:41 AM  onUnfillLicense
+DEBUG 7/31/2025, 10:53:41 AM  trailRemains is 15
+INFO 7/31/2025, 10:53:41 AM  [L] installDate is 7/31/2025, trail remains: 15 days
+INFO 7/31/2025, 10:53:41 AM  [watch L] hasL: false
+INFO 7/31/2025, 10:53:41 AM  overwriteThemeFolder
+INFO 7/31/2025, 10:53:41 AM  typora version: 1.10.8
+DEBUG 7/31/2025, 10:53:41 AM  app.openFile
+DEBUG 7/31/2025, 10:53:41 AM  added recovery 1 null  (0)
+DEBUG 7/31/2025, 10:53:41 AM  putAccelerator File -> &File
+DEBUG 7/31/2025, 10:53:41 AM  putAccelerator Edit -> &Edit
+DEBUG 7/31/2025, 10:53:41 AM  putAccelerator Paragraph -> &Paragraph
+DEBUG 7/31/2025, 10:53:41 AM  putAccelerator Format -> F&ormat
+DEBUG 7/31/2025, 10:53:41 AM  putAccelerator View -> &View
+DEBUG 7/31/2025, 10:53:41 AM  putAccelerator Themes -> &Themes
+DEBUG 7/31/2025, 10:53:41 AM  putAccelerator Help -> &Help
+INFO 7/31/2025, 10:53:41 AM  synced recovery
+user-dict.json not found
+INFO 7/31/2025, 10:53:41 AM  [focus] 1
+DEBUG 7/31/2025, 10:53:42 AM  onUnfillLicense
+ERROR 7/31/2025, 10:53:42 AM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 7/31/2025, 10:53:42 AM  handle document.loadData
+DEBUG 7/31/2025, 10:53:42 AM  document.loadData 0
+ERROR 7/31/2025, 10:53:42 AM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 7/31/2025, 10:53:42 AM  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 7/31/2025, 10:53:42 AM  [RenderProcess 1][Log] reset NodeMap
+DEBUG 7/31/2025, 10:53:42 AM  added recovery 1   (0)
+INFO 7/31/2025, 10:53:42 AM  synced recovery
+INFO 7/31/2025, 10:53:42 AM  [RenderProcess 1][Log] onBecomeActive
+INFO 7/31/2025, 10:53:42 AM  [RenderProcess 1][Log] File.activeWindow = true
+DEBUG 7/31/2025, 10:53:43 AM  added recovery 1  this is a  (10)
+INFO 7/31/2025, 10:53:43 AM  synced recovery
+DEBUG 7/31/2025, 10:53:46 AM  added recovery 1   (0)
+INFO 7/31/2025, 10:53:46 AM  synced recovery
+ERROR 7/31/2025, 10:53:52 AM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 7/31/2025, 10:53:52 AM  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117533)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+DEBUG 7/31/2025, 10:53:54 AM  added recovery 1  this is  (8)
+INFO 7/31/2025, 10:53:54 AM  synced recovery
+DEBUG 7/31/2025, 10:53:57 AM  added recovery 1   (0)
+INFO 7/31/2025, 10:53:57 AM  synced recovery
+INFO 7/31/2025, 10:54:00 AM  synced recovery
+INFO 7/31/2025, 10:54:00 AM  ----------------before-quit-----------------
+INFO 7/31/2025, 10:54:00 AM  ------------------will-quit------------------
+INFO 7/31/2025, 10:54:00 AM  -----------------quit------------------
+INFO 7/31/2025, 10:54:00 AM  closeLogging

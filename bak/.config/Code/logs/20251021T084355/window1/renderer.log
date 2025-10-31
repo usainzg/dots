@@ -1,0 +1,53 @@
+2025-10-21 08:43:56.038 [info] Started local extension host with pid 138666.
+2025-10-21 08:43:56.121 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-10-21 08:43:56.140 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 08:43:56.245 [info] Started local extension host with pid 138701.
+2025-10-21 08:43:56.345 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-21 08:43:56.501 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-21 08:43:56.734 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 08:43:58.656 [info] [perf] Render performance baseline is 14ms
+2025-10-21 08:43:58.768 [error] [Extension Host] (node:138666) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-21 08:43:59.691 [error] Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server: Error: Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server
+    at qct.resolveConnection (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:2218)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:13693
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73168
+2025-10-21 08:44:00.180 [error] chatParticipant must be declared in package.json: claude-code
+2025-10-21 08:44:00.193 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at z6 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64302)
+    at new nd (file:///opt/visual-studio-code/resources/app/out/main.js:30:67682)
+    at new zr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69120)
+    at nd.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:68897)
+    at o5.call (file:///opt/visual-studio-code/resources/app/out/main.js:88:105739)
+    at Lf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Lf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at Xo.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at Xo.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at Xo.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10776)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+2025-10-21 08:44:10.399 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.untitledWorkspace
+2025-10-21 08:44:12.542 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-21 08:44:12.618 [info] Started local extension host with pid 141172.
+2025-10-21 08:44:12.809 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-10-21 08:44:12.824 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 08:44:12.936 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 08:44:12.973 [info] Started local extension host with pid 141199.
+2025-10-21 08:44:13.126 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-21 08:44:13.268 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-21 08:44:13.510 [error] [Extension Host] (node:141172) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-21 08:44:14.988 [error] chatParticipant must be declared in package.json: claude-code
+2025-10-21 08:44:15.179 [info] [perf] Render performance baseline is 14ms
+2025-10-21 08:44:20.840 [error] [Extension Host] (node:141172) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2025-10-21 08:49:19.955 [error] An unknown error occurred. Please consult the log for more details.

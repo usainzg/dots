@@ -1,0 +1,43 @@
+2025-08-27 10:50:37.048 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-27 10:50:37.061 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-27 10:50:37.061 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-27 10:50:37.325 [info] Started local extension host with pid 130678.
+2025-08-27 10:50:37.582 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-08-27 10:50:37.618 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-08-27 10:50:37.757 [info] Started local extension host with pid 130714.
+2025-08-27 10:50:38.237 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-27 10:50:40.135 [info] [perf] Render performance baseline is 175ms
+2025-08-27 10:50:40.799 [error] [Extension Host] (node:130678) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-27 10:50:43.234 [error] [Extension Host] (node:130678) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2025-08-27 10:50:43.331 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-08-27 10:50:43.748 [error] Chat model provider for vendor ollama is already registered.
+2025-08-27 10:50:43.748 [error] Chat model provider for vendor anthropic is already registered.
+2025-08-27 10:50:43.749 [error] Chat model provider for vendor groq is already registered.
+2025-08-27 10:50:43.749 [error] Chat model provider for vendor gemini is already registered.
+2025-08-27 10:50:43.749 [error] Chat model provider for vendor xai is already registered.
+2025-08-27 10:50:43.749 [error] Chat model provider for vendor openai is already registered.
+2025-08-27 10:50:43.749 [error] Chat model provider for vendor openrouter is already registered.
+2025-08-27 10:50:43.750 [error] Chat model provider for vendor azure is already registered.
+2025-08-27 10:51:12.663 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Lf.getLineMaxColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:271:112)
+    at Ia.getBottomForLineNumber (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:280:1635)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:413:124299
+    at $i (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:102899)
+    at wZi.t (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:413:123724)
+    at $q._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:413:123358)
+    at $q.k (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:108648)
+    at $q.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:109062)
+    at r6.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103625)
+    at $i (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:102914)
+2025-08-27 10:51:12.667 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Lf.getLineMaxColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:271:112)
+    at Ia.getBottomForLineNumber (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:280:1635)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:413:124299
+    at $i (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:102899)
+    at wZi.t (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:413:123724)
+    at $q._runFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:413:123358)
+    at $q.k (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:108648)
+    at $q.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:109062)
+    at db.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:113352)
+    at db.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:113352)

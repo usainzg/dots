@@ -1,0 +1,49 @@
+2025-10-21 08:14:14.414 [info] (Client) Pylance client (2025.8.2) started with python extension (2025.14.0)
+2025-10-21 08:14:15.214 [info] (129032) Server root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.2/dist
+2025-10-21 08:14:15.215 [info] (129032) Pylance language server 2025.8.2 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-21 08:14:15.219 [info] (129032) Starting service instance "GLow" for workspace "/home/usainzg/Projects/GLow"
+2025-10-21 08:14:15.270 [info] (129032) Starting Mcp server id:5235 ...
+2025-10-21 08:14:15.299 [info] (129032) Setting environmentName for service "GLow": "3.13.7 (global)"
+2025-10-21 08:14:15.300 [info] (129032) Setting pythonPath for service "GLow": "/bin/python"
+2025-10-21 08:14:15.300 [info] (129032) No include entries specified; assuming /home/usainzg/Projects/GLow
+2025-10-21 08:14:15.300 [info] (129032) Auto-excluding **/node_modules
+2025-10-21 08:14:15.300 [info] (129032) Auto-excluding **/__pycache__
+2025-10-21 08:14:15.300 [info] (129032) Auto-excluding **/.*
+2025-10-21 08:14:15.322 [info] (129032) Assuming Python version 3.13.7.final.0
+2025-10-21 08:14:15.388 [info] (129032) Settings have not changed. Skipping update.
+2025-10-21 08:14:15.391 [info] (129032) Found 11 source files
+2025-10-21 08:14:15.843 [info] (129032) BG: Priority queue background worker(2) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.2/dist
+2025-10-21 08:14:15.843 [info] (129032) BG: Priority queue background worker(2) started
+2025-10-21 08:14:23.557 [info] (Client) Pylance client (2025.8.3) started with python extension (2025.16.0)
+2025-10-21 08:14:24.311 [info] (129533) Server root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-21 08:14:24.311 [info] (129533) Pylance language server 2025.8.3 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-21 08:14:24.315 [info] (129533) Starting service instance "GLow" for workspace "/home/usainzg/Projects/GLow"
+2025-10-21 08:14:24.372 [info] (129533) Setting environmentName for service "GLow": "3.13.7 (global)"
+2025-10-21 08:14:24.373 [info] (129533) Setting pythonPath for service "GLow": "/bin/python"
+2025-10-21 08:14:24.373 [info] (129533) No include entries specified; assuming /home/usainzg/Projects/GLow
+2025-10-21 08:14:24.373 [info] (129533) Auto-excluding **/node_modules
+2025-10-21 08:14:24.373 [info] (129533) Auto-excluding **/__pycache__
+2025-10-21 08:14:24.373 [info] (129533) Auto-excluding **/.*
+2025-10-21 08:14:24.396 [info] (129533) Assuming Python version 3.13.7.final.0
+2025-10-21 08:14:24.439 [info] (129533) Settings have not changed. Skipping update.
+2025-10-21 08:14:24.440 [info] (129533) Starting Mcp server id:3541 ...
+2025-10-21 08:14:24.450 [info] (129533) Found 11 source files
+2025-10-21 08:14:24.839 [info] (129533) BG: Priority queue background worker(2) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-21 08:14:24.839 [info] (129533) BG: Priority queue background worker(2) started
+2025-10-21 08:14:25.476 [info] (129533) BG: Indexer background runner(3) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist (index)
+2025-10-21 08:14:25.476 [info] (129533) BG: Indexing(3) started
+2025-10-21 08:14:25.690 [info] (129533) BG: scanned(3) 622 files over 1 exec env
+2025-10-21 08:14:26.479 [info] (129533) BG: indexed(3) 622 files over 1 exec env
+2025-10-21 08:14:26.538 [info] (129533) BG: Indexing finished(3).
+2025-10-21 08:14:30.505 [info] (129533) Starting service instance "<default>" for workspace ""
+2025-10-21 08:14:30.530 [info] (129533) Setting environmentName for service "<default>": "3.13.7 (global)"
+2025-10-21 08:14:30.530 [info] (129533) Setting pythonPath for service "<default>": "/bin/python"
+2025-10-21 08:14:30.530 [info] (129533) No include entries specified; assuming /<default workspace root>
+2025-10-21 08:14:30.530 [info] (129533) Auto-excluding **/node_modules
+2025-10-21 08:14:30.530 [info] (129533) Auto-excluding **/__pycache__
+2025-10-21 08:14:30.530 [info] (129533) Auto-excluding **/.*
+2025-10-21 08:14:30.554 [info] (129533) Assuming Python version 3.13.7.final.0
+2025-10-21 08:14:30.596 [error] (129533) File or directory "/<default workspace root>" does not exist.
+2025-10-21 08:14:30.596 [info] (129533) No source files found.
+2025-10-21 08:14:31.011 [info] (129533) BG: Priority queue background worker(5) root directory: file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-21 08:14:31.011 [info] (129533) BG: Priority queue background worker(5) started

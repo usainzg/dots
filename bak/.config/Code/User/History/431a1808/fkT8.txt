@@ -1,0 +1,26 @@
+add_mlir_library(AffineDistributeToMPI
+    AffineDistributeToMPI.cpp
+
+    ADDITIONAL_HEADER_DIRS
+    ${PROJECT_SOURCE_DIR}/lib/Transform/Affine/
+    
+    DEPENDS
+    MLIRAffineDistributeToMPIPasses
+
+    LINK_LIBS PUBLIC
+    MLIRAnalysis
+    MLIRArithDialect
+    MLIRControlFlowDialect
+    MLIRFuncDialect
+    MLIRIR
+    MLIRMemRefDialect
+    MLIRPass
+    MLIRRewrite
+    MLIRTransformUtils
+    MLIRVectorDialect
+)
+
+set(LLVM_TARGET_DEFINITIONS Passes.td)
+mlir_tablegen(Passes.h.inc -gen-pass-decls -name Affine)
+add_public_tablegen_target(MLIRAffineDistributeToMPIPasses)
+add_mlir_doc(Passes AffinePasses ./ -gen-pass-doc)

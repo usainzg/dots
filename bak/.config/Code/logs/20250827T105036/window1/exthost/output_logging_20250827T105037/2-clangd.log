@@ -1,0 +1,198 @@
+I[10:50:43.051] clangd version 20.1.8
+I[10:50:43.051] Features: linux
+I[10:50:43.051] PID: 131098
+I[10:50:43.051] Working directory: /home/usainzg/Projects/u-sdb
+I[10:50:43.051] argv[0]: /usr/bin/clangd
+I[10:50:43.051] Starting LSP over stdin/stdout
+I[10:50:43.051] <-- initialize(0)
+I[10:50:43.052] --> reply:initialize(0) 0 ms
+I[10:50:43.055] <-- initialized
+I[10:50:43.068] <-- textDocument/didOpen
+I[10:50:43.069] Loaded compilation database from /home/usainzg/Projects/build/compile_commands.json
+I[10:50:43.069] ASTWorker building file /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp version 1 with command inferred from /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+[/home/usainzg/Projects/build]
+/usr/bin/clang++ --driver-mode=g++ -I/home/usainzg/Projects/u-sdb/include -I/home/usainzg/Projects/u-sdb/src/include -g -c -resource-dir=/usr/lib/clang/20 -- /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp
+I[10:50:43.069] --> window/workDoneProgress/create(0)
+I[10:50:43.069] Enqueueing 3 commands for indexing
+I[10:50:43.071] --> textDocument/clangd.fileStatus
+I[10:50:43.071] <-- reply(0)
+I[10:50:43.071] --> $/progress
+I[10:50:43.071] --> $/progress
+I[10:50:43.080] Built preamble of size 259108 for file /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp version 1 in 0.01 seconds
+I[10:50:43.081] --> workspace/semanticTokens/refresh(1)
+I[10:50:43.082] Indexing c++17 standard library in the context of /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp
+I[10:50:43.084] <-- reply(1)
+I[10:50:43.087] --> textDocument/publishDiagnostics
+I[10:50:43.087] --> textDocument/inactiveRegions
+I[10:50:43.087] --> textDocument/clangd.fileStatus
+I[10:50:43.173] --> $/progress
+I[10:50:43.173] --> $/progress
+I[10:50:43.173] --> $/progress
+I[10:50:43.399] <-- textDocument/documentSymbol(1)
+I[10:50:43.399] <-- textDocument/documentLink(2)
+I[10:50:43.399] <-- textDocument/inlayHint(3)
+I[10:50:43.399] <-- $/cancelRequest
+I[10:50:43.399] --> reply:textDocument/documentSymbol(1) 0 ms
+I[10:50:43.399] <-- textDocument/documentSymbol(4)
+I[10:50:43.399] <-- textDocument/semanticTokens/full(5)
+I[10:50:43.399] <-- $/setTrace
+I[10:50:43.399] unhandled notification $/setTrace
+I[10:50:43.399] --> reply:textDocument/documentLink(2) 0 ms
+I[10:50:43.399] <-- $/setTrace
+I[10:50:43.399] unhandled notification $/setTrace
+I[10:50:43.399] <-- $/setTrace
+I[10:50:43.399] unhandled notification $/setTrace
+I[10:50:43.399] --> reply:textDocument/inlayHint(3) 0 ms
+I[10:50:43.399] --> reply:textDocument/documentSymbol(4) 0 ms
+I[10:50:43.399] --> reply:textDocument/semanticTokens/full(5) 0 ms
+I[10:50:43.399] --> textDocument/clangd.fileStatus
+I[10:50:43.404] <-- $/setTrace
+I[10:50:43.404] unhandled notification $/setTrace
+I[10:50:43.518] <-- $/cancelRequest
+I[10:50:43.518] <-- textDocument/documentLink(6)
+I[10:50:43.518] --> reply:textDocument/documentLink(6) 0 ms
+I[10:50:43.518] --> textDocument/clangd.fileStatus
+I[10:50:43.525] Indexed /home/usainzg/Projects/u-sdb/test/tests.cpp (11 symbols, 8633 refs, 271 files)
+I[10:50:43.542] --> $/progress
+I[10:50:43.628] <-- textDocument/documentSymbol(7)
+I[10:50:43.629] --> reply:textDocument/documentSymbol(7) 0 ms
+I[10:50:43.629] --> textDocument/clangd.fileStatus
+I[10:50:43.643] <-- textDocument/hover(8)
+I[10:50:43.643] --> reply:textDocument/hover(8) 0 ms
+I[10:50:43.643] --> textDocument/clangd.fileStatus
+I[10:50:43.650] <-- $/cancelRequest
+I[10:50:43.688] <-- textDocument/documentLink(9)
+I[10:50:43.688] --> reply:textDocument/documentLink(9) 0 ms
+I[10:50:43.688] --> textDocument/clangd.fileStatus
+I[10:50:43.984] <-- textDocument/documentSymbol(10)
+I[10:50:43.984] --> reply:textDocument/documentSymbol(10) 0 ms
+I[10:50:43.984] --> textDocument/clangd.fileStatus
+I[10:50:44.212] <-- textDocument/foldingRange(11)
+I[10:50:44.212] --> reply:textDocument/foldingRange(11) 0 ms
+I[10:50:44.225] <-- textDocument/hover(12)
+I[10:50:44.225] --> reply:textDocument/hover(12) 0 ms
+I[10:50:44.225] --> textDocument/clangd.fileStatus
+I[10:50:44.498] <-- textDocument/documentHighlight(13)
+I[10:50:44.498] --> reply:textDocument/documentHighlight(13) 0 ms
+I[10:50:44.498] --> textDocument/clangd.fileStatus
+I[10:50:44.685] <-- textDocument/codeAction(14)
+I[10:50:44.685] --> reply:textDocument/codeAction(14) 0 ms
+I[10:50:44.685] --> textDocument/clangd.fileStatus
+I[10:50:44.940] <-- textDocument/hover(15)
+I[10:50:44.941] --> reply:textDocument/hover(15) 0 ms
+I[10:50:44.941] --> textDocument/clangd.fileStatus
+I[10:50:45.171] Indexed c++17 standard library (incomplete due to errors): 14392 symbols, 11464 filtered
+I[10:50:45.315] <-- textDocument/documentHighlight(16)
+I[10:50:45.316] --> reply:textDocument/documentHighlight(16) 0 ms
+I[10:50:45.316] --> textDocument/clangd.fileStatus
+I[10:50:45.507] <-- textDocument/codeAction(17)
+I[10:50:45.507] --> reply:textDocument/codeAction(17) 0 ms
+I[10:50:45.508] --> textDocument/clangd.fileStatus
+I[10:50:46.557] <-- textDocument/hover(18)
+I[10:50:46.558] --> reply:textDocument/hover(18) 0 ms
+I[10:50:46.558] --> textDocument/clangd.fileStatus
+I[10:50:48.004] <-- textDocument/hover(19)
+I[10:50:48.005] --> reply:textDocument/hover(19) 1 ms
+I[10:50:48.005] --> textDocument/clangd.fileStatus
+I[10:50:48.325] <-- textDocument/hover(20)
+I[10:50:48.327] --> reply:textDocument/hover(20) 1 ms
+I[10:50:48.327] --> textDocument/clangd.fileStatus
+I[10:50:49.052] <-- textDocument/hover(21)
+I[10:50:49.053] --> reply:textDocument/hover(21) 1 ms
+I[10:50:49.053] --> textDocument/clangd.fileStatus
+I[10:50:53.177] <-- $/setTrace
+I[10:50:53.177] unhandled notification $/setTrace
+I[10:50:56.832] <-- textDocument/didClose
+I[10:50:56.833] --> textDocument/publishDiagnostics
+I[10:51:16.055] <-- textDocument/didOpen
+I[10:51:16.055] ASTWorker building file /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp version 1 with command inferred from /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+[/home/usainzg/Projects/build]
+/usr/bin/clang++ --driver-mode=g++ -I/home/usainzg/Projects/u-sdb/include -I/home/usainzg/Projects/u-sdb/src/include -g -c -resource-dir=/usr/lib/clang/20 -- /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp
+I[10:51:16.056] --> textDocument/clangd.fileStatus
+I[10:51:16.063] <-- textDocument/codeAction(22)
+I[10:51:16.064] Built preamble of size 259108 for file /home/usainzg/Projects/u-sdb/include/libsdb/libsdb.hpp version 1 in 0.01 seconds
+I[10:51:16.064] <-- textDocument/documentSymbol(23)
+I[10:51:16.064] --> workspace/semanticTokens/refresh(2)
+I[10:51:16.066] <-- reply(2)
+I[10:51:16.069] --> textDocument/publishDiagnostics
+I[10:51:16.069] --> textDocument/inactiveRegions
+I[10:51:16.069] --> reply:textDocument/codeAction(22) 5 ms
+I[10:51:16.069] --> reply:textDocument/documentSymbol(23) 4 ms
+I[10:51:16.069] --> textDocument/clangd.fileStatus
+I[10:51:16.074] <-- textDocument/semanticTokens/full(24)
+I[10:51:16.074] --> reply:textDocument/semanticTokens/full(24) 0 ms
+I[10:51:16.074] --> textDocument/clangd.fileStatus
+I[10:51:16.101] <-- textDocument/inlayHint(25)
+I[10:51:16.101] --> reply:textDocument/inlayHint(25) 0 ms
+I[10:51:16.101] --> textDocument/clangd.fileStatus
+I[10:51:16.102] <-- textDocument/documentLink(26)
+I[10:51:16.102] --> reply:textDocument/documentLink(26) 0 ms
+I[10:51:16.102] --> textDocument/clangd.fileStatus
+I[10:51:16.260] <-- textDocument/foldingRange(27)
+I[10:51:16.261] --> reply:textDocument/foldingRange(27) 0 ms
+I[10:51:16.316] <-- textDocument/codeAction(28)
+I[10:51:16.316] --> reply:textDocument/codeAction(28) 0 ms
+I[10:51:16.316] --> textDocument/clangd.fileStatus
+I[10:51:16.363] <-- textDocument/documentSymbol(29)
+I[10:51:16.363] --> reply:textDocument/documentSymbol(29) 0 ms
+I[10:51:16.363] --> textDocument/clangd.fileStatus
+I[10:51:16.438] <-- textDocument/semanticTokens/full/delta(30)
+I[10:51:16.438] --> reply:textDocument/semanticTokens/full/delta(30) 0 ms
+I[10:51:16.438] --> textDocument/clangd.fileStatus
+I[10:51:17.985] <-- textDocument/didClose
+I[10:51:17.985] --> textDocument/publishDiagnostics
+I[10:51:17.999] <-- textDocument/didOpen
+I[10:51:17.999] ASTWorker building file /home/usainzg/Projects/u-sdb/src/libsdb.cpp version 1 with command 
+[/home/usainzg/Projects/build]
+/usr/bin/clang++ --driver-mode=g++ -I/home/usainzg/Projects/u-sdb/include -I/home/usainzg/Projects/u-sdb/src/include -g -o src/CMakeFiles/libsdb.dir/libsdb.cpp.o -c -resource-dir=/usr/lib/clang/20 -- /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+I[10:51:18.000] --> textDocument/clangd.fileStatus
+I[10:51:18.005] <-- textDocument/codeAction(31)
+I[10:51:18.006] <-- textDocument/documentSymbol(32)
+I[10:51:18.044] <-- textDocument/semanticTokens/full(33)
+I[10:51:18.046] <-- textDocument/inlayHint(34)
+I[10:51:18.046] <-- textDocument/documentLink(35)
+I[10:51:18.203] <-- textDocument/foldingRange(36)
+I[10:51:18.203] --> reply:textDocument/foldingRange(36) 0 ms
+I[10:51:18.259] <-- $/cancelRequest
+I[10:51:18.304] <-- textDocument/documentSymbol(37)
+I[10:51:18.362] Built preamble of size 3942904 for file /home/usainzg/Projects/u-sdb/src/libsdb.cpp version 1 in 0.36 seconds
+I[10:51:18.362] --> workspace/semanticTokens/refresh(3)
+I[10:51:18.363] <-- reply(3)
+I[10:51:18.370] --> textDocument/publishDiagnostics
+I[10:51:18.370] --> textDocument/inactiveRegions
+I[10:51:18.370] --> reply:textDocument/codeAction(31) 364 ms, error: Task was cancelled.
+I[10:51:18.370] --> reply:textDocument/documentSymbol(32) 363 ms
+I[10:51:18.370] --> reply:textDocument/semanticTokens/full(33) 326 ms
+I[10:51:18.370] --> reply:textDocument/inlayHint(34) 323 ms
+I[10:51:18.370] --> reply:textDocument/documentLink(35) 323 ms
+I[10:51:18.370] --> reply:textDocument/documentSymbol(37) 65 ms
+I[10:51:18.370] --> textDocument/clangd.fileStatus
+[Error - 10:51:18 AM] Request textDocument/codeAction failed.
+[object Object]
+I[10:51:18.727] <-- textDocument/semanticTokens/full/delta(38)
+I[10:51:18.728] --> reply:textDocument/semanticTokens/full/delta(38) 0 ms
+I[10:51:18.728] --> textDocument/clangd.fileStatus
+I[10:51:19.696] <-- textDocument/codeAction(39)
+I[10:51:19.697] --> reply:textDocument/codeAction(39) 0 ms
+I[10:51:19.697] --> textDocument/clangd.fileStatus
+I[10:51:20.452] <-- textDocument/hover(40)
+I[10:51:20.453] --> reply:textDocument/hover(40) 1 ms
+I[10:51:20.453] --> textDocument/clangd.fileStatus
+I[10:51:20.548] <-- textDocument/documentHighlight(41)
+I[10:51:20.548] --> reply:textDocument/documentHighlight(41) 0 ms
+I[10:51:20.548] --> textDocument/clangd.fileStatus
+I[10:51:20.732] <-- textDocument/codeAction(42)
+I[10:51:20.732] --> reply:textDocument/codeAction(42) 0 ms
+I[10:51:20.732] --> textDocument/clangd.fileStatus
+I[10:51:21.190] <-- textDocument/hover(43)
+I[10:51:21.191] --> reply:textDocument/hover(43) 0 ms
+I[10:51:21.191] --> textDocument/clangd.fileStatus
+I[10:51:21.369] <-- textDocument/documentHighlight(44)
+I[10:51:21.369] --> reply:textDocument/documentHighlight(44) 0 ms
+I[10:51:21.369] --> textDocument/clangd.fileStatus
+I[10:51:21.562] <-- textDocument/codeAction(45)
+I[10:51:21.562] --> reply:textDocument/codeAction(45) 0 ms
+I[10:51:21.562] --> textDocument/clangd.fileStatus
+I[10:51:28.616] <-- textDocument/documentHighlight(46)
+I[10:51:28.617] --> reply:textDocument/documentHighlight(46) 0 ms
+I[10:51:28.617] --> textDocument/clangd.fileStatus

@@ -1,0 +1,260 @@
+2025-10-23 17:43:13.130 [info] Starting Python Locator /home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python-env-tools/bin/pet server
+2025-10-23 17:43:15.378 [info] Discovered env: /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:43:15.380 [info] Discovered env: /usr/bin/python
+2025-10-23 17:43:15.381 [info] Discovered env: /bin/python
+2025-10-23 17:43:15.384 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-23 17:43:15.384 [info] Discovered env: /sbin/python
+2025-10-23 17:43:15.384 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-23 17:43:15.384 [info] Discovered env: /usr/sbin/python
+2025-10-23 17:43:15.384 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-23 17:43:15.384 [info] Discovered env: /usr/sbin/python3
+2025-10-23 17:43:15.385 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-23 17:43:15.385 [info] Discovered env: /sbin/python3
+2025-10-23 17:43:15.385 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-23 17:43:15.385 [info] Discovered env: /usr/sbin/python3.13
+2025-10-23 17:43:15.385 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-23 17:43:15.385 [info] Discovered env: /sbin/python3.13
+2025-10-23 17:43:15.385 [info] Locator Conda took 107.27173ms
+2025-10-23 17:43:15.385 [info] Locator Homebrew took 114.064µs
+2025-10-23 17:43:15.385 [info] Locator LinuxGlobal took 136.477214ms
+2025-10-23 17:43:15.385 [info] Locator PipEnv took 26.92µs
+2025-10-23 17:43:15.385 [info] Locator Pixi took 43.632µs
+2025-10-23 17:43:15.385 [info] Locator Poetry took 2.801381ms
+2025-10-23 17:43:15.385 [info] Locator PyEnv took 250.091µs
+2025-10-23 17:43:15.385 [info] Locator Venv took 50.475µs
+2025-10-23 17:43:15.385 [info] Locator VirtualEnv took 177.705µs
+2025-10-23 17:43:15.385 [info] Locator VirtualEnvWrapper took 104.537µs
+2025-10-23 17:43:15.385 [info] Locator GlobalVirtualEnvs took 382.91µs
+2025-10-23 17:43:15.385 [info] Locator Locators took 138.668016ms
+2025-10-23 17:43:15.385 [info] Locator Path took 215.141976ms
+2025-10-23 17:43:15.385 [info] Locator Workspaces took 23.933055ms
+2025-10-23 17:43:15.385 [info] Refresh completed in 215ms
+2025-10-23 17:43:15.386 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:44:33.532 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:50:10.164 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:51:01.654 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:51:33.078 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:52:53.172 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:53:58.477 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:55:48.105 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:56:38.852 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:57:22.038 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:58:04.966 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 17:58:42.489 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:00:26.659 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:01:08.581 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:02:16.021 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:02:46.573 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:03:23.738 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:03:54.222 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:04:34.022 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:05:48.528 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:06:20.055 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:07:09.550 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:07:40.529 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:08:26.190 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:08:58.543 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:09:30.111 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:10:28.408 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:14:17.295 [info] Discovered env: /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:14:17.296 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:14:17.349 [info] Discovered env: /bin/python
+2025-10-23 18:14:17.351 [info] Discovered env: /usr/bin/python
+2025-10-23 18:14:17.351 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:14:17.351 [info] Discovered env: /usr/sbin/python
+2025-10-23 18:14:17.365 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:14:17.365 [info] Discovered env: /sbin/python
+2025-10-23 18:14:17.367 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:14:17.368 [info] Discovered env: /usr/sbin/python3
+2025-10-23 18:14:17.382 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:14:17.382 [info] Discovered env: /sbin/python3
+2025-10-23 18:14:17.382 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:14:17.382 [info] Discovered env: /usr/sbin/python3.13
+2025-10-23 18:14:17.390 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:14:17.390 [info] Discovered env: /sbin/python3.13
+2025-10-23 18:14:17.391 [info] Locator Conda took 50.706375ms
+2025-10-23 18:14:17.391 [info] Locator Homebrew took 112.04µs
+2025-10-23 18:14:17.391 [info] Locator LinuxGlobal took 59.095447ms
+2025-10-23 18:14:17.391 [info] Locator PipEnv took 28.624µs
+2025-10-23 18:14:17.391 [info] Locator Pixi took 28.945µs
+2025-10-23 18:14:17.391 [info] Locator Poetry took 149.411µs
+2025-10-23 18:14:17.391 [info] Locator PyEnv took 209.483µs
+2025-10-23 18:14:17.391 [info] Locator Venv took 27.652µs
+2025-10-23 18:14:17.391 [info] Locator VirtualEnv took 42.199µs
+2025-10-23 18:14:17.391 [info] Locator VirtualEnvWrapper took 18.334µs
+2025-10-23 18:14:17.391 [info] Locator GlobalVirtualEnvs took 180.348µs
+2025-10-23 18:14:17.391 [info] Locator Locators took 60.742739ms
+2025-10-23 18:14:17.391 [info] Locator Path took 100.317545ms
+2025-10-23 18:14:17.391 [info] Locator Workspaces took 3.958448ms
+2025-10-23 18:14:17.391 [info] Refresh completed in 100ms
+2025-10-23 18:16:21.949 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:16:52.153 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:24:45.693 [info] Env ("/home/usainzg/Projects/glowish/.venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/usainzg/Projects/glowish/.venv/bin/python", prefix: "/home/usainzg/Projects/glowish/.venv", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/home/usainzg/Projects/glowish/.venv/bin/python", "/home/usainzg/Projects/glowish/.venv/bin/python3", "/home/usainzg/Projects/glowish/.venv/bin/python3.13"]) } and reported as None
+2025-10-23 18:24:45.693 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:26:48.541 [info] Env ("/home/usainzg/Projects/glowish/.venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/usainzg/Projects/glowish/.venv/bin/python", prefix: "/home/usainzg/Projects/glowish/.venv", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/home/usainzg/Projects/glowish/.venv/bin/python", "/home/usainzg/Projects/glowish/.venv/bin/python3", "/home/usainzg/Projects/glowish/.venv/bin/python3.13"]) } and reported as None
+2025-10-23 18:26:48.541 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:27:28.989 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.11.13
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Architecture: x64
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2025-10-23 18:27:28.989 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:30:15.000 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.11.13
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Architecture: x64
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2025-10-23 18:30:15.000 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:30:57.128 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.11.13
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Architecture: x64
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2025-10-23 18:30:57.129 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:32:48.622 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.11.13
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Architecture: x64
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2025-10-23 18:32:48.622 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:35:54.887 [info] Discovered env: /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:35:54.888 [warning] Inaccurate Python Environment Info for => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.11.13
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+.
+Resolved as => 
+Environment (Venv)
+   Name        : glowish
+   Executable  : /home/usainzg/Projects/glowish/.venv/bin/python
+   Version     : 3.13.7.final.0
+   Prefix      : /home/usainzg/Projects/glowish/.venv
+   Architecture: x64
+   Symlinks    : "/home/usainzg/Projects/glowish/.venv/bin/python"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.11"
+               : "/home/usainzg/Projects/glowish/.venv/bin/python3.13"
+
+Incorrect information => 
+Environment Some(Venv) incorrectly identified
+   Version is incorrect
+
+2025-10-23 18:35:54.888 [info] Resolved Python Environment /home/usainzg/Projects/glowish/.venv/bin/python
+2025-10-23 18:35:54.938 [info] Discovered env: /bin/python
+2025-10-23 18:35:54.940 [info] Discovered env: /usr/bin/python
+2025-10-23 18:35:54.941 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:35:54.942 [info] Discovered env: /usr/sbin/python
+2025-10-23 18:35:54.953 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:35:54.953 [info] Discovered env: /sbin/python
+2025-10-23 18:35:54.956 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:35:54.956 [info] Discovered env: /usr/sbin/python3
+2025-10-23 18:35:54.968 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:35:54.968 [info] Discovered env: /sbin/python3
+2025-10-23 18:35:54.973 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:35:54.973 [info] Discovered env: /usr/sbin/python3.13
+2025-10-23 18:35:54.981 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-23 18:35:54.981 [info] Discovered env: /sbin/python3.13
+2025-10-23 18:35:54.983 [info] Locator Conda took 52.297191ms
+2025-10-23 18:35:54.983 [info] Locator Homebrew took 153.127µs
+2025-10-23 18:35:54.983 [info] Locator LinuxGlobal took 57.27177ms
+2025-10-23 18:35:54.983 [info] Locator PipEnv took 32.741µs
+2025-10-23 18:35:54.983 [info] Locator Pixi took 39.203µs
+2025-10-23 18:35:54.983 [info] Locator Poetry took 179.235µs
+2025-10-23 18:35:54.983 [info] Locator PyEnv took 268.734µs
+2025-10-23 18:35:54.983 [info] Locator Venv took 79.659µs
+2025-10-23 18:35:54.983 [info] Locator VirtualEnv took 89.177µs
+2025-10-23 18:35:54.983 [info] Locator VirtualEnvWrapper took 106.489µs
+2025-10-23 18:35:54.983 [info] Locator GlobalVirtualEnvs took 136.285µs
+2025-10-23 18:35:54.983 [info] Locator Locators took 58.624102ms
+2025-10-23 18:35:54.983 [info] Locator Path took 101.039274ms
+2025-10-23 18:35:54.983 [info] Locator Workspaces took 4.013217ms
+2025-10-23 18:35:54.983 [info] Refresh completed in 101ms

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p ~/Projects/null-pointers/log/$(date +"%Y")
+# subl --new-window ~/Projects/null-pointers/log/$(date +"%Y")/$(date "+%Y-%m-%d").md
+nvim ~/Projects/null-pointers/log/$(date +"%Y")/$(date "+%Y-%m-%d").md

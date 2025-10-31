@@ -1,0 +1,25 @@
+// enable tmux-like scrollback
+keybinds {
+    // Keep scroll mode with arrow key navigation
+    scroll {
+        bind "Ctrl c" { ScrollToBottom; SwitchToMode "Normal"; }
+        bind "q" { SwitchToMode "Normal"; }
+        bind "Esc" { SwitchToMode "Normal"; }
+        bind "Enter" { SwitchToMode "Normal"; }
+        
+        // Arrow key navigation in scroll mode
+        bind "Down" { ScrollDown; }
+        bind "Up" { ScrollUp; }
+        bind "PageDown" { PageScrollDown; }
+        bind "PageUp" { PageScrollUp; }
+        bind "Ctrl Down" { HalfPageScrollDown; }
+        bind "Ctrl Up" { HalfPageScrollUp; }
+        bind "Home" { ScrollToTop; }
+        bind "End" { ScrollToBottom; }
+    }
+}
+
+theme "everforest-dark"
+
+default_layout "main"
+mouse_mode true

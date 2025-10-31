@@ -1,0 +1,9 @@
+2025/10/20-09:53:09.863 ee0b Reusing MANIFEST /home/usainzg/.config/sh.cider.genten/IndexedDB/http_127.0.0.1_10767.indexeddb.leveldb/MANIFEST-000001
+2025/10/20-09:53:09.864 ee0b Recovering log #10
+2025/10/20-09:53:09.865 ee0b Reusing old log /home/usainzg/.config/sh.cider.genten/IndexedDB/http_127.0.0.1_10767.indexeddb.leveldb/000010.log 
+2025/10/20-09:56:42.861 ee67 Compacting 1@1 + 1@2 files
+2025/10/20-09:56:42.865 ee67 Generated table #13@1: 138 keys, 336391 bytes
+2025/10/20-09:56:42.865 ee67 Compacted 1@1 + 1@2 files => 336391 bytes
+2025/10/20-09:56:42.866 ee67 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/20-09:56:42.866 ee67 Delete type=2 #9
+2025/10/20-09:56:42.866 ee67 Delete type=2 #11

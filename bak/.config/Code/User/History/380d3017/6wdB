@@ -1,0 +1,41 @@
+# bazel build files
+bazel-bin
+bazel-compdist
+bazel-out
+bazel-testlogs
+
+# cmake related files
+# ignore the user specified CMake presets in subproject directories.
+/*/CMakeUserPresets.json
+
+# Nested build directory
+**/build
+**/build-ninja
+
+# clangd cache
+.cache
+
+# Visual Studio built-in CMake configuration
+.vscode*
+/CMakeSettings.json
+
+# Compilation databases
+compile_commands.json
+tablegen_compile_commands.yml
+
+build/
+llvm-project/
+.cache/
+.venv/
+.vscode/
+*.egg-info/
+*.whl
+*.swp
+
+*__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll

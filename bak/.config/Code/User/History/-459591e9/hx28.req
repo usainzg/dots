@@ -1,0 +1,9 @@
+torch
+torchvision
+ray
+pandas
+pathlib
+pyyaml
+hydra-core
+omegaconf
+matplotlib

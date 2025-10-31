@@ -1,0 +1,28 @@
+general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+# general.import = [ "~/.config/alacritty/themes/themes/everforest_dark.toml" ]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "DepartureMono Nerd Font Mono" }
+bold = { family = "DepartureMono Nerd Font Mono" }
+italic = { family = "DepartureMono Nerd Font Mono" }
+# size = 9
+
+# normal = { family = "DepartureMono Nerd Font Mono" }
+# bold = { family = "DepartureMono Nerd Font Mono" }
+# italic = { family = "DepartureMono Nerd Font Mono" }
+size = 10
+
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
+
+[keyboard]
+bindings = [
+{ key = "F11", action = "ToggleFullscreen" },
+{ key = "Insert", mods = "Shift", action = "Paste" },
+{ key = "Insert", mods = "Control", action = "Copy" }
+]

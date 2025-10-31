@@ -1,0 +1,51 @@
+[[language]]
+name = "any"
+scope = ""
+file-types = []
+roots = []
+indent = { tab-width = 2, unit = "  " }
+
+[language-server.tinymist]
+command = "tinymist"
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
+[[language]]
+name = "markdown"
+# language-servers = [ "marksman", "ltex-ls", "typos", "codebook" ]
+language-servers = [ "marksman" ]
+formatter = { command = "sed", args = ["s/[ \t]*$//"] }
+auto-format = true
+
+[[language]]
+name = "latex"
+language-servers = [ "texlab" ]
+
+[[language]]
+name = "typst"
+language-servers = ["tinymist"]
+
+[[language]]
+name = "python"
+rulers = [100]
+text-width = 100
+language-servers = [ "ruff" ]
+auto-format = true
+
+# [language-server.texlab]
+# command = "texlab"
+# config.texlab = {
+#   build = {
+#     onSave = true
+#   },
+#   chktex = {
+#     onOpenAndSave = true,
+#     onEdit = true
+#   }
+# }
+
+# [[language]]
+# name = "latex"
+# language-servers = ["texlab"]

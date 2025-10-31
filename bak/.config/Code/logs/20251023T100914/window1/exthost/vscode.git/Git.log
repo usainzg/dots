@@ -1,0 +1,34 @@
+2025-10-23 10:09:16.438 [info] [main] Log level: Info
+2025-10-23 10:09:16.438 [info] [main] Validating found git in: "git"
+2025-10-23 10:09:16.438 [info] [main] Using git "2.51.1" from "git"
+2025-10-23 10:09:16.438 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-23 10:09:16.438 [info] > git rev-parse --show-toplevel [8ms]
+2025-10-23 10:09:16.438 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2025-10-23 10:09:16.438 [info] [Model][openRepository] Opened repository (path): /home/usainzg/Projects/glowish
+2025-10-23 10:09:16.438 [info] [Model][openRepository] Opened repository (real path): /home/usainzg/Projects/glowish
+2025-10-23 10:09:16.438 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-23 10:09:16.438 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-23 10:09:16.438 [info] > git config --get commit.template [6ms]
+2025-10-23 10:09:16.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-10-23 10:09:16.438 [info] > git rev-parse --show-toplevel [26ms]
+2025-10-23 10:09:16.439 [info] > git rev-parse --show-toplevel [53ms]
+2025-10-23 10:09:16.462 [info] > git status -z -uall [4ms]
+2025-10-23 10:09:16.462 [info] > git rev-parse --show-toplevel [11ms]
+2025-10-23 10:09:16.467 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-10-23 10:09:16.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2025-10-23 10:09:16.512 [info] > git rev-parse --show-toplevel [46ms]
+2025-10-23 10:09:16.520 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-10-23 10:09:16.523 [info] > git config --get commit.template [15ms]
+2025-10-23 10:09:16.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-10-23 10:09:16.529 [info] > git rev-parse --show-toplevel [11ms]
+2025-10-23 10:09:16.530 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-23 10:09:18.036 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1507ms]
+2025-10-23 10:09:18.095 [info] > git check-ignore -v -z --stdin [50ms]
+2025-10-23 10:09:18.096 [info] > git diff --name-status -z --diff-filter=ADMR b97ad5169b889f88275326acbe82551b087ed357...refs/remotes/origin/main [56ms]
+2025-10-23 10:09:18.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2025-10-23 10:09:18.453 [info] > git status -z -uall [183ms]
+2025-10-23 10:09:18.453 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [179ms]
+2025-10-23 10:09:19.508 [info] > git check-ignore -v -z --stdin [6ms]
+2025-10-23 10:09:21.623 [info] > git show --textconv :GAME_THEORY_HEAD_SELECTION.md [21ms]
+2025-10-23 10:09:21.628 [info] > git ls-files --stage -- GAME_THEORY_HEAD_SELECTION.md [15ms]
+2025-10-23 10:09:21.647 [info] > git cat-file -s b3d824a4b15902160669aaac91ebdef39c0813af [10ms]

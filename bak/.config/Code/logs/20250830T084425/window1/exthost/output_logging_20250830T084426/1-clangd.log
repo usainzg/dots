@@ -1,0 +1,114 @@
+I[08:44:27.450] clangd version 20.1.8
+I[08:44:27.450] Features: linux
+I[08:44:27.450] PID: 9995
+I[08:44:27.450] Working directory: /home/usainzg/Projects/u-sdb
+I[08:44:27.450] argv[0]: /usr/bin/clangd
+I[08:44:27.450] Starting LSP over stdin/stdout
+I[08:44:27.450] <-- initialize(0)
+I[08:44:27.456] --> reply:initialize(0) 5 ms
+I[08:44:27.641] <-- initialized
+I[08:44:27.658] <-- textDocument/didOpen
+I[08:44:27.659] Loaded compilation database from /home/usainzg/Projects/build/compile_commands.json
+I[08:44:27.659] --> window/workDoneProgress/create(0)
+I[08:44:27.659] Enqueueing 3 commands for indexing
+I[08:44:27.661] ASTWorker building file /home/usainzg/Projects/u-sdb/src/libsdb.cpp version 1 with command 
+[/home/usainzg/Projects/build]
+/usr/bin/clang++ --driver-mode=g++ -I/home/usainzg/Projects/u-sdb/include -I/home/usainzg/Projects/u-sdb/src/include -g -o src/CMakeFiles/libsdb.dir/libsdb.cpp.o -c -resource-dir=/usr/lib/clang/20 -- /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+I[08:44:27.670] --> textDocument/clangd.fileStatus
+I[08:44:27.752] <-- textDocument/documentLink(1)
+I[08:44:27.752] <-- textDocument/inlayHint(2)
+I[08:44:27.839] <-- reply(0)
+I[08:44:27.839] --> $/progress
+I[08:44:27.839] --> $/progress
+I[08:44:27.840] <-- textDocument/codeAction(3)
+I[08:44:27.996] <-- $/cancelRequest
+I[08:44:27.996] <-- $/cancelRequest
+I[08:44:27.996] <-- textDocument/codeAction(4)
+I[08:44:27.996] <-- textDocument/documentLink(5)
+I[08:44:27.996] <-- $/setTrace
+I[08:44:27.996] unhandled notification $/setTrace
+I[08:44:28.089] Built preamble of size 3942904 for file /home/usainzg/Projects/u-sdb/src/libsdb.cpp version 1 in 0.42 seconds
+I[08:44:28.089] --> workspace/semanticTokens/refresh(1)
+I[08:44:28.089] Indexing c++17 standard library in the context of /home/usainzg/Projects/u-sdb/src/libsdb.cpp
+I[08:44:28.107] --> textDocument/publishDiagnostics
+I[08:44:28.107] --> textDocument/inactiveRegions
+I[08:44:28.107] --> reply:textDocument/documentLink(1) 355 ms, error: Task was cancelled.
+I[08:44:28.107] --> reply:textDocument/inlayHint(2) 355 ms
+I[08:44:28.107] --> reply:textDocument/codeAction(3) 267 ms, error: Task was cancelled.
+I[08:44:28.107] --> reply:textDocument/codeAction(4) 111 ms
+I[08:44:28.108] --> reply:textDocument/documentLink(5) 111 ms
+I[08:44:28.108] --> textDocument/clangd.fileStatus
+I[08:44:28.127] <-- textDocument/foldingRange(6)
+I[08:44:28.127] <-- $/cancelRequest
+I[08:44:28.127] <-- textDocument/codeAction(7)
+I[08:44:28.127] <-- $/cancelRequest
+I[08:44:28.127] --> reply:textDocument/codeAction(7) 0 ms, error: Task was cancelled.
+I[08:44:28.127] --> textDocument/clangd.fileStatus
+I[08:44:28.128] --> reply:textDocument/foldingRange(6) 0 ms
+I[08:44:28.128] <-- textDocument/codeAction(8)
+I[08:44:28.128] --> reply:textDocument/codeAction(8) 0 ms
+I[08:44:28.128] --> textDocument/clangd.fileStatus
+I[08:44:28.147] <-- $/setTrace
+I[08:44:28.147] unhandled notification $/setTrace
+I[08:44:28.147] <-- $/cancelRequest
+I[08:44:28.147] <-- textDocument/documentLink(9)
+I[08:44:28.147] --> reply:textDocument/documentLink(9) 0 ms
+I[08:44:28.147] --> textDocument/clangd.fileStatus
+I[08:44:28.154] <-- $/setTrace
+I[08:44:28.154] unhandled notification $/setTrace
+I[08:44:28.154] <-- reply(1)
+I[08:44:28.215] <-- $/setTrace
+I[08:44:28.215] unhandled notification $/setTrace
+[Error - 8:44:28 AM] Request textDocument/documentLink failed.
+[object Object]
+I[08:44:28.239] <-- textDocument/documentSymbol(10)
+I[08:44:28.239] --> reply:textDocument/documentSymbol(10) 0 ms
+I[08:44:28.239] --> textDocument/clangd.fileStatus
+[Error - 8:44:28 AM] Request textDocument/codeAction failed.
+[object Object]
+I[08:44:28.266] <-- textDocument/semanticTokens/full(11)
+I[08:44:28.266] --> reply:textDocument/semanticTokens/full(11) 0 ms
+I[08:44:28.266] --> textDocument/clangd.fileStatus
+[Error - 8:44:28 AM] Request textDocument/codeAction failed.
+[object Object]
+I[08:44:28.471] <-- $/cancelRequest
+I[08:44:28.471] <-- textDocument/codeAction(12)
+I[08:44:28.471] <-- textDocument/documentLink(13)
+I[08:44:28.471] --> reply:textDocument/codeAction(12) 0 ms
+I[08:44:28.471] --> reply:textDocument/documentLink(13) 0 ms
+I[08:44:28.471] --> textDocument/clangd.fileStatus
+I[08:44:28.473] Indexed /home/usainzg/Projects/u-sdb/src/libsdb.cpp (1 symbols, 6563 refs, 211 files)
+I[08:44:28.496] --> $/progress
+I[08:44:30.237] Indexed c++17 standard library (incomplete due to errors): 14392 symbols, 11464 filtered
+I[08:44:30.384] <-- textDocument/documentSymbol(14)
+I[08:44:30.384] <-- textDocument/foldingRange(15)
+I[08:44:30.384] --> reply:textDocument/documentSymbol(14) 0 ms
+I[08:44:30.384] <-- $/setTrace
+I[08:44:30.384] unhandled notification $/setTrace
+I[08:44:30.384] --> textDocument/clangd.fileStatus
+I[08:44:30.384] <-- textDocument/inlayHint(16)
+I[08:44:30.384] <-- textDocument/documentSymbol(17)
+I[08:44:30.384] --> reply:textDocument/inlayHint(16) 0 ms
+I[08:44:30.384] --> reply:textDocument/documentSymbol(17) 0 ms
+I[08:44:30.384] --> textDocument/clangd.fileStatus
+I[08:44:30.384] --> reply:textDocument/foldingRange(15) 0 ms
+I[08:44:30.892] <-- textDocument/documentHighlight(18)
+I[08:44:30.892] --> reply:textDocument/documentHighlight(18) 0 ms
+I[08:44:30.892] --> textDocument/clangd.fileStatus
+I[08:44:31.897] <-- textDocument/codeAction(19)
+I[08:44:31.897] <-- $/cancelRequest
+I[08:44:31.897] <-- textDocument/codeAction(20)
+I[08:44:31.897] --> reply:textDocument/codeAction(19) 0 ms, error: Task was cancelled.
+I[08:44:31.897] <-- $/cancelRequest
+I[08:44:31.898] <-- textDocument/codeAction(21)
+I[08:44:31.898] --> reply:textDocument/codeAction(20) 0 ms, error: Task was cancelled.
+I[08:44:31.898] --> reply:textDocument/codeAction(21) 0 ms
+I[08:44:31.898] --> textDocument/clangd.fileStatus
+[Error - 8:44:31 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 8:44:31 AM] Request textDocument/codeAction failed.
+[object Object]
+I[08:44:31.989] <-- textDocument/didClose
+I[08:44:31.989] --> textDocument/publishDiagnostics
+I[08:45:11.878] <-- $/setTrace
+I[08:45:11.878] unhandled notification $/setTrace

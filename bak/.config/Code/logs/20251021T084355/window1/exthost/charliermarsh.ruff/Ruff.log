@@ -1,0 +1,176 @@
+2025-10-21 08:43:58.896 [info] Name: Ruff
+2025-10-21 08:43:58.896 [info] Module: ruff
+2025-10-21 08:43:58.896 [info] Python extension loading
+2025-10-21 08:43:58.896 [info] Waiting for interpreter from python extension.
+2025-10-21 08:43:59.318 [info] Python extension loaded
+2025-10-21 08:43:59.319 [info] Using interpreter: /bin/python
+2025-10-21 08:43:59.323 [info] Workspace settings for /home/usainzg/Projects/GLow: {
+    "nativeServer": "auto",
+    "cwd": "/home/usainzg/Projects/GLow",
+    "workspace": "file:///home/usainzg/Projects/GLow",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [
+        "/bin/python"
+    ],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": [],
+        "preview": null,
+        "select": null,
+        "extendSelect": null,
+        "ignore": null
+    },
+    "format": {
+        "args": [],
+        "preview": null,
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "exclude": null,
+    "lineLength": null,
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true,
+    "logLevel": null,
+    "logFile": null
+}
+2025-10-21 08:43:59.329 [info] Global settings: {
+    "nativeServer": "auto",
+    "cwd": "/home/usainzg",
+    "workspace": "/home/usainzg",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": [],
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true
+}
+2025-10-21 08:43:59.622 [info] Falling back to bundled executable: /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff
+2025-10-21 08:43:59.634 [info] Resolved 'ruff.nativeServer: auto' to use the native server
+2025-10-21 08:43:59.636 [info] Found Ruff 0.14.0 at /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff
+2025-10-21 08:43:59.636 [info] Server run command: /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff server
+2025-10-21 08:43:59.637 [info] Server: Start requested.
+2025-10-21 08:44:15.894 [info] Name: Ruff
+2025-10-21 08:44:15.894 [info] Module: ruff
+2025-10-21 08:44:15.894 [info] Python extension loading
+2025-10-21 08:44:15.894 [info] Waiting for interpreter from python extension.
+2025-10-21 08:44:16.019 [info] Python extension loaded
+2025-10-21 08:44:16.042 [info] Using interpreter: /bin/python
+2025-10-21 08:44:16.046 [info] Workspace settings for /home/usainzg/Projects/glowish: {
+    "nativeServer": "auto",
+    "cwd": "/home/usainzg/Projects/glowish",
+    "workspace": "file:///home/usainzg/Projects/glowish",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [
+        "/bin/python"
+    ],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": [],
+        "preview": null,
+        "select": null,
+        "extendSelect": null,
+        "ignore": null
+    },
+    "format": {
+        "args": [],
+        "preview": null,
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "exclude": null,
+    "lineLength": null,
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true,
+    "logLevel": null,
+    "logFile": null
+}
+2025-10-21 08:44:16.052 [info] Global settings: {
+    "nativeServer": "auto",
+    "cwd": "/home/usainzg",
+    "workspace": "/home/usainzg",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": [],
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true
+}
+2025-10-21 08:44:16.345 [info] Falling back to bundled executable: /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff
+2025-10-21 08:44:16.361 [info] Resolved 'ruff.nativeServer: auto' to use the native server
+2025-10-21 08:44:16.364 [info] Found Ruff 0.14.0 at /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff
+2025-10-21 08:44:16.364 [info] Server run command: /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff server
+2025-10-21 08:44:16.364 [info] Server: Start requested.

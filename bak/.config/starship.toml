@@ -1,0 +1,71 @@
+# Insert a blank line between shell prompts
+add_newline = true
+
+# Increase the default command timeout to 2 seconds
+command_timeout = 2000
+
+# Define the order and format of the information in our prompt
+format = """\
+─ \
+$directory\
+$git_branch$git_status\
+$fill \
+$cmd_duration$all\
+─ $line_break\
+$line_break\
+$git_state$character\
+"""
+
+# Fill character (empty space) between the left and right prompt
+[fill]
+symbol = "─"
+
+# Disable the line break between the first and second prompt lines
+[line_break]
+disabled = false
+
+# Customize the format of the working directory
+[directory]
+truncate_to_repo = true
+format = "[$path ]($style)"
+style = "fg:text bg:#3B76F0"
+
+[git_branch]
+symbol = " "
+format = "[on $branch(:$remote_branch)]($style) "
+style = "fg:#1C3A5E bg:#FCF392"
+
+[git_metrics]
+disabled = true
+
+[git_status]
+format = "([$all_status$ahead_behind]($style) )"
+
+[nodejs]
+format = "via [$symbol($version )]($style)"
+style = "yellow"
+
+[package]
+disabled = true # Enable to output the current working directory's package version
+format = "[$symbol$version]($style) "
+display_private = true
+
+# Output the command duration
+[cmd_duration]
+format = "[$duration]($style) "
+min_time = 0
+show_milliseconds = true
+
+# Customize the battery indicator
+[battery]
+format = "[$symbol $percentage]($style) "
+empty_symbol = "🪫"
+charging_symbol = "🔋"
+full_symbol = '🔋'
+
+[[battery.display]]
+threshold = 10
+style = 'red'
+
+[rust]
+format = "[$version ]($style)"

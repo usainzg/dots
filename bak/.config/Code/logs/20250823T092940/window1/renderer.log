@@ -1,0 +1,19 @@
+2025-08-23 09:29:41.046 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-23 09:29:41.059 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-23 09:29:41.059 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-23 09:29:41.345 [info] Started local extension host with pid 68966.
+2025-08-23 09:29:41.661 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-08-23 09:29:41.696 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-08-23 09:29:41.876 [info] Started local extension host with pid 69017.
+2025-08-23 09:29:41.903 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-08-23 09:29:42.292 [error] [Extension Host] (node:68966) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-08-23 09:29:42.896 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-23 09:29:44.415 [info] [perf] Render performance baseline is 18ms
+2025-08-23 09:29:44.979 [error] [Extension Host] (node:68966) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-08-23 09:29:45.136 [info] Auto updating outdated extensions. github.copilot-chat
+2025-08-23 09:29:57.797 [info] Started local extension host with pid 69385.
+2025-08-23 09:29:57.797 [info] Started local extension host with pid 69389.
+2025-08-23 09:29:58.481 [error] [Extension Host] (node:69385) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-08-23 09:30:00.828 [error] [Extension Host] (node:69385) ExperimentalWarning: SQLite is an experimental feature and might change at any time

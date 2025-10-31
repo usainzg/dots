@@ -1,0 +1,893 @@
+{"level":40,"time":"2025-10-20T15:18:06.533Z","msg":"[setupI18nMain] intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.github.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2025-10-20T15:18:06.553Z","msg":"[preconnect] libsignal net url: https://chat.signal.org"}
+{"level":30,"time":"2025-10-20T15:18:06.553Z","msg":"[preconnect] libsignal net environment resolved to prod"}
+{"level":30,"time":"2025-10-20T15:18:06.556Z","msg":"[preconnect] WebAPI: preconnect start"}
+{"level":30,"time":"2025-10-20T15:18:06.739Z","msg":"[profiles] Profile Service initialized"}
+{"level":30,"time":"2025-10-20T15:18:06.820Z","msg":"[preload] complete"}
+{"level":30,"time":"2025-10-20T15:18:06.821Z","msg":"[@signalapp/libsignal-client] Initializing libsignal version:0.83.0 signal_node::logging rust/bridge/node/src/logging.rs:204"}
+{"level":30,"time":"2025-10-20T15:18:06.921Z","msg":"[@signalapp/libsignal-client] [preconnect] connection succeeded after 360.374ms libsignal_net::connect_state rust/net/src/connect_state.rs:620"}
+{"level":30,"time":"2025-10-20T15:18:06.921Z","msg":"[preconnect] WebAPI: preconnect done"}
+{"level":30,"time":"2025-10-20T15:18:06.926Z","msg":"[notifications] NotificationService initialized"}
+{"level":30,"time":"2025-10-20T15:18:06.943Z","msg":"[incrementMessageCounter] initializeMessageCounter: picking max of db/stored counters"}
+{"level":30,"time":"2025-10-20T15:18:06.943Z","msg":"[ourProfileKey] Our profile key service: initializing"}
+{"level":30,"time":"2025-10-20T15:18:06.944Z","msg":"[background] page reloaded"}
+{"level":30,"time":"2025-10-20T15:18:06.944Z","msg":"[background] environment: production"}
+{"level":30,"time":"2025-10-20T15:18:06.945Z","msg":"[background] Storage fetch"}
+{"level":30,"time":"2025-10-20T15:18:06.949Z","msg":"[buildExpiration] Build expires (local): 2026-01-15T09:30:56.000Z"}
+{"level":30,"time":"2025-10-20T15:18:06.950Z","msg":"[SocketManager] connecting authenticated socket (hasStoriesDisabled=false)"}
+{"level":30,"time":"2025-10-20T15:18:06.950Z","msg":"[background] Initializing MessageReceiver"}
+{"level":30,"time":"2025-10-20T15:18:06.951Z","msg":"[senderCertificate] Sender certificate service initialized"}
+{"level":30,"time":"2025-10-20T15:18:06.951Z","msg":"[buildExpiration] Build expires (local): 2026-01-15T09:30:56.000Z"}
+{"level":30,"time":"2025-10-20T15:18:06.951Z","msg":"[buildExpiration] expires in 7495969049ms"}
+{"level":30,"time":"2025-10-20T15:18:06.953Z","msg":"[@signalapp/libsignal-client] connecting authenticated chat libsignal_bridge_types::net::chat rust/bridge/shared/types/src/net/chat.rs:363"}
+{"level":30,"time":"2025-10-20T15:18:06.953Z","msg":"[@signalapp/libsignal-client] [authenticated] starting connection attempt with 1 routes libsignal_net::connect_state rust/net/src/connect_state.rs:316"}
+{"level":30,"time":"2025-10-20T15:18:06.954Z","msg":"[background] New version detected: 7.75.1; previous: 7.72.1"}
+{"level":30,"time":"2025-10-20T15:18:06.955Z","msg":"[background] Creating \"all chats\" chat folder"}
+{"level":30,"time":"2025-10-20T15:18:06.956Z","msg":"[storage] storageServiceNeedsUploadAfterEnabled(createAllChatsChatFolder): waiting until enabled"}
+{"level":30,"time":"2025-10-20T15:18:06.972Z","msg":"[background] Starting background data migration. Target version: 15"}
+{"level":30,"time":"2025-10-20T15:18:06.972Z","msg":"[retryPlaceholders] constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2025-10-20T15:18:06.973Z","msg":"[ConversationController] starting initial fetch"}
+{"level":30,"time":"2025-10-20T15:18:06.977Z","msg":"[ConversationController] done with initial fetch, got 25 conversations"}
+{"level":30,"time":"2025-10-20T15:18:06.978Z","msg":"[SignalProtocolStore] Finished caching identityKeys data"}
+{"level":30,"time":"2025-10-20T15:18:06.978Z","msg":"[SignalProtocolStore] Finished caching senderKeys data"}
+{"level":30,"time":"2025-10-20T15:18:06.978Z","msg":"[SignalProtocolStore] Finished caching sessions data"}
+{"level":30,"time":"2025-10-20T15:18:06.980Z","msg":"[SignalProtocolStore] Finished caching preKeys data"}
+{"level":30,"time":"2025-10-20T15:18:07.031Z","msg":"[SignalProtocolStore] Finished caching kyberPreKeys data"}
+{"level":30,"time":"2025-10-20T15:18:07.031Z","msg":"[SignalProtocolStore] Finished caching signedPreKeys data"}
+{"level":30,"time":"2025-10-20T15:18:07.032Z","msg":"[ConversationController] checkForConflicts: starting..."}
+{"level":30,"time":"2025-10-20T15:18:07.032Z","msg":"[ConversationController] checkForConflicts: complete!"}
+{"level":30,"time":"2025-10-20T15:18:07.032Z","msg":"[donations] _getWorkflowFromStorage: No workflow found in window.storage"}
+{"level":30,"time":"2025-10-20T15:18:07.032Z","msg":"[Storage] getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueue] conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueue] groupAvatar job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"groupAvatar\""}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueue] single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueue] read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.042Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueue] view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueue] view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueue] delete downloads job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"delete downloads\""}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueue] remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueue] report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueue] call link refresh job queue: starting to stream jobs"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"call link refresh\""}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[ExpiringEntityCleanupService] [ChatFolders] start(initializeAllJobQueues) starting"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[ExpiringEntityCleanupService] [ChatFolders] deleting expired entities"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[challenge] loading 0 challenges"}
+{"level":30,"time":"2025-10-20T15:18:07.043Z","msg":"[networkObserver] Initializing network observer"}
+{"level":30,"time":"2025-10-20T15:18:07.050Z","msg":"[badgeImageFileDownloader] BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2025-10-20T15:18:07.050Z","msg":"[background] Blocked uuids cleanup: starting..."}
+{"level":30,"time":"2025-10-20T15:18:07.050Z","msg":"[background] Blocked uuids cleanup: complete"}
+{"level":30,"time":"2025-10-20T15:18:07.050Z","msg":"[background] Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2025-10-20T15:18:07.050Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"groupAvatar\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"delete downloads\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"call link refresh\""}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[CallLinkFinalizeDeleteManager] CallLinkDeleteJobType/enqueueAllDeletedCallLinks: Found 0 call links to delete"}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[JobManager] CallLinkFinalizeDeleteManager: starting"}
+{"level":30,"time":"2025-10-20T15:18:07.051Z","msg":"[ExpiringEntityCleanupService] [ChatFolders] deleted 0 entities: "}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:731 Successfully initialized cubeb backend pulse-rust"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:129 Refresh INPUT devices"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:148 INPUT device: (dev id: 0x2b1c0660e700, device_id: Some(\"alsa...\"), friendly_name: Some(\"Moni...\"), group_id: Some(\"/dev...\"), vendor_name: Some(\"Advanced Micro Devices, Inc. [AMD]\"), device_type: INPUT, state: Enabled, preferred: (empty), format: S16LE | S16BE | F32LE | F32BE, default_format: F32LE, max channels: 2, default_rate: 48000, max_rate: 384000, min_rate: 1, latency_lo: 0, latency_hi: 0))"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:148 INPUT device: (dev id: 0x2b1c066344e0, device_id: Some(\"alsa...\"), friendly_name: Some(\"Fami...\"), group_id: Some(\"/dev...\"), vendor_name: Some(\"Advanced Micro Devices, Inc. [AMD]\"), device_type: INPUT, state: Enabled, preferred: MULTIMEDIA | VOICE | NOTIFICATION | ALL, format: S16LE | S16BE | F32LE | F32BE, default_format: F32LE, max channels: 2, default_rate: 48000, max_rate: 384000, min_rate: 1, latency_lo: 0, latency_hi: 0))"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:148 INPUT device: (dev id: 0x2b1c05f618e0, device_id: Some(\"easy...\"), friendly_name: Some(\"Moni...\"), group_id: None, vendor_name: None, device_type: INPUT, state: Enabled, preferred: (empty), format: S16LE | S16BE | F32LE | F32BE, default_format: F32LE, max channels: 2, default_rate: 48000, max_rate: 384000, min_rate: 1, latency_lo: 0, latency_hi: 0))"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:148 INPUT device: (dev id: 0x2b1c05f61ea0, device_id: Some(\"easy...\"), friendly_name: Some(\"Easy...\"), group_id: None, vendor_name: None, device_type: INPUT, state: Enabled, preferred: (empty), format: S16LE | S16BE | F32LE | F32BE, default_format: F32LE, max channels: 2, default_rate: 48000, max_rate: 384000, min_rate: 1, latency_lo: 0, latency_hi: 0))"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:129 Refresh OUTPUT devices"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:148 OUTPUT device: (dev id: 0x2b1c066343f0, device_id: Some(\"alsa...\"), friendly_name: Some(\"Fami...\"), group_id: Some(\"/dev...\"), vendor_name: Some(\"Advanced Micro Devices, Inc. [AMD]\"), device_type: OUTPUT, state: Enabled, preferred: MULTIMEDIA | VOICE | NOTIFICATION | ALL, format: S16LE | S16BE | F32LE | F32BE, default_format: F32LE, max channels: 2, default_rate: 48000, max_rate: 384000, min_rate: 1, latency_lo: 0, latency_hi: 0))"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:148 OUTPUT device: (dev id: 0x2b1c05f614a0, device_id: Some(\"easy...\"), friendly_name: Some(\"Easy...\"), group_id: None, vendor_name: None, device_type: OUTPUT, state: Enabled, preferred: (empty), format: S16LE | S16BE | F32LE | F32BE, default_format: F32LE, max channels: 2, default_rate: 48000, max_rate: 384000, min_rate: 1, latency_lo: 0, latency_hi: 0))"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/electron.rs:486 audio_device_module using cubeb backend Some(\"pulse-rust\")"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/core/call_manager.rs:506 RingRTC v2.59.0"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[@signalapp/ringrtc] src/rust/src/core/call_manager.rs:547 set_self_uuid():"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[background] Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[background] Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[syncTasks] Fetching tasks"}
+{"level":30,"time":"2025-10-20T15:18:07.052Z","msg":"[ExpiringEntityCleanupService] [ChatFolders] no expiring entity found"}
+{"level":30,"time":"2025-10-20T15:18:07.053Z","msg":"[syncTasks] Startup/syncTasks: No sync tasks to process, stopping"}
+{"level":30,"time":"2025-10-20T15:18:07.054Z","msg":"[IdleDetector] Start idle detector"}
+{"level":30,"time":"2025-10-20T15:18:07.054Z","msg":"[app] open inbox"}
+{"level":30,"time":"2025-10-20T15:18:07.371Z","msg":"[@signalapp/libsignal-client] [authenticated] connection through chat.signal.org:443 (direct) succeeded after 420.490ms libsignal_net::connect_state rust/net/src/connect_state.rs:393"}
+{"level":30,"time":"2025-10-20T15:18:07.371Z","msg":"[@signalapp/libsignal-client] successfully connected authenticated chat libsignal_bridge_types::net::chat rust/bridge/shared/types/src/net/chat.rs:411"}
+{"level":30,"time":"2025-10-20T15:18:07.371Z","msg":"[WebsocketResources] LibsignalWebSocketResource(authenticated) connected"}
+{"level":30,"time":"2025-10-20T15:18:07.372Z","msg":"[background] pauseQueuesAndNotificationsOnSocketConnect: pausing"}
+{"level":30,"time":"2025-10-20T15:18:07.372Z","msg":"[notifications] NotificationService: disabling"}
+{"level":30,"time":"2025-10-20T15:18:07.372Z","msg":"[background] online"}
+{"level":30,"time":"2025-10-20T15:18:07.373Z","msg":"[background] afterAuthSocketConnect.0: starting"}
+{"level":30,"time":"2025-10-20T15:18:07.373Z","msg":"[RemoteConfig] forceRefreshRemoteConfig: afterAuthSocketConnect/firstConnect"}
+{"level":30,"time":"2025-10-20T15:18:07.374Z","msg":"[SocketManager] connected authenticated socket (localPort: 34730)"}
+{"level":30,"time":"2025-10-20T15:18:07.374Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/config"}
+{"level":30,"time":"2025-10-20T15:18:07.376Z","msg":"[WebAPI] onServerAlerts: number of alerts received: 0"}
+{"level":30,"time":"2025-10-20T15:18:07.376Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487200 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 1"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487200 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 2"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487200 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 3"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487200 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 4"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487200 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 5"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.377Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 6"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 7"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 8"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 9"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 10"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 11"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 12"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[@signalapp/libsignal-client] received message at x-signal-timestamp: 1760973487201 (this is not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:137"}
+{"level":30,"time":"2025-10-20T15:18:07.402Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 13"}
+{"level":30,"time":"2025-10-20T15:18:07.577Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/config 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:07.577Z","msg":"[RemoteConfig] Remote Config: Flag desktop.libsignalNet.chatPermessageDeflate.prod has changed"}
+{"level":30,"time":"2025-10-20T15:18:07.586Z","msg":"[background] afterAuthSocketConnect.0 {\"wasBackupImported\":false}"}
+{"level":30,"time":"2025-10-20T15:18:07.586Z","msg":"[background] afterAuthSocketConnect.0: enabling message processing"}
+{"level":30,"time":"2025-10-20T15:18:07.586Z","msg":"[MessageReceiver] startProcessingQueue"}
+{"level":30,"time":"2025-10-20T15:18:07.586Z","msg":"[MessageReceiver] addCachedMessagesToQueue"}
+{"level":30,"time":"2025-10-20T15:18:07.586Z","msg":"[MessageReceiver] getAllFromCache"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[SocketManager] processing 13 queued incoming requests"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[MessageReceiver] got request /api/v1/message"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[background] afterAuthSocketConnect.0: triggering storage service sync"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[background] enableStorageService: waiting for backupReady"}
+{"level":30,"time":"2025-10-20T15:18:07.587Z","msg":"[background] afterAuthSocketConnect/afterEveryAuthConnect"}
+{"level":30,"time":"2025-10-20T15:18:07.588Z","msg":"[challenge] online, starting 0 queues"}
+{"level":30,"time":"2025-10-20T15:18:07.588Z","msg":"[challenge] startAllQueues force=false"}
+{"level":30,"time":"2025-10-20T15:18:07.588Z","msg":"[groupCredentialFetcher] initializeGroupCredentialFetcher: starting..."}
+{"level":30,"time":"2025-10-20T15:18:07.588Z","msg":"[groupCredentialFetcher] maybeFetchNewCredentials: fetching credentials for 1760918400000 through 1761436800000"}
+{"level":30,"time":"2025-10-20T15:18:07.589Z","msg":"[batcher] Flushing saveAttachmentDownloadJobs batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:07.589Z","msg":"[batcher] Flushing complete saveAttachmentDownloadJobs for batcher"}
+{"level":30,"time":"2025-10-20T15:18:07.589Z","msg":"[background] afterAuthSocketConnect/afterEveryLinkedStartup"}
+{"level":30,"time":"2025-10-20T15:18:07.589Z","msg":"[Stickers] downloadQueuedPacks"}
+{"level":30,"time":"2025-10-20T15:18:07.589Z","msg":"[background] afterAuthSocketConnect/afterEveryLinkedStartupOnNewVersion"}
+{"level":30,"time":"2025-10-20T15:18:07.589Z","msg":"[syncRequests] sendSyncRequests: sending sync requests"}
+{"level":30,"time":"2025-10-20T15:18:07.590Z","msg":"[JobQueueDatabaseStore] adding job [REDACTED]9ac to queue \"single proto\""}
+{"level":30,"time":"2025-10-20T15:18:07.590Z","msg":"[JobQueueDatabaseStore] adding job [REDACTED]9ac to queue \"single proto\""}
+{"level":30,"time":"2025-10-20T15:18:07.591Z","msg":"[JobQueueDatabaseStore] adding job [REDACTED]57c to queue \"single proto\""}
+{"level":30,"time":"2025-10-20T15:18:07.591Z","msg":"[storage] reprocessUnknownFields(86): starting"}
+{"level":30,"time":"2025-10-20T15:18:07.591Z","msg":"[storage] upload(86): generating manifest new=true"}
+{"level":30,"time":"2025-10-20T15:18:07.591Z","msg":"[ConversationController] checkForConflicts: starting..."}
+{"level":30,"time":"2025-10-20T15:18:07.591Z","msg":"[ConversationController] checkForConflicts: complete!"}
+{"level":30,"time":"2025-10-20T15:18:07.592Z","msg":"[background] enableStorageService: enabling and running"}
+{"level":30,"time":"2025-10-20T15:18:07.592Z","msg":"[storage] enableStorageService"}
+{"level":30,"time":"2025-10-20T15:18:07.592Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1760918400&redemptionEndSeconds=1761436800&zkcCredential=true"}
+{"level":30,"time":"2025-10-20T15:18:07.592Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/devices/capabilities"}
+{"level":30,"time":"2025-10-20T15:18:07.592Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/devices"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=85:+0U to=86:d28 [REDACTED]226 ([REDACTED]926)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=77:kuQ to=86:LrY PNI:[REDACTED]f31 ([REDACTED]00e)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=77:HtE to=86:KTN PNI:[REDACTED]f87 ([REDACTED]73e)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=77:5yb to=86:O3M PNI:[REDACTED]ee3 ([REDACTED]7a4)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=77:uIw to=86:rMl PNI:[REDACTED]7ba ([REDACTED]97c)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=77:Yc6 to=86:NJg PNI:[REDACTED]0e8 ([REDACTED]a8f)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=77:MFg to=86:JYJ PNI:[REDACTED]b0c ([REDACTED]a69)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=85:OMD to=86:cgH PNI:[REDACTED]86b ([REDACTED]2ab)"}
+{"level":30,"time":"2025-10-20T15:18:07.594Z","msg":"[storage] upload(86): updating from=77:U7I to=86:Nli PNI:[REDACTED]71b ([REDACTED]a73)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:y79 to=86:rD8 PNI:[REDACTED]dd3 ([REDACTED]b7b)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:2Yv to=86:JNe PNI:[REDACTED]249 ([REDACTED]654)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:sJy to=86:Rel PNI:[REDACTED]05d ([REDACTED]5e8)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:Pf1 to=86:sRH PNI:[REDACTED]d9f ([REDACTED]8b7)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:UP7 to=86:NjZ PNI:[REDACTED]471 ([REDACTED]c51)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:aMG to=86:vZ6 PNI:[REDACTED]471 ([REDACTED]296)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:ZwD to=86:x2p PNI:[REDACTED]b52 ([REDACTED]46a)"}
+{"level":40,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] generateManifest(86): dropping contact=86:6C9 PNI:[REDACTED]b9c ([REDACTED]3f4) due to unregistered and stale"}
+{"level":40,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] generateManifest(86): dropping contact=86:Qj5 PNI:[REDACTED]610 ([REDACTED]46d) due to unregistered and stale"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:Iva to=86:1co PNI:[REDACTED]fd3 ([REDACTED]1d3)"}
+{"level":30,"time":"2025-10-20T15:18:07.595Z","msg":"[storage] upload(86): updating from=77:RTt to=86:3e1 PNI:[REDACTED]8f2 ([REDACTED]a11)"}
+{"level":30,"time":"2025-10-20T15:18:07.596Z","msg":"[storageRecordOps] storageService.applyUnknownFields: Applying unknown fields for [REDACTED]c75 ([REDACTED]4d1)"}
+{"level":30,"time":"2025-10-20T15:18:07.596Z","msg":"[storage] upload(86): updating from=85:2z/ to=86:Aqa [REDACTED]c75 ([REDACTED]4d1)"}
+{"level":30,"time":"2025-10-20T15:18:07.596Z","msg":"[storage] upload(86): updating from=85:06i to=86:Q8a PNI:[REDACTED]ab2 ([REDACTED]f01)"}
+{"level":30,"time":"2025-10-20T15:18:07.596Z","msg":"[storage] upload(86): updating from=77:zYh to=86:5ED PNI:[REDACTED]cd3 ([REDACTED]9db)"}
+{"level":30,"time":"2025-10-20T15:18:07.596Z","msg":"[MessageReceiver] getAllFromCache - 0 unprocessed"}
+{"level":30,"time":"2025-10-20T15:18:07.596Z","msg":"[MessageReceiver] getAllFromCache - done retrieving 0 unprocessed"}
+{"level":30,"time":"2025-10-20T15:18:07.596Z","msg":"[MessageReceiver] queueAllCached - finished"}
+{"level":30,"time":"2025-10-20T15:18:07.598Z","msg":"[JobQueue] single proto job queue: added new job [REDACTED]9ac"}
+{"level":30,"time":"2025-10-20T15:18:07.598Z","msg":"[JobQueue] single proto job queue: enqueuing job [REDACTED]9ac"}
+{"level":30,"time":"2025-10-20T15:18:07.599Z","msg":"[JobQueue] single proto job queue: running job [REDACTED]9ac, attempt 1 of 110"}
+{"level":30,"time":"2025-10-20T15:18:07.599Z","msg":"[JobQueue] single proto job queue, job ID [REDACTED]9ac, attempt 1: starting contactSyncRequest send to [REDACTED]c75 with timestamp 1760973487590"}
+{"level":40,"time":"2025-10-20T15:18:07.599Z","msg":"[SendMessage] sendMessageProto/1760973487590: Keys are out of date; updating before send"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue: added new job [REDACTED]9ac"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue: enqueuing job [REDACTED]9ac"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue: running job [REDACTED]9ac, attempt 1 of 110"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue, job ID [REDACTED]9ac, attempt 1: starting configurationSyncRequest send to [REDACTED]c75 with timestamp 1760973487590"}
+{"level":40,"time":"2025-10-20T15:18:07.600Z","msg":"[SendMessage] sendMessageProto/1760973487590: Keys are out of date; updating before send"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue: added new job [REDACTED]57c"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue: enqueuing job [REDACTED]57c"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue: running job [REDACTED]57c, attempt 1 of 110"}
+{"level":30,"time":"2025-10-20T15:18:07.600Z","msg":"[JobQueue] single proto job queue, job ID [REDACTED]57c, attempt 1: starting blockSyncRequest send to [REDACTED]c75 with timestamp 1760973487591"}
+{"level":40,"time":"2025-10-20T15:18:07.600Z","msg":"[SendMessage] sendMessageProto/1760973487591: Keys are out of date; updating before send"}
+{"level":30,"time":"2025-10-20T15:18:07.601Z","msg":"[JobManager] AttachmentDownloadManager: starting"}
+{"level":30,"time":"2025-10-20T15:18:07.601Z","msg":"[storage] upload(86): adding storyDistributionLists=1"}
+{"level":30,"time":"2025-10-20T15:18:07.601Z","msg":"[storage] upload(86): updating from=66:vWd to=86:yus"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): updating from=66:aGu to=86:Yed"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): updating from=66:a6G to=86:tgF"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): updating from=66:6v4 to=86:wGU"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): updating from=67:Aqc to=86:sBr"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): updating from=67:jkt to=86:j7Z"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): updating from=66:mZB to=86:fEJ"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): stickerPacks installed=4/4 uninstalled=2/2"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): adding callLinks=0"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): adding defunctCallLinks=0"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): adding pendingCallLinks=0"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): adding chatFolders=1"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): adding key=86:Ll8"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): adding unknown records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): adding error records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:07.602Z","msg":"[storage] upload(86): deleting extra keys=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:07.603Z","msg":"[storage] process(86): attempting to merge records=0"}
+{"level":30,"time":"2025-10-20T15:18:07.603Z","msg":"[storage] process(86): processed records=0"}
+{"level":30,"time":"2025-10-20T15:18:07.603Z","msg":"[storage] process(86): updated conversations=0"}
+{"level":30,"time":"2025-10-20T15:18:07.603Z","msg":"[storage] process(86): kicking off profile fetches=0"}
+{"level":30,"time":"2025-10-20T15:18:07.603Z","msg":"[storage] process(86): dropped keys=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:07.603Z","msg":"[storage] process(86): unknown records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:07.604Z","msg":"[storage] process(86): error records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:07.605Z","msg":"[storage] process(86): pending deletes=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:07.607Z","msg":"[storage] reprocessUnknownFields(86): done"}
+{"level":30,"time":"2025-10-20T15:18:07.607Z","msg":"[storage] sync: starting... reason=afterFirstAuthSocketConnect"}
+{"level":30,"time":"2025-10-20T15:18:07.607Z","msg":"[storage] sync: fetching latest after version=86"}
+{"level":30,"time":"2025-10-20T15:18:07.607Z","msg":"[storage] sync(86): fetch start"}
+{"level":30,"time":"2025-10-20T15:18:07.607Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/storage/auth"}
+{"level":30,"time":"2025-10-20T15:18:07.672Z","msg":"[MessageReceiver] decryptAndCacheBatch 13"}
+{"level":30,"time":"2025-10-20T15:18:07.672Z","msg":"[SignalProtocolStore] enterZone(decryptAndCacheBatch:MessageReceiver)"}
+{"level":30,"time":"2025-10-20T15:18:07.673Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1759134737485 (019a0232.fdec.757d.b056.4cfde556acc4)"}
+{"level":30,"time":"2025-10-20T15:18:07.673Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1759134737888 (019a0232.fded.759a.903c.33ade5c31b05)"}
+{"level":30,"time":"2025-10-20T15:18:07.673Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1759134739377 (019a0232.fded.759a.903c.370bd036a3d0)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1759396704931 (019a0232.fded.759a.903c.3a46539c5bd7)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1760366050253 (019a0232.fded.759a.903c.3cc9823d6b81)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1760366050879 (019a0232.fded.759a.903c.420d67bf9fa0)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1760366052235 (019a0232.fded.759a.903c.444aa292e8f5)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1760366053070 (019a0232.fded.759a.903c.48142cbd44d8)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1760366063209 (019a0232.fded.759a.903c.4ce018ea06a6)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1760366064968 (019a0232.fded.759a.903c.513976ec7109)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope [REDACTED]c75.1 > [REDACTED]c75 1760366071876 (019a0232.fded.759a.903c.54001e6d8543)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope > [REDACTED]c75 1760366073118 (019a0232.fded.759a.903c.593639d1519a)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] queueing envelope > [REDACTED]c75 1760471663620 (019a0232.fded.759a.903c.5d36062133e8)"}
+{"level":30,"time":"2025-10-20T15:18:07.674Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1759134737485 (019a0232.fdec.757d.b056.4cfde556acc4))"}
+{"level":30,"time":"2025-10-20T15:18:07.675Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1759134737485 (019a0232.fdec.757d.b056.4cfde556acc4): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.676Z","msg":"[@signalapp/libsignal-client] [REDACTED]c75.1 creating new chains. libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:707"}
+{"level":30,"time":"2025-10-20T15:18:07.676Z","msg":"[@signalapp/libsignal-client] Trimming excessive receiver_chain for session with base key [REDACTED]b49, chain count: 6 libsignal_protocol::state::session rust/protocol/src/state/session.rs:348"}
+{"level":30,"time":"2025-10-20T15:18:07.676Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.677Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1759134737888 (019a0232.fded.759a.903c.33ade5c31b05))"}
+{"level":30,"time":"2025-10-20T15:18:07.677Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1759134737888 (019a0232.fded.759a.903c.33ade5c31b05): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.677Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.678Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1759134739377 (019a0232.fded.759a.903c.370bd036a3d0))"}
+{"level":30,"time":"2025-10-20T15:18:07.678Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1759134739377 (019a0232.fded.759a.903c.370bd036a3d0): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.678Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.678Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1759396704931 (019a0232.fded.759a.903c.3a46539c5bd7))"}
+{"level":30,"time":"2025-10-20T15:18:07.678Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1759396704931 (019a0232.fded.759a.903c.3a46539c5bd7): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.678Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.679Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1760366050253 (019a0232.fded.759a.903c.3cc9823d6b81))"}
+{"level":30,"time":"2025-10-20T15:18:07.679Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1760366050253 (019a0232.fded.759a.903c.3cc9823d6b81): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.679Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.679Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1760366050879 (019a0232.fded.759a.903c.420d67bf9fa0))"}
+{"level":30,"time":"2025-10-20T15:18:07.679Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1760366050879 (019a0232.fded.759a.903c.420d67bf9fa0): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.679Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.680Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1760366052235 (019a0232.fded.759a.903c.444aa292e8f5))"}
+{"level":30,"time":"2025-10-20T15:18:07.680Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1760366052235 (019a0232.fded.759a.903c.444aa292e8f5): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.680Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.680Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1760366053070 (019a0232.fded.759a.903c.48142cbd44d8))"}
+{"level":30,"time":"2025-10-20T15:18:07.680Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1760366053070 (019a0232.fded.759a.903c.48142cbd44d8): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.680Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.681Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1760366063209 (019a0232.fded.759a.903c.4ce018ea06a6))"}
+{"level":30,"time":"2025-10-20T15:18:07.681Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1760366063209 (019a0232.fded.759a.903c.4ce018ea06a6): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.681Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.681Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1760366064968 (019a0232.fded.759a.903c.513976ec7109))"}
+{"level":30,"time":"2025-10-20T15:18:07.681Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1760366064968 (019a0232.fded.759a.903c.513976ec7109): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.681Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.682Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]c75.1 > [REDACTED]c75 1760366071876 (019a0232.fded.759a.903c.54001e6d8543))"}
+{"level":30,"time":"2025-10-20T15:18:07.682Z","msg":"[MessageReceiver] decrypt/[REDACTED]c75.1 > [REDACTED]c75 1760366071876 (019a0232.fded.759a.903c.54001e6d8543): ciphertext message"}
+{"level":30,"time":"2025-10-20T15:18:07.682Z","msg":"[@signalapp/libsignal-client] decrypted Whisper message from [REDACTED]c75.1 with current session state (base key [REDACTED]a54) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.682Z","msg":"[MessageReceiver] unsealEnvelope(> [REDACTED]c75 1760366073118 (019a0232.fded.759a.903c.593639d1519a)): unidentified message"}
+{"level":30,"time":"2025-10-20T15:18:07.683Z","msg":"[@signalapp/libsignal-client] deserialized UnidentifiedSenderMessageContent from [REDACTED]226.1 with type PreKey libsignal_protocol::sealed_sender rust/protocol/src/sealed_sender.rs:539"}
+{"level":30,"time":"2025-10-20T15:18:07.683Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]226.1 > [REDACTED]c75 1760366073118 (019a0232.fded.759a.903c.593639d1519a))"}
+{"level":30,"time":"2025-10-20T15:18:07.683Z","msg":"[MessageReceiver] decrypt/[REDACTED]226.1 > [REDACTED]c75 1760366073118 (019a0232.fded.759a.903c.593639d1519a): unidentified message"}
+{"level":30,"time":"2025-10-20T15:18:07.683Z","msg":"[MessageReceiver] decryptSealedSender([REDACTED]226.1 > [REDACTED]c75 1760366073118 (019a0232.fded.759a.903c.593639d1519a)): unidentified message/passing to sealedSenderDecryptMessage"}
+{"level":30,"time":"2025-10-20T15:18:07.684Z","msg":"[SignalProtocolStore] Successfully fetched signed prekey (cache miss): [REDACTED]c75:3"}
+{"level":30,"time":"2025-10-20T15:18:07.684Z","msg":"[SignalProtocolStore] loadKyberPreKey: Successfully fetched kyberPreKey (cache miss): [REDACTED]c75:4"}
+{"level":30,"time":"2025-10-20T15:18:07.684Z","msg":"[@signalapp/libsignal-client] processing PreKey message from [REDACTED]226.1 libsignal_protocol::session rust/protocol/src/session.rs:139"}
+{"level":30,"time":"2025-10-20T15:18:07.685Z","msg":"[SignalProtocolStore] Successfully fetched prekey (cache miss): [REDACTED]c75:3"}
+{"level":30,"time":"2025-10-20T15:18:07.685Z","msg":"[@signalapp/libsignal-client] spqr initiating state with version V1 and direction B2A spqr sparsepostquantumratchet-b58d7f56e3645ccd/99a759a/src/lib.rs:198"}
+{"level":30,"time":"2025-10-20T15:18:07.685Z","msg":"[@signalapp/libsignal-client] [REDACTED]226.1 creating new chains. libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:707"}
+{"level":30,"time":"2025-10-20T15:18:07.685Z","msg":"[@signalapp/libsignal-client] decrypted PreKey message from [REDACTED]226.1 with current session state (base key [REDACTED]06e) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.685Z","msg":"[SignalProtocolStore] maybeRemoveKyberPreKey: Successfully fetched kyber prekey (cache hit): [REDACTED]c75:4"}
+{"level":30,"time":"2025-10-20T15:18:07.685Z","msg":"[SignalProtocolStore] removeKyberPreKeys(decryptAndCacheBatch): Will remove kyberPreKeys: 4"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[SignalProtocolStore] removePreKeys(decryptAndCacheBatch): Will remove preKeys: 3"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[MessageReceiver] unsealEnvelope(> [REDACTED]c75 1760471663620 (019a0232.fded.759a.903c.5d36062133e8)): unidentified message"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[@signalapp/libsignal-client] deserialized UnidentifiedSenderMessageContent from [REDACTED]226.1 with type PreKey libsignal_protocol::sealed_sender rust/protocol/src/sealed_sender.rs:539"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[MessageReceiver] decryptEnvelope([REDACTED]226.1 > [REDACTED]c75 1760471663620 (019a0232.fded.759a.903c.5d36062133e8))"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[MessageReceiver] decrypt/[REDACTED]226.1 > [REDACTED]c75 1760471663620 (019a0232.fded.759a.903c.5d36062133e8): unidentified message"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[MessageReceiver] decryptSealedSender([REDACTED]226.1 > [REDACTED]c75 1760471663620 (019a0232.fded.759a.903c.5d36062133e8)): unidentified message/passing to sealedSenderDecryptMessage"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[@signalapp/libsignal-client] decrypted PreKey message from [REDACTED]226.1 with current session state (base key [REDACTED]06e) libsignal_protocol::session_cipher rust/protocol/src/session_cipher.rs:467"}
+{"level":30,"time":"2025-10-20T15:18:07.686Z","msg":"[MessageReceiver] decryptAndCacheBatch storing 13 decrypted envelopes, keeping 0 failed envelopes."}
+{"level":30,"time":"2025-10-20T15:18:07.687Z","msg":"[SignalProtocolStore] commitZoneChanges(MessageReceiver): pending kyberPreKeysToRemove 1, pending preKeysToRemove 1, pending senderKeys 0, pending sessions 2, pending unprocessed 13, pending kyberTriples 0"}
+{"level":30,"time":"2025-10-20T15:18:07.690Z","msg":"[SignalProtocolStore] leaveZone(decryptAndCacheBatch)"}
+{"level":30,"time":"2025-10-20T15:18:07.690Z","msg":"[MessageReceiver] decryptAndCacheBatch acknowledging receipt"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1759134737485 (019a0232.fdec.757d.b056.4cfde556acc4)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1759134737888 (019a0232.fded.759a.903c.33ade5c31b05)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1759134739377 (019a0232.fded.759a.903c.370bd036a3d0)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1759396704931 (019a0232.fded.759a.903c.3a46539c5bd7)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1760366050253 (019a0232.fded.759a.903c.3cc9823d6b81)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1760366050879 (019a0232.fded.759a.903c.420d67bf9fa0)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1760366052235 (019a0232.fded.759a.903c.444aa292e8f5)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1760366053070 (019a0232.fded.759a.903c.48142cbd44d8)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1760366063209 (019a0232.fded.759a.903c.4ce018ea06a6)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1760366064968 (019a0232.fded.759a.903c.513976ec7109)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]c75.1 > [REDACTED]c75 1760366071876 (019a0232.fded.759a.903c.54001e6d8543)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]226.1 > [REDACTED]c75 1760366073118 (019a0232.fded.759a.903c.593639d1519a)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] queueing decrypted envelope [REDACTED]226.1 > [REDACTED]c75 1760471663620 (019a0232.fded.759a.903c.5d36062133e8)"}
+{"level":30,"time":"2025-10-20T15:18:07.691Z","msg":"[MessageReceiver] handleContacts [REDACTED]c75.1 > [REDACTED]c75 1759134737485 (019a0232.fdec.757d.b056.4cfde556acc4)"}
+{"level":30,"time":"2025-10-20T15:18:07.692Z","msg":"[contactSync] onContactSync(sent=1759134737485, receivedAt=1753961834743): queueing sync"}
+{"level":30,"time":"2025-10-20T15:18:07.692Z","msg":"[contactSync] doContactSync(sent=1759134737485, receivedAt=1753961834743, isFullSync=true): downloading contact attachment"}
+{"level":30,"time":"2025-10-20T15:18:07.692Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]Z6g"}
+{"level":30,"time":"2025-10-20T15:18:07.696Z","msg":"[MessageReceiver] got fetch latest sync message [REDACTED]c75.1 > [REDACTED]c75 1759134737888 (019a0232.fded.759a.903c.33ade5c31b05)"}
+{"level":30,"time":"2025-10-20T15:18:07.696Z","msg":"[background] onFetchLatestSync: fetching latest manifest"}
+{"level":30,"time":"2025-10-20T15:18:07.696Z","msg":"[MessageReceiver] handleContacts [REDACTED]c75.1 > [REDACTED]c75 1759134739377 (019a0232.fded.759a.903c.370bd036a3d0)"}
+{"level":30,"time":"2025-10-20T15:18:07.696Z","msg":"[contactSync] onContactSync(sent=1759134739377, receivedAt=1753961834745): queueing sync"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[MessageReceiver] got fetch latest sync message [REDACTED]c75.1 > [REDACTED]c75 1759396704931 (019a0232.fded.759a.903c.3a46539c5bd7)"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[background] onFetchLatestSync: fetching latest manifest"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[MessageReceiver] got configuration sync message [REDACTED]c75.1 > [REDACTED]c75 1760366050253 (019a0232.fded.759a.903c.3cc9823d6b81)"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[MessageReceiver] got fetch latest sync message [REDACTED]c75.1 > [REDACTED]c75 1760366050879 (019a0232.fded.759a.903c.420d67bf9fa0)"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[MessageReceiver] got fetch latest sync message [REDACTED]c75.1 > [REDACTED]c75 1760366052235 (019a0232.fded.759a.903c.444aa292e8f5)"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[MessageReceiver] handleContacts [REDACTED]c75.1 > [REDACTED]c75 1760366053070 (019a0232.fded.759a.903c.48142cbd44d8)"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[MessageReceiver] got configuration sync message [REDACTED]c75.1 > [REDACTED]c75 1760366063209 (019a0232.fded.759a.903c.4ce018ea06a6)"}
+{"level":30,"time":"2025-10-20T15:18:07.697Z","msg":"[MessageReceiver] got fetch latest sync message [REDACTED]c75.1 > [REDACTED]c75 1760366064968 (019a0232.fded.759a.903c.513976ec7109)"}
+{"level":30,"time":"2025-10-20T15:18:07.698Z","msg":"[MessageReceiver] sent message to [REDACTED][REDACTED] from [REDACTED]c75.1 > [REDACTED]c75 1760366071876 (019a0232.fded.759a.903c.54001e6d8543)"}
+{"level":30,"time":"2025-10-20T15:18:07.698Z","msg":"[MessageReceiver] handleSentMessage/[REDACTED]c75.1 > [REDACTED]c75 1760366071876 (019a0232.fded.759a.903c.54001e6d8543)"}
+{"level":30,"time":"2025-10-20T15:18:07.698Z","msg":"[MessageReceiver] decryptAndCacheBatch fully processed"}
+{"level":30,"time":"2025-10-20T15:18:07.698Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487200 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487200 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487200 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487200 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487200 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.699Z","msg":"[@signalapp/libsignal-client] ACKing message delivered at 1760973487201 (not a message ID) libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:78"}
+{"level":30,"time":"2025-10-20T15:18:07.702Z","msg":"[background] onFetchLatestSync: fetching latest manifest"}
+{"level":30,"time":"2025-10-20T15:18:07.702Z","msg":"[background] onFetchLatestSync: fetching latest manifest"}
+{"level":30,"time":"2025-10-20T15:18:07.702Z","msg":"[contactSync] onContactSync(sent=1760366053070, receivedAt=1753961834750): queueing sync"}
+{"level":40,"time":"2025-10-20T15:18:07.705Z","msg":"[createStore] ActionRateLogger: got 25 events since 1760973486819: expiration/HYDRATE_EXPIRATION_STATUS,crashReports/SET_COUNT,app/OPEN_INBOX,network/SET_NETWORK_STATUS,network/SET_NETWORK_STATUS,items/REMOVE_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/REMOVE_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL"}
+{"level":30,"time":"2025-10-20T15:18:07.706Z","msg":"[background] onFetchLatestSync: fetching latest manifest"}
+{"level":30,"time":"2025-10-20T15:18:07.707Z","msg":"[handleDataMessage] handleDataMessage/[REDACTED]226 ([REDACTED]926) [REDACTED]c75.1 1760366071876: starting processing in queue"}
+{"level":30,"time":"2025-10-20T15:18:07.707Z","msg":"[handleDataMessage] handleDataMessage/[REDACTED]226 ([REDACTED]926) [REDACTED]c75.1 1760366071876: duplicate check db lookup needed [REDACTED]4d1.1-1760366071876"}
+{"level":30,"time":"2025-10-20T15:18:07.707Z","msg":"[background] delivery receipt from [REDACTED]226.1 1760366073118 for sent message 1760366071876 wasSentEncrypted=true"}
+{"level":30,"time":"2025-10-20T15:18:07.707Z","msg":"[background] onDeliveryReceipt(envelope=1760366073118, envelopeId=019a0232.fded.759a.903c.593639d1519a): Saving 1 sync tasks"}
+{"level":30,"time":"2025-10-20T15:18:07.711Z","msg":"[modifyTargetMessage] modifyTargetMessage/[REDACTED]c75.1 1760366071876: Found 0 early reaction(s) for outgoing message"}
+{"level":30,"time":"2025-10-20T15:18:07.711Z","msg":"[handleDataMessage] handleDataMessage/[REDACTED]226 ([REDACTED]926) [REDACTED]c75.1 1760366071876: Batching save"}
+{"level":30,"time":"2025-10-20T15:18:07.711Z","msg":"[background] onDeliveryReceipt(envelope=1760366073118, envelopeId=019a0232.fded.759a.903c.593639d1519a): Queuing 1 sync tasks"}
+{"level":30,"time":"2025-10-20T15:18:07.712Z","msg":"[background] onDeliveryReceipt(envelope=1760366073118, envelopeId=019a0232.fded.759a.903c.593639d1519a): Done"}
+{"level":30,"time":"2025-10-20T15:18:07.712Z","msg":"[background] read receipt [REDACTED]226.1 1760471663620 for sent message 1760366071876"}
+{"level":30,"time":"2025-10-20T15:18:07.712Z","msg":"[background] onReadOrViewReceipt(type=Read, envelope=1760471663620, envelopeId=019a0232.fded.759a.903c.5d36062133e8): Saving 1 sync tasks"}
+{"level":30,"time":"2025-10-20T15:18:07.713Z","msg":"[background] onReadOrViewReceipt(type=Read, envelope=1760471663620, envelopeId=019a0232.fded.759a.903c.5d36062133e8): Queuing 1 sync tasks"}
+{"level":30,"time":"2025-10-20T15:18:07.713Z","msg":"[background] onReadOrViewReceipt(type=Read, envelope=1760471663620, envelopeId=019a0232.fded.759a.903c.5d36062133e8): Done"}
+{"level":30,"time":"2025-10-20T15:18:07.760Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1760918400&redemptionEndSeconds=1761436800&zkcCredential=true 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:07.767Z","msg":"[groupCredentialFetcher] maybeFetchNewCredentials: saving 7 new group credentials, cleaning up 7 old group credentials, haveToday=true"}
+{"level":30,"time":"2025-10-20T15:18:07.767Z","msg":"[groupCredentialFetcher] maybeFetchNewCredentials: saving 7 new call link auth credentials, cleaning up 7 old call link auth credentials, haveToday=true"}
+{"level":30,"time":"2025-10-20T15:18:07.771Z","msg":"[groupCredentialFetcher] maybeFetchNewCredentials: Save complete."}
+{"level":30,"time":"2025-10-20T15:18:07.786Z","msg":"[messageBatcher] saveNewMessageBatcher 1"}
+{"level":30,"time":"2025-10-20T15:18:07.791Z","msg":"[saveAndNotify] Message saved 1760366071876"}
+{"level":30,"time":"2025-10-20T15:18:07.792Z","msg":"[MessageReceipts] MessageReceipts.forMessage([REDACTED]c75.1 1760366071876): found early receipts for message 1760366071876"}
+{"level":30,"time":"2025-10-20T15:18:07.809Z","msg":"[modifyTargetMessage] modifyTargetMessage/[REDACTED]c75.1 1760366071876: Found 0 early reaction(s) for outgoing message"}
+{"level":30,"time":"2025-10-20T15:18:07.809Z","msg":"[modifyTargetMessage] modifyTargetMessage/[REDACTED]c75.1 1760366071876: Changes in second run; saving."}
+{"level":30,"time":"2025-10-20T15:18:07.810Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/devices/capabilities 204 Success"}
+{"level":30,"time":"2025-10-20T15:18:07.810Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:07.810Z","msg":"[AccountManager] generateLastResortKyberKey(ACI): Saving new last resort prekey 104"}
+{"level":30,"time":"2025-10-20T15:18:07.811Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/devices 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:07.811Z","msg":"[onDeviceNameChangeSync] fetchAndUpdateDeviceName: new name matches existing name"}
+{"level":30,"time":"2025-10-20T15:18:07.812Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/storage/auth 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:07.820Z","msg":"[modifyTargetMessage] modifyTargetMessage/[REDACTED]c75.1 1760366071876: 0 edits in second run"}
+{"level":30,"time":"2025-10-20T15:18:07.821Z","msg":"[AccountManager] maybeUpdateLastResortKyberKey(ACI, [REDACTED]c75): Saving new last resort prekey 104"}
+{"level":30,"time":"2025-10-20T15:18:07.823Z","msg":"[WebAPI] GET (REST) https://storage.signal.org/v1/storage/manifest/version/86"}
+{"level":30,"time":"2025-10-20T15:18:07.826Z","msg":"[AccountManager] AccountManager.generateSignedPreKey(ACI): Saving new signed prekey 4"}
+{"level":30,"time":"2025-10-20T15:18:07.827Z","msg":"[AccountManager] AccountManager.maybeUpdateSignedPreKey(ACI, [REDACTED]c75): Saving new signed prekey 4"}
+{"level":30,"time":"2025-10-20T15:18:07.828Z","msg":"[AccountManager] maybeUpdateKeys(ACI): Uploading with a signed prekey, a last-resort kyber prekey"}
+{"level":30,"time":"2025-10-20T15:18:07.829Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v2/keys?identity=aci"}
+{"level":30,"time":"2025-10-20T15:18:07.862Z","msg":"[createHTTPSAgent] createHTTPSAgent.createConnection(cdn3.signal.org): connected to IPv6 addr after 50ms (attempts v4=0 v6=1)"}
+{"level":30,"time":"2025-10-20T15:18:07.964Z","msg":"[MessageReceipts] updateMessageWithReceipts(timestamp=1760366071876): batch processing 2 receipts, dropped count: 0"}
+{"level":30,"time":"2025-10-20T15:18:08.014Z","msg":"[createHTTPSAgent] createHTTPSAgent.createConnection(storage.signal.org): connected to IPv6 addr after 166ms (attempts v4=0 v6=1)"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[@signalapp/libsignal-client] received queue empty notification libsignal_net::chat::server_requests rust/net/src/chat/server_requests.rs:120"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[MessageReceiver] got request /api/v1/queue/empty"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[MessageReceiver] finished processing messages after 'empty', now waiting for application"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[batcher] Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[batcher] Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[batcher] Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[batcher] Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.015Z","msg":"[MessageReceiver] emitting 'empty' event"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] waitForAllBatchers"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing sql.Client.updateConversationBatcher batcher items.length=4"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing saveAttachmentDownloadJobs batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[batcher] Flushing complete saveAttachmentDownloadJobs for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] flushAllWaitBatchers"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing start messageBatcher.updateMessageBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing complete messageBatcher.updateMessageBatcher for waitBatcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing start messageBatcher.saveNewMessageBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing complete messageBatcher.saveNewMessageBatcher for waitBatcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing start processReceiptBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing complete processReceiptBatcher for waitBatcher"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing start deleteSentProtoBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:08.016Z","msg":"[waitBatcher] Flushing complete deleteSentProtoBatcher for waitBatcher"}
+{"level":30,"time":"2025-10-20T15:18:08.017Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v2/keys?identity=aci 204 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.017Z","msg":"[AccountManager] AccountManager.confirmKeys(ACI): confirming signed prekey key 4"}
+{"level":30,"time":"2025-10-20T15:18:08.019Z","msg":"[batcher] Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:08.019Z","msg":"[background] onEmpty: All outstanding database requests complete"}
+{"level":30,"time":"2025-10-20T15:18:08.020Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-10-20T15:18:08.019Z"}
+{"level":30,"time":"2025-10-20T15:18:08.020Z","msg":"[background] restartQueuesAndNotificationsOnEmpty: restarting"}
+{"level":30,"time":"2025-10-20T15:18:08.020Z","msg":"[notifications] NotificationService: enabling"}
+{"level":30,"time":"2025-10-20T15:18:08.020Z","msg":"[background] App loaded - messages: 13"}
+{"level":30,"time":"2025-10-20T15:18:08.021Z","msg":"[StartupQueue] Processing 0 actions"}
+{"level":30,"time":"2025-10-20T15:18:08.022Z","msg":"[routineProfileRefresh] Creating new RoutineProfileRefresher instance with id 2"}
+{"level":30,"time":"2025-10-20T15:18:08.023Z","msg":"[routineProfileRefresh] RoutineProfileRefresher.start/2: waiting for 0ms"}
+{"level":30,"time":"2025-10-20T15:18:08.023Z","msg":"[usernameIntegrity] running the check immediately"}
+{"level":30,"time":"2025-10-20T15:18:08.023Z","msg":"[UpdateKeysListener] Updating keys..."}
+{"level":30,"time":"2025-10-20T15:18:08.031Z","msg":"[expiration] Build expires (local): 2026-01-15T09:30:56.000Z"}
+{"level":30,"time":"2025-10-20T15:18:08.044Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: starting"}
+{"level":30,"time":"2025-10-20T15:18:08.044Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: updating last refresh time"}
+{"level":30,"time":"2025-10-20T15:18:08.049Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-10-20T15:18:08.023Z"}
+{"level":30,"time":"2025-10-20T15:18:08.049Z","msg":"[background] onEmpty/syncTasks: Incrementing all sync task attempts"}
+{"level":30,"time":"2025-10-20T15:18:08.050Z","msg":"[AccountManager] AccountManager.confirmKeys(ACI): confirming last resort key 104"}
+{"level":30,"time":"2025-10-20T15:18:08.076Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: starting to refresh conversations"}
+{"level":30,"time":"2025-10-20T15:18:08.076Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for [REDACTED]111 ([REDACTED]4f3)"}
+{"level":30,"time":"2025-10-20T15:18:08.076Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]ab2 ([REDACTED]f01)"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]fd3 ([REDACTED]1d3)"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]cd3 ([REDACTED]9db)"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]f87 ([REDACTED]73e)"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[profiles] getProfile(PNI:[REDACTED]ab2 ([REDACTED]f01)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[profiles] getProfile(PNI:[REDACTED]fd3 ([REDACTED]1d3)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[profiles] getProfile(PNI:[REDACTED]cd3 ([REDACTED]9db)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]ab2"}
+{"level":30,"time":"2025-10-20T15:18:08.077Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]fd3"}
+{"level":30,"time":"2025-10-20T15:18:08.078Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]cd3"}
+{"level":30,"time":"2025-10-20T15:18:08.078Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for [REDACTED]111 ([REDACTED]4f3)"}
+{"level":30,"time":"2025-10-20T15:18:08.078Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]f31 ([REDACTED]00e)"}
+{"level":30,"time":"2025-10-20T15:18:08.078Z","msg":"[releaseNotesFetcher] Starting"}
+{"level":30,"time":"2025-10-20T15:18:08.078Z","msg":"[releaseNotesFetcher] Version watermark is 7.67.0"}
+{"level":30,"time":"2025-10-20T15:18:08.078Z","msg":"[WebAPI] HEAD (REST) https://updates2.signal.org/dynamic/release-notes/release-notes-v2.json"}
+{"level":30,"time":"2025-10-20T15:18:08.120Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci"}
+{"level":30,"time":"2025-10-20T15:18:08.426Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]ab2 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.427Z","msg":"[SignalProtocolStore] saveIdentity(PNI:[REDACTED]ab2): Saving new identity..."}
+{"level":30,"time":"2025-10-20T15:18:08.427Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]fd3 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.427Z","msg":"[profiles] getProfile(PNI:[REDACTED]fd3 ([REDACTED]1d3)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.428Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]fd3 ([REDACTED]1d3)"}
+{"level":30,"time":"2025-10-20T15:18:08.428Z","msg":"[profiles] getProfile(PNI:[REDACTED]f87 ([REDACTED]73e)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.428Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f87"}
+{"level":30,"time":"2025-10-20T15:18:08.428Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]ee3 ([REDACTED]7a4)"}
+{"level":30,"time":"2025-10-20T15:18:08.428Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]cd3 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.428Z","msg":"[profiles] getProfile(PNI:[REDACTED]cd3 ([REDACTED]9db)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]cd3 ([REDACTED]9db)"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[profiles] getProfile(PNI:[REDACTED]f31 ([REDACTED]00e)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f31"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]7ba ([REDACTED]97c)"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[AccountManager] maybeUpdateKeys(ACI): Successfully updated; server prekey count: 97, server kyber prekey count: 97"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(ACI): Most recent signed key: 4"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(ACI): Most recent confirmed signed key: 4"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(ACI): Most recent unconfirmed signed key: none"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(ACI): Total signed key count: 4 - 4 confirmed"}
+{"level":30,"time":"2025-10-20T15:18:08.429Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(ACI): Most recent last resort key: 104"}
+{"level":30,"time":"2025-10-20T15:18:08.430Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(ACI): Most recent confirmed last resort key: 104"}
+{"level":30,"time":"2025-10-20T15:18:08.430Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(ACI): Most recent unconfirmed last resort key: none"}
+{"level":30,"time":"2025-10-20T15:18:08.430Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(ACI): Total last resort key count: 4 - 4 confirmed"}
+{"level":30,"time":"2025-10-20T15:18:08.430Z","msg":"[AccountManager] AccountManager.cleanPreKeys(ACI): 98 total prekeys"}
+{"level":30,"time":"2025-10-20T15:18:08.430Z","msg":"[AccountManager] AccountManager.cleanKyberPreKeys(ACI): 98 total prekeys"}
+{"level":30,"time":"2025-10-20T15:18:08.430Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci"}
+{"level":30,"time":"2025-10-20T15:18:08.431Z","msg":"[SignalProtocolStore] commitZoneChanges(storeSession): pending kyberPreKeysToRemove 0, pending preKeysToRemove 0, pending senderKeys 0, pending sessions 1, pending unprocessed 0, pending kyberTriples 0"}
+{"level":30,"time":"2025-10-20T15:18:08.433Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]Z6g 200 Streaming with details"}
+{"level":30,"time":"2025-10-20T15:18:08.437Z","msg":"[profiles] getProfile(PNI:[REDACTED]ab2 ([REDACTED]f01)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.438Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]ab2 ([REDACTED]f01)"}
+{"level":30,"time":"2025-10-20T15:18:08.438Z","msg":"[profiles] getProfile(PNI:[REDACTED]ee3 ([REDACTED]7a4)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.438Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]ee3"}
+{"level":30,"time":"2025-10-20T15:18:08.438Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]0e8 ([REDACTED]a8f)"}
+{"level":30,"time":"2025-10-20T15:18:08.439Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/messages/[REDACTED]c75?story=false"}
+{"level":30,"time":"2025-10-20T15:18:08.447Z","msg":"[WebAPI] GET (REST) https://storage.signal.org/v1/storage/manifest/version/86 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.447Z","msg":"[storage] sync: updating to remoteVersion=91 sourceDevice=1 from version=86"}
+{"level":30,"time":"2025-10-20T15:18:08.449Z","msg":"[storage] process(91): localRecords=33 localKeys=28 unknownKeys=0 remoteKeys=28"}
+{"level":30,"time":"2025-10-20T15:18:08.449Z","msg":"[storage] process(91): remoteOnlyCount=3 remoteOnlyKeys=[\"91:pLc\",\"91:G8O\",\"91:UF2\"]"}
+{"level":30,"time":"2025-10-20T15:18:08.449Z","msg":"[storage] process(91): localOnlyCount=3 localOnlyKeys=[\"85:+0U\",\"77:uIw\",\"85:OMD\"]"}
+{"level":30,"time":"2025-10-20T15:18:08.449Z","msg":"[storage] fetchRemoteRecords(91): fetching remote keys count=3"}
+{"level":30,"time":"2025-10-20T15:18:08.449Z","msg":"[WebAPI] PUT (REST) https://storage.signal.org/v1/storage/read"}
+{"level":30,"time":"2025-10-20T15:18:08.454Z","msg":"[createHTTPSAgent] createHTTPSAgent.createConnection(updates2.signal.org): connected to IPv6 addr after 334ms (attempts v4=0 v6=1)"}
+{"level":30,"time":"2025-10-20T15:18:08.492Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]Z6g 200 Streaming ended"}
+{"level":30,"time":"2025-10-20T15:18:08.501Z","msg":"[WebAPI] HEAD (REST) https://updates2.signal.org/dynamic/release-notes/release-notes-v2.json 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.501Z","msg":"[releaseNotesFetcher] Fetching manifest, isNewVersion=true, hashChanged=false"}
+{"level":30,"time":"2025-10-20T15:18:08.501Z","msg":"[WebAPI] GET (REST) https://updates2.signal.org/dynamic/release-notes/release-notes-v2.json"}
+{"level":30,"time":"2025-10-20T15:18:08.511Z","msg":"[contactSync] doContactSync(sent=1759134737485, receivedAt=1753961834743, isFullSync=true): got 21 contacts"}
+{"level":30,"time":"2025-10-20T15:18:08.512Z","msg":"[contactSync] doContactSync(sent=1759134737485, receivedAt=1753961834743, isFullSync=true): updated 21 resetting 0"}
+{"level":40,"time":"2025-10-20T15:18:08.520Z","msg":"[createStore] ActionRateLogger: got 25 events since 1760973487705: items/PUT_EXTERNAL,MESSAGE_CHANGED,items/PUT_EXTERNAL,items/PUT_EXTERNAL,INBOX/SET_INBOX_ENVELOPE_TIMESTAMP,MESSAGES_ADDED,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,CONVERSATIONS_UPDATED,MESSAGE_CHANGED,app/INITIAL_LOAD_COMPLETE,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,items/PUT_EXTERNAL,MESSAGE_CHANGED,MESSAGE_CHANGED,CONVERSATIONS_UPDATED,MESSAGE_CHANGED,CONVERSATIONS_UPDATED,CONVERSATIONS_UPDATED,items/PUT_EXTERNAL"}
+{"level":30,"time":"2025-10-20T15:18:08.521Z","msg":"[contactSync] doContactSync(sent=1759134737485, receivedAt=1753961834743, isFullSync=true): done"}
+{"level":30,"time":"2025-10-20T15:18:08.521Z","msg":"[contactSync] doContactSync(sent=1759134739377, receivedAt=1753961834745, isFullSync=true): downloading contact attachment"}
+{"level":30,"time":"2025-10-20T15:18:08.521Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]R43"}
+{"level":30,"time":"2025-10-20T15:18:08.544Z","msg":"[createHTTPSAgent] createHTTPSAgent.createConnection(updates2.signal.org): connected to IPv6 addr after 40ms (attempts v4=0 v6=1)"}
+{"level":30,"time":"2025-10-20T15:18:08.544Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f87 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.544Z","msg":"[profiles] getProfile(PNI:[REDACTED]f87 ([REDACTED]73e)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.544Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]f87 ([REDACTED]73e)"}
+{"level":30,"time":"2025-10-20T15:18:08.544Z","msg":"[profiles] getProfile(PNI:[REDACTED]7ba ([REDACTED]97c)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.545Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]7ba"}
+{"level":30,"time":"2025-10-20T15:18:08.545Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]71b ([REDACTED]a73)"}
+{"level":30,"time":"2025-10-20T15:18:08.682Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci 200 Success"}
+{"level":40,"time":"2025-10-20T15:18:08.682Z","msg":"[AccountManager] maybeUpdateLastResortKyberKey(ACI, [REDACTED]c75): 4 confirmed keys, most recent was created 1760973487821. No need to update."}
+{"level":40,"time":"2025-10-20T15:18:08.682Z","msg":"[AccountManager] AccountManager.maybeUpdateSignedPreKey(ACI, [REDACTED]c75): 4 confirmed keys, most recent was created 1760973487827. No need to update."}
+{"level":30,"time":"2025-10-20T15:18:08.682Z","msg":"[AccountManager] maybeUpdateKeys(ACI): No new keys are needed; returning early"}
+{"level":30,"time":"2025-10-20T15:18:08.683Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci"}
+{"level":30,"time":"2025-10-20T15:18:08.683Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/messages/[REDACTED]c75?story=false 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.683Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]ee3 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.684Z","msg":"[profiles] getProfile(PNI:[REDACTED]ee3 ([REDACTED]7a4)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.684Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]ee3 ([REDACTED]7a4)"}
+{"level":30,"time":"2025-10-20T15:18:08.684Z","msg":"[profiles] getProfile(PNI:[REDACTED]0e8 ([REDACTED]a8f)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.684Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]0e8"}
+{"level":30,"time":"2025-10-20T15:18:08.684Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]b0c ([REDACTED]a69)"}
+{"level":30,"time":"2025-10-20T15:18:08.684Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f31 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.684Z","msg":"[profiles] getProfile(PNI:[REDACTED]f31 ([REDACTED]00e)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.685Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]f31 ([REDACTED]00e)"}
+{"level":30,"time":"2025-10-20T15:18:08.685Z","msg":"[profiles] getProfile(PNI:[REDACTED]71b ([REDACTED]a73)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.685Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]71b"}
+{"level":30,"time":"2025-10-20T15:18:08.685Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]86b ([REDACTED]2ab)"}
+{"level":30,"time":"2025-10-20T15:18:08.685Z","msg":"[SignalProtocolStore] commitZoneChanges(storeSession): pending kyberPreKeysToRemove 0, pending preKeysToRemove 0, pending senderKeys 0, pending sessions 1, pending unprocessed 0, pending kyberTriples 0"}
+{"level":40,"time":"2025-10-20T15:18:08.690Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]7ba 404 Error"}
+{"level":40,"time":"2025-10-20T15:18:08.690Z","msg":"[profiles] getProfile(PNI:[REDACTED]7ba ([REDACTED]97c)): Failed to fetch profile. Code: 404"}
+{"level":30,"time":"2025-10-20T15:18:08.690Z","msg":"[profiles] getProfile(PNI:[REDACTED]7ba ([REDACTED]97c)): Profile not found"}
+{"level":30,"time":"2025-10-20T15:18:08.690Z","msg":"[profiles] getProfile(PNI:[REDACTED]7ba ([REDACTED]97c)): Marking conversation unregistered"}
+{"level":30,"time":"2025-10-20T15:18:08.691Z","msg":"[conversations] setUnregistered(PNI:[REDACTED]7ba ([REDACTED]97c)): conversation is now unregistered, timestamp=1760973488691"}
+{"level":30,"time":"2025-10-20T15:18:08.691Z","msg":"[conversations] storageService[captureChange] setUnregistered PNI:[REDACTED]7ba ([REDACTED]97c)"}
+{"level":30,"time":"2025-10-20T15:18:08.691Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]7ba ([REDACTED]97c)"}
+{"level":30,"time":"2025-10-20T15:18:08.691Z","msg":"[profiles] getProfile(PNI:[REDACTED]b0c ([REDACTED]a69)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.691Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b0c"}
+{"level":30,"time":"2025-10-20T15:18:08.691Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for [REDACTED]226 ([REDACTED]926)"}
+{"level":30,"time":"2025-10-20T15:18:08.691Z","msg":"[JobQueue] single proto job queue: job [REDACTED]9ac succeeded on attempt 1"}
+{"level":30,"time":"2025-10-20T15:18:08.692Z","msg":"[WebAPI] GET (REST) https://updates2.signal.org/dynamic/release-notes/release-notes-v2.json 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.692Z","msg":"[releaseNotesFetcher] No new release notes"}
+{"level":30,"time":"2025-10-20T15:18:08.692Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/messages/[REDACTED]c75?story=false"}
+{"level":30,"time":"2025-10-20T15:18:08.696Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-10-23T15:18:08.692Z"}
+{"level":30,"time":"2025-10-20T15:18:08.697Z","msg":"[WebAPI] PUT (REST) https://storage.signal.org/v1/storage/read 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.697Z","msg":"[storage] fetchRemoteRecords(91): missing remote keys=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:08.697Z","msg":"[storage] process(91): attempting to merge records=2"}
+{"level":30,"time":"2025-10-20T15:18:08.697Z","msg":"[storage] process(91): split pni contacts=1"}
+{"level":30,"time":"2025-10-20T15:18:08.698Z","msg":"[conversations] enableProfileSharing: PNI:[REDACTED]7ba ([REDACTED]97c) reason=ACCEPT Message Request storage? true"}
+{"level":30,"time":"2025-10-20T15:18:08.698Z","msg":"[conversations] Conversation PNI:[REDACTED]7ba ([REDACTED]97c) is registered once again"}
+{"level":30,"time":"2025-10-20T15:18:08.698Z","msg":"[storage] merge(91:pLc PNI:[REDACTED]7ba ([REDACTED]97c)): merged item type=1 oldID=77:uIw shouldDrop=false details=[]"}
+{"level":30,"time":"2025-10-20T15:18:08.698Z","msg":"[conversations] enableProfileSharing: PNI:[REDACTED]86b ([REDACTED]2ab) reason=ACCEPT Message Request storage? true"}
+{"level":30,"time":"2025-10-20T15:18:08.698Z","msg":"[storage] merge(91:G8O PNI:[REDACTED]86b ([REDACTED]2ab)): merged item type=1 oldID=85:OMD shouldDrop=false details=[]"}
+{"level":30,"time":"2025-10-20T15:18:08.699Z","msg":"[conversations] enableProfileSharing: [REDACTED]226 ([REDACTED]926) reason=ACCEPT Message Request storage? true"}
+{"level":30,"time":"2025-10-20T15:18:08.699Z","msg":"[storage] merge(91:UF2 [REDACTED]226 ([REDACTED]926)): merged item type=1 oldID=85:+0U shouldDrop=false details=[]"}
+{"level":30,"time":"2025-10-20T15:18:08.699Z","msg":"[storage] process(91): processed records=3"}
+{"level":30,"time":"2025-10-20T15:18:08.702Z","msg":"[storage] process(91): updated conversations=3"}
+{"level":30,"time":"2025-10-20T15:18:08.702Z","msg":"[storage] process(91): kicking off profile fetches=0"}
+{"level":30,"time":"2025-10-20T15:18:08.702Z","msg":"[storage] process(91): dropped keys=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:08.702Z","msg":"[storage] process(91): unknown records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:08.704Z","msg":"[storage] process(91): error records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:08.705Z","msg":"[storage] process(91): pending deletes=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:08.707Z","msg":"[storage] process(91): done"}
+{"level":30,"time":"2025-10-20T15:18:08.707Z","msg":"[storage] sync: updated to version=91"}
+{"level":30,"time":"2025-10-20T15:18:08.711Z","msg":"[storage] sync: complete"}
+{"level":30,"time":"2025-10-20T15:18:08.711Z","msg":"[usernameIntegrity] no username"}
+{"level":30,"time":"2025-10-20T15:18:08.893Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci 200 Success"}
+{"level":40,"time":"2025-10-20T15:18:08.893Z","msg":"[AccountManager] maybeUpdateLastResortKyberKey(ACI, [REDACTED]c75): 4 confirmed keys, most recent was created 1760973487821. No need to update."}
+{"level":40,"time":"2025-10-20T15:18:08.893Z","msg":"[AccountManager] AccountManager.maybeUpdateSignedPreKey(ACI, [REDACTED]c75): 4 confirmed keys, most recent was created 1760973487827. No need to update."}
+{"level":30,"time":"2025-10-20T15:18:08.893Z","msg":"[AccountManager] maybeUpdateKeys(ACI): No new keys are needed; returning early"}
+{"level":30,"time":"2025-10-20T15:18:08.893Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci"}
+{"level":30,"time":"2025-10-20T15:18:08.894Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/messages/[REDACTED]c75?story=false 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.894Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]71b 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.894Z","msg":"[profiles] getProfile(PNI:[REDACTED]71b ([REDACTED]a73)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.895Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]71b ([REDACTED]a73)"}
+{"level":30,"time":"2025-10-20T15:18:08.895Z","msg":"[profiles] getProfile(PNI:[REDACTED]86b ([REDACTED]2ab)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.895Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]86b"}
+{"level":30,"time":"2025-10-20T15:18:08.895Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]dd3 ([REDACTED]b7b)"}
+{"level":30,"time":"2025-10-20T15:18:08.895Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]0e8 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.895Z","msg":"[profiles] getProfile(PNI:[REDACTED]0e8 ([REDACTED]a8f)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.896Z","msg":"[profiles] buildGetProfileOptions([REDACTED]226 ([REDACTED]926)): generating profile key credential request"}
+{"level":30,"time":"2025-10-20T15:18:08.897Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]0e8 ([REDACTED]a8f)"}
+{"level":30,"time":"2025-10-20T15:18:08.897Z","msg":"[profiles] getProfile([REDACTED]226 ([REDACTED]926)): Fetching profile (versioned, unauth: accessKey)"}
+{"level":30,"time":"2025-10-20T15:18:08.897Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]226/[REDACTED]fb6/[REDACTED]a0e?credentialType=expiringProfileKey (unauth+key)"}
+{"level":30,"time":"2025-10-20T15:18:08.897Z","msg":"[SocketManager] connecting unauthenticated socket"}
+{"level":30,"time":"2025-10-20T15:18:08.897Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]249 ([REDACTED]654)"}
+{"level":30,"time":"2025-10-20T15:18:08.897Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b0c 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:08.897Z","msg":"[profiles] getProfile(PNI:[REDACTED]b0c ([REDACTED]a69)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:08.898Z","msg":"[profiles] buildGetProfileOptions([REDACTED]c75 ([REDACTED]4d1)): generating profile key credential request"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]b0c ([REDACTED]a69)"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[profiles] getProfile([REDACTED]c75 ([REDACTED]4d1)): Fetching profile (versioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]c75/[REDACTED]25a/[REDACTED]900?credentialType=expiringProfileKey"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]d9f ([REDACTED]8b7)"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[@signalapp/libsignal-client] connecting unauthenticated chat libsignal_bridge_types::net::chat rust/bridge/shared/types/src/net/chat.rs:363"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[@signalapp/libsignal-client] [unauthenticated] starting connection attempt with 1 routes libsignal_net::connect_state rust/net/src/connect_state.rs:316"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[SignalProtocolStore] commitZoneChanges(storeSession): pending kyberPreKeysToRemove 0, pending preKeysToRemove 0, pending senderKeys 0, pending sessions 1, pending unprocessed 0, pending kyberTriples 0"}
+{"level":30,"time":"2025-10-20T15:18:08.899Z","msg":"[JobQueue] single proto job queue: job [REDACTED]9ac succeeded on attempt 1"}
+{"level":30,"time":"2025-10-20T15:18:08.905Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/messages/[REDACTED]c75?story=false"}
+{"level":30,"time":"2025-10-20T15:18:08.968Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2025-10-20T15:18:08.969Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2025-10-20T15:18:08.975Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]R43 200 Streaming with details"}
+{"level":30,"time":"2025-10-20T15:18:09.020Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is focused; there is no notification data"}
+{"level":30,"time":"2025-10-20T15:18:09.118Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]R43 200 Streaming ended"}
+{"level":30,"time":"2025-10-20T15:18:09.118Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/messages/[REDACTED]c75?story=false 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.119Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=aci 200 Success"}
+{"level":40,"time":"2025-10-20T15:18:09.119Z","msg":"[AccountManager] maybeUpdateLastResortKyberKey(ACI, [REDACTED]c75): 4 confirmed keys, most recent was created 1760973487821. No need to update."}
+{"level":40,"time":"2025-10-20T15:18:09.119Z","msg":"[AccountManager] AccountManager.maybeUpdateSignedPreKey(ACI, [REDACTED]c75): 4 confirmed keys, most recent was created 1760973487827. No need to update."}
+{"level":30,"time":"2025-10-20T15:18:09.119Z","msg":"[AccountManager] maybeUpdateKeys(ACI): No new keys are needed; returning early"}
+{"level":30,"time":"2025-10-20T15:18:09.119Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=pni"}
+{"level":30,"time":"2025-10-20T15:18:09.119Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]c75/[REDACTED]25a/[REDACTED]900?credentialType=expiringProfileKey 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.120Z","msg":"[profiles] getProfile([REDACTED]c75 ([REDACTED]4d1)): setting sealedSender to ENABLED (unidentifiedAccess: true, unrestrictedUnidentifiedAccess: false, accessKey: true)"}
+{"level":30,"time":"2025-10-20T15:18:09.120Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]86b 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.120Z","msg":"[profiles] getProfile(PNI:[REDACTED]86b ([REDACTED]2ab)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:09.120Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]86b ([REDACTED]2ab)"}
+{"level":30,"time":"2025-10-20T15:18:09.120Z","msg":"[profiles] getProfile(PNI:[REDACTED]dd3 ([REDACTED]b7b)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:09.120Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]dd3"}
+{"level":30,"time":"2025-10-20T15:18:09.120Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]05d ([REDACTED]5e8)"}
+{"level":30,"time":"2025-10-20T15:18:09.126Z","msg":"[JobQueue] single proto job queue: job [REDACTED]57c succeeded on attempt 1"}
+{"level":30,"time":"2025-10-20T15:18:09.132Z","msg":"[WebAPI] GET (REST) https://cdn.signal.org/[REDACTED]g=="}
+{"level":30,"time":"2025-10-20T15:18:09.140Z","msg":"[contactSync] doContactSync(sent=1759134739377, receivedAt=1753961834745, isFullSync=true): got 21 contacts"}
+{"level":30,"time":"2025-10-20T15:18:09.140Z","msg":"[contactSync] doContactSync(sent=1759134739377, receivedAt=1753961834745, isFullSync=true): updated 21 resetting 0"}
+{"level":30,"time":"2025-10-20T15:18:09.151Z","msg":"[contactSync] doContactSync(sent=1759134739377, receivedAt=1753961834745, isFullSync=true): done"}
+{"level":30,"time":"2025-10-20T15:18:09.151Z","msg":"[contactSync] doContactSync(sent=1760366053070, receivedAt=1753961834750, isFullSync=true): downloading contact attachment"}
+{"level":30,"time":"2025-10-20T15:18:09.151Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]Tr8"}
+{"level":30,"time":"2025-10-20T15:18:09.187Z","msg":"[createHTTPSAgent] createHTTPSAgent.createConnection(cdn.signal.org): connected to IPv6 addr after 35ms (attempts v4=0 v6=1)"}
+{"level":30,"time":"2025-10-20T15:18:09.332Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=pni 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.332Z","msg":"[AccountManager] generateLastResortKyberKey(PNI): Saving new last resort prekey 105"}
+{"level":30,"time":"2025-10-20T15:18:09.333Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]dd3 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.333Z","msg":"[profiles] getProfile(PNI:[REDACTED]dd3 ([REDACTED]b7b)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:09.333Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]dd3 ([REDACTED]b7b)"}
+{"level":30,"time":"2025-10-20T15:18:09.333Z","msg":"[profiles] getProfile(PNI:[REDACTED]249 ([REDACTED]654)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:09.333Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]249"}
+{"level":30,"time":"2025-10-20T15:18:09.333Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]471 ([REDACTED]296)"}
+{"level":30,"time":"2025-10-20T15:18:09.340Z","msg":"[AccountManager] maybeUpdateLastResortKyberKey(PNI, PNI:[REDACTED]7be): Saving new last resort prekey 105"}
+{"level":30,"time":"2025-10-20T15:18:09.344Z","msg":"[AccountManager] AccountManager.generateSignedPreKey(PNI): Saving new signed prekey 5"}
+{"level":30,"time":"2025-10-20T15:18:09.346Z","msg":"[AccountManager] AccountManager.maybeUpdateSignedPreKey(PNI, PNI:[REDACTED]7be): Saving new signed prekey 5"}
+{"level":30,"time":"2025-10-20T15:18:09.348Z","msg":"[AccountManager] maybeUpdateKeys(PNI): Uploading with a signed prekey, a last-resort kyber prekey"}
+{"level":30,"time":"2025-10-20T15:18:09.348Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v2/keys?identity=pni"}
+{"level":30,"time":"2025-10-20T15:18:09.552Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]249 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.553Z","msg":"[profiles] getProfile(PNI:[REDACTED]249 ([REDACTED]654)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:09.553Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]249 ([REDACTED]654)"}
+{"level":30,"time":"2025-10-20T15:18:09.553Z","msg":"[profiles] getProfile(PNI:[REDACTED]d9f ([REDACTED]8b7)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:09.553Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]d9f"}
+{"level":30,"time":"2025-10-20T15:18:09.553Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]471 ([REDACTED]c51)"}
+{"level":30,"time":"2025-10-20T15:18:09.554Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v2/keys?identity=pni 204 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.554Z","msg":"[AccountManager] AccountManager.confirmKeys(PNI): confirming signed prekey key 5"}
+{"level":30,"time":"2025-10-20T15:18:09.558Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]Tr8 200 Streaming with details"}
+{"level":30,"time":"2025-10-20T15:18:09.561Z","msg":"[WebAPI] GET (REST) https://cdn3.signal.org/attachments/[REDACTED]Tr8 200 Streaming ended"}
+{"level":30,"time":"2025-10-20T15:18:09.563Z","msg":"[AccountManager] AccountManager.confirmKeys(PNI): confirming last resort key 105"}
+{"level":30,"time":"2025-10-20T15:18:09.569Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=pni"}
+{"level":30,"time":"2025-10-20T15:18:09.576Z","msg":"[contactSync] doContactSync(sent=1760366053070, receivedAt=1753961834750, isFullSync=true): got 20 contacts"}
+{"level":30,"time":"2025-10-20T15:18:09.577Z","msg":"[contactSync] doContactSync(sent=1760366053070, receivedAt=1753961834750, isFullSync=true): updated 20 resetting 1"}
+{"level":30,"time":"2025-10-20T15:18:09.587Z","msg":"[contactSync] doContactSync(sent=1760366053070, receivedAt=1753961834750, isFullSync=true): done"}
+{"level":30,"time":"2025-10-20T15:18:09.757Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]d9f 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.757Z","msg":"[profiles] getProfile(PNI:[REDACTED]d9f ([REDACTED]8b7)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:09.757Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]d9f ([REDACTED]8b7)"}
+{"level":30,"time":"2025-10-20T15:18:09.757Z","msg":"[profiles] getProfile(PNI:[REDACTED]05d ([REDACTED]5e8)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:09.757Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]05d"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]b52 ([REDACTED]46a)"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v2/keys?identity=pni 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] maybeUpdateKeys(PNI): Successfully updated; server prekey count: 100, server kyber prekey count: 100"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(PNI): Most recent signed key: 5"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(PNI): Most recent confirmed signed key: 5"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(PNI): Most recent unconfirmed signed key: none"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanSignedPreKeys(PNI): Total signed key count: 4 - 4 confirmed"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(PNI): Most recent last resort key: 105"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(PNI): Most recent confirmed last resort key: 105"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(PNI): Most recent unconfirmed last resort key: none"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanLastResortKeys(PNI): Total last resort key count: 4 - 4 confirmed"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanPreKeys(PNI): 100 total prekeys"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[AccountManager] AccountManager.cleanKyberPreKeys(PNI): 100 total prekeys"}
+{"level":30,"time":"2025-10-20T15:18:09.758Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-10-22T15:18:09.758Z"}
+{"level":30,"time":"2025-10-20T15:18:09.866Z","msg":"[WebAPI] GET (REST) https://cdn.signal.org/[REDACTED]g== 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.869Z","msg":"[profiles] getProfile(PNI:[REDACTED]471 ([REDACTED]296)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:09.870Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]471"}
+{"level":30,"time":"2025-10-20T15:18:09.870Z","msg":"[storage] sync: starting... reason=upload/storageServiceUploadJob/storageServiceNeedsUploadAfterEnabled"}
+{"level":30,"time":"2025-10-20T15:18:09.870Z","msg":"[storage] sync: fetching latest after version=91"}
+{"level":30,"time":"2025-10-20T15:18:09.870Z","msg":"[storage] sync(91): fetch start"}
+{"level":30,"time":"2025-10-20T15:18:09.870Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/storage/auth"}
+{"level":30,"time":"2025-10-20T15:18:09.877Z","msg":"[usernameIntegrity] running the check in 86399993ms"}
+{"level":30,"time":"2025-10-20T15:18:09.991Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]05d 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.991Z","msg":"[profiles] getProfile(PNI:[REDACTED]05d ([REDACTED]5e8)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:09.992Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]05d ([REDACTED]5e8)"}
+{"level":30,"time":"2025-10-20T15:18:09.992Z","msg":"[profiles] getProfile(PNI:[REDACTED]471 ([REDACTED]c51)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:09.992Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]471"}
+{"level":30,"time":"2025-10-20T15:18:09.992Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for PNI:[REDACTED]8f2 ([REDACTED]a11)"}
+{"level":30,"time":"2025-10-20T15:18:09.992Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]471 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:09.993Z","msg":"[profiles] getProfile(PNI:[REDACTED]471 ([REDACTED]296)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:09.993Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]471 ([REDACTED]296)"}
+{"level":30,"time":"2025-10-20T15:18:09.993Z","msg":"[profiles] getProfile(PNI:[REDACTED]b52 ([REDACTED]46a)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:09.993Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b52"}
+{"level":30,"time":"2025-10-20T15:18:09.993Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for [REDACTED]c75 ([REDACTED]4d1)"}
+{"level":30,"time":"2025-10-20T15:18:10.215Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/storage/auth 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:10.215Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b52 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:10.216Z","msg":"[profiles] getProfile(PNI:[REDACTED]b52 ([REDACTED]46a)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:10.216Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]b52 ([REDACTED]46a)"}
+{"level":30,"time":"2025-10-20T15:18:10.216Z","msg":"[profiles] getProfile(PNI:[REDACTED]8f2 ([REDACTED]a11)): Fetching profile (unversioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:10.216Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]8f2"}
+{"level":30,"time":"2025-10-20T15:18:10.217Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]471 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:10.217Z","msg":"[profiles] getProfile(PNI:[REDACTED]471 ([REDACTED]c51)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:10.217Z","msg":"[profiles] buildGetProfileOptions([REDACTED]c75 ([REDACTED]4d1)): using unexpired profile key credential"}
+{"level":30,"time":"2025-10-20T15:18:10.217Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]471 ([REDACTED]c51)"}
+{"level":30,"time":"2025-10-20T15:18:10.217Z","msg":"[profiles] getProfile([REDACTED]c75 ([REDACTED]4d1)): Fetching profile (versioned, auth)"}
+{"level":30,"time":"2025-10-20T15:18:10.217Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]c75/[REDACTED]25a"}
+{"level":30,"time":"2025-10-20T15:18:10.222Z","msg":"[WebAPI] GET (REST) https://storage.signal.org/v1/storage/manifest/version/91"}
+{"level":30,"time":"2025-10-20T15:18:10.440Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]8f2 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:10.440Z","msg":"[profiles] getProfile(PNI:[REDACTED]8f2 ([REDACTED]a11)): setting sealedSender to DISABLED (unidentifiedAccess: false, unrestrictedUnidentifiedAccess: false, accessKey: false)"}
+{"level":30,"time":"2025-10-20T15:18:10.441Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for PNI:[REDACTED]8f2 ([REDACTED]a11)"}
+{"level":30,"time":"2025-10-20T15:18:10.441Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]c75/[REDACTED]25a 200 Success"}
+{"level":30,"time":"2025-10-20T15:18:10.441Z","msg":"[profiles] getProfile([REDACTED]c75 ([REDACTED]4d1)): setting sealedSender to ENABLED (unidentifiedAccess: true, unrestrictedUnidentifiedAccess: false, accessKey: true)"}
+{"level":30,"time":"2025-10-20T15:18:10.442Z","msg":"[WebAPI] GET (REST) https://storage.signal.org/v1/storage/manifest/version/91 204 Success"}
+{"level":30,"time":"2025-10-20T15:18:10.442Z","msg":"[storage] sync(91): no newer manifest, ok"}
+{"level":30,"time":"2025-10-20T15:18:10.442Z","msg":"[storage] sync: no updates, version=91"}
+{"level":30,"time":"2025-10-20T15:18:10.442Z","msg":"[storage] storageService.upload/storageServiceUploadJob/storageServiceNeedsUploadAfterEnabled/92: will update to manifest version"}
+{"level":30,"time":"2025-10-20T15:18:10.442Z","msg":"[storage] upload(92): generating manifest new=false"}
+{"level":30,"time":"2025-10-20T15:18:10.442Z","msg":"[ConversationController] checkForConflicts: starting..."}
+{"level":30,"time":"2025-10-20T15:18:10.442Z","msg":"[ConversationController] checkForConflicts: complete!"}
+{"level":30,"time":"2025-10-20T15:18:10.443Z","msg":"[storageRecordOps] storageService.applyUnknownFields: Applying unknown fields for [REDACTED]c75 ([REDACTED]4d1)"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding storyDistributionLists=1"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): stickerPacks installed=0/4 uninstalled=0/2"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding callLinks=0"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding defunctCallLinks=0"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding pendingCallLinks=0"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding chatFolders=1"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding key=92:UoP"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding unknown records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): adding error records=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:10.450Z","msg":"[storage] upload(92): deleting extra keys=[] count=0"}
+{"level":30,"time":"2025-10-20T15:18:10.451Z","msg":"[storage] upload(92): inserting=1 deleting=0"}
+{"level":30,"time":"2025-10-20T15:18:10.452Z","msg":"[WebAPI] PUT (REST) https://storage.signal.org/v1/storage/"}
+{"level":30,"time":"2025-10-20T15:18:10.452Z","msg":"[WebAPI] GET (REST) https://cdn.signal.org/[REDACTED]g=="}
+{"level":30,"time":"2025-10-20T15:18:10.536Z","msg":"[background] shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.536Z","msg":"[JobManager] AttachmentDownloadManager: stopping. There are 0 active job(s)"}
+{"level":30,"time":"2025-10-20T15:18:10.536Z","msg":"[AttachmentBackupManager] stopping"}
+{"level":40,"time":"2025-10-20T15:18:10.536Z","msg":"[WebAPI] cancelInflightRequests/Shutdown: Canceling 0 requests"}
+{"level":40,"time":"2025-10-20T15:18:10.537Z","msg":"[WebAPI] cancelInflightRequests/Shutdown: Done"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[IdleDetector] Stop idle detector"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[background] shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[storage] disableStorageService: shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[MessageReceiver] stopProcessing"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] waitForAllBatchers"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing sql.Client.updateConversationBatcher batcher items.length=1"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing saveAttachmentDownloadJobs batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.537Z","msg":"[batcher] Flushing complete saveAttachmentDownloadJobs for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[batcher] Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[background] shutdown: flushing conversations"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[sleeper] shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[sleeper] sleep tasks settled"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[background] shutdown: shutting down queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] call link refresh job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] groupAvatar job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.539Z","msg":"[JobQueue] remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobManager] CallLinkFinalizeDeleteManager: stopping. There are 0 active job(s)"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[ExpiringEntityCleanupService] [ChatFolders] stop(shutdownAllJobQueues) stopping"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[ExpiringEntityCleanupService] [ChatFolders] deleting expired entities"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] conversation job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] call link refresh job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] groupAvatar job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] single proto job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] read sync job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] view sync job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[JobQueue] report spam job queue: shutdown: complete"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[ExpiringEntityCleanupService] [ChatFolders] deleted 0 entities: "}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[background] shutdown: shutting down conversation queues"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation [REDACTED]226 ([REDACTED]926) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation PNI:[REDACTED]f31 ([REDACTED]00e) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation PNI:[REDACTED]f87 ([REDACTED]73e) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation PNI:[REDACTED]ee3 ([REDACTED]7a4) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation PNI:[REDACTED]7ba ([REDACTED]97c) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation PNI:[REDACTED]0e8 ([REDACTED]a8f) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation PNI:[REDACTED]b0c ([REDACTED]a69) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.540Z","msg":"[conversations] conversation PNI:[REDACTED]86b ([REDACTED]2ab) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]71b ([REDACTED]a73) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]8bb ([REDACTED]e7d) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]8bb ([REDACTED]e7d) no jobQueue to shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]dd3 ([REDACTED]b7b) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]249 ([REDACTED]654) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]05d ([REDACTED]5e8) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]d9f ([REDACTED]8b7) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]471 ([REDACTED]c51) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]471 ([REDACTED]296) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]b52 ([REDACTED]46a) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]b9c ([REDACTED]3f4) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]b9c ([REDACTED]3f4) no jobQueue to shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]610 ([REDACTED]46d) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]610 ([REDACTED]46d) no jobQueue to shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]fd3 ([REDACTED]1d3) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]8f2 ([REDACTED]a11) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation [REDACTED]c75 ([REDACTED]4d1) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation [REDACTED]111 ([REDACTED]4f3) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation [REDACTED]111 ([REDACTED]4f3) no jobQueue to shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]ab2 ([REDACTED]f01) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]cd3 ([REDACTED]9db) jobQueue shutdown start"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation [REDACTED]226 ([REDACTED]926) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]f31 ([REDACTED]00e) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]f87 ([REDACTED]73e) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]ee3 ([REDACTED]7a4) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]7ba ([REDACTED]97c) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]0e8 ([REDACTED]a8f) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]b0c ([REDACTED]a69) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]86b ([REDACTED]2ab) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]71b ([REDACTED]a73) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]dd3 ([REDACTED]b7b) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]249 ([REDACTED]654) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]05d ([REDACTED]5e8) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]d9f ([REDACTED]8b7) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]471 ([REDACTED]c51) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]471 ([REDACTED]296) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]b52 ([REDACTED]46a) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]fd3 ([REDACTED]1d3) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]8f2 ([REDACTED]a11) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation [REDACTED]c75 ([REDACTED]4d1) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]ab2 ([REDACTED]f01) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[conversations] conversation PNI:[REDACTED]cd3 ([REDACTED]9db) jobQueue shutdown complete"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[background] shutdown: all queues shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[background] shutdown: waiting for all batchers"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] waitForAllBatchers"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.541Z","msg":"[batcher] Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[batcher] Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[batcher] Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[batcher] Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[batcher] Flushing saveAttachmentDownloadJobs batcher items.length=0"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[batcher] Flushing complete saveAttachmentDownloadJobs for batcher"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[waitBatcher] waitForAllWaitBatchers"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[background] shutdown: waiting for all attachment backups & downloads to finish"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[background] shutdown: closing the database"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[Client] shutdown"}
+{"level":30,"time":"2025-10-20T15:18:10.542Z","msg":"[channels] data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2025-10-20T15:18:10.551Z","msg":"[notifications] NotificationService: clearing notification and updating"}
+{"level":30,"time":"2025-10-20T15:18:10.552Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is not focused; there is no notification data"}

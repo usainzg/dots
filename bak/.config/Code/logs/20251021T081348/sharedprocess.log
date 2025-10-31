@@ -1,0 +1,67 @@
+2025-10-21 08:13:49.339 [error] [/home/usainzg/.vscode/extensions/github.copilot-chat-0.30.3]: This extension is using the API proposal 'chatParticipantPrivate' that is not compatible with the current version of VS Code.
+2025-10-21 08:13:49.346 [error] [/home/usainzg/.vscode/extensions/github.copilot-chat-0.30.3]: This extension is using the API proposal 'chatParticipantPrivate' that is not compatible with the current version of VS Code.
+2025-10-21 08:13:49.423 [info] Marked extension as removed charliermarsh.ruff-2025.24.0-linux-x64
+2025-10-21 08:13:49.568 [info] Deleted marked for removal extension from disk github.copilot-chat /home/usainzg/.vscode/extensions/github.copilot-chat-0.30.3
+2025-10-21 08:13:49.568 [info] Deleted marked for removal extension from disk charliermarsh.ruff /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.24.0-linux-x64
+2025-10-21 08:13:49.577 [info] Deleted marked for removal extension from disk ms-python.vscode-python-envs /home/usainzg/.vscode/extensions/ms-python.vscode-python-envs-1.2.0-linux-x64
+2025-10-21 08:13:49.637 [info] Deleted marked for removal extension from disk github.copilot /home/usainzg/.vscode/extensions/github.copilot-1.364.0
+2025-10-21 08:13:49.796 [info] Deleted marked for removal extension from disk ms-python.vscode-pylance /home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.7.1
+2025-10-21 08:13:49.815 [info] Deleted marked for removal extension from disk ms-python.python /home/usainzg/.vscode/extensions/ms-python.python-2025.12.0-linux-x64
+2025-10-21 08:13:52.960 [info] Getting Manifest... charliermarsh.ruff
+2025-10-21 08:13:52.962 [info] Getting Manifest... github.copilot-chat
+2025-10-21 08:13:52.963 [info] Getting Manifest... ms-python.debugpy
+2025-10-21 08:13:52.963 [info] Getting Manifest... ms-python.python
+2025-10-21 08:13:52.964 [info] Getting Manifest... ms-python.vscode-pylance
+2025-10-21 08:13:52.965 [info] Getting Manifest... ms-python.vscode-python-envs
+2025-10-21 08:13:52.965 [info] Getting Manifest... vscodevim.vim
+2025-10-21 08:13:52.966 [info] Getting Manifest... ziglang.vscode-zig
+2025-10-21 08:13:53.087 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.088 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.089 [info] Installing extension: charliermarsh.ruff {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.090 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.100 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.105 [info] Installing extension: ziglang.vscode-zig {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.106 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.106 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-21 08:13:53.288 [info] Getting Manifest... ms-python.python
+2025-10-21 08:13:53.289 [info] Getting Manifest... ms-python.python
+2025-10-21 08:13:55.323 [info] Extension signature verification result for ziglang.vscode-zig: Success. Internal Code: 0. Executed: true. Duration: 420ms.
+2025-10-21 08:13:55.341 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/ziglang.vscode-zig-0.6.14: ziglang.vscode-zig
+2025-10-21 08:13:55.344 [info] Renamed to /home/usainzg/.vscode/extensions/ziglang.vscode-zig-0.6.14
+2025-10-21 08:13:55.350 [info] Marked extension as removed ziglang.vscode-zig-0.6.13
+2025-10-21 08:13:55.356 [info] Extension installed successfully: ziglang.vscode-zig vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-10-21 08:14:06.116 [info] Extension signature verification result for vscodevim.vim: Success. Internal Code: 0. Executed: true. Duration: 11263ms.
+2025-10-21 08:14:06.130 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 1848ms.
+2025-10-21 08:14:06.130 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 1577ms.
+2025-10-21 08:14:06.152 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/vscodevim.vim-1.31.0: vscodevim.vim
+2025-10-21 08:14:06.155 [info] Renamed to /home/usainzg/.vscode/extensions/vscodevim.vim-1.31.0
+2025-10-21 08:14:06.168 [info] Marked extension as removed vscodevim.vim-1.30.1
+2025-10-21 08:14:06.175 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-10-21 08:14:06.284 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/ms-python.vscode-python-envs-1.10.0-linux-x64: ms-python.vscode-python-envs
+2025-10-21 08:14:06.289 [info] Renamed to /home/usainzg/.vscode/extensions/ms-python.vscode-python-envs-1.10.0-linux-x64
+2025-10-21 08:14:06.292 [info] Extension signature verification result for charliermarsh.ruff: Success. Internal Code: 0. Executed: true. Duration: 858ms.
+2025-10-21 08:14:06.303 [info] Marked extension as removed ms-python.vscode-python-envs-1.8.0-linux-x64
+2025-10-21 08:14:06.304 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-10-21 08:14:06.496 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64: ms-python.debugpy
+2025-10-21 08:14:06.506 [info] Renamed to /home/usainzg/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64
+2025-10-21 08:14:06.520 [info] Marked extension as removed ms-python.debugpy-2025.10.0-linux-x64
+2025-10-21 08:14:06.521 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-10-21 08:14:06.596 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64: charliermarsh.ruff
+2025-10-21 08:14:06.602 [info] Renamed to /home/usainzg/.vscode/extensions/charliermarsh.ruff-2025.28.0-linux-x64
+2025-10-21 08:14:06.609 [info] Marked extension as removed charliermarsh.ruff-2025.26.0-linux-x64
+2025-10-21 08:14:06.614 [info] Extension installed successfully: charliermarsh.ruff vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-10-21 08:14:06.683 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 457ms.
+2025-10-21 08:14:06.828 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/github.copilot-chat-0.32.3: github.copilot-chat
+2025-10-21 08:14:06.834 [info] Renamed to /home/usainzg/.vscode/extensions/github.copilot-chat-0.32.3
+2025-10-21 08:14:06.852 [info] Marked extension as removed github.copilot-chat-0.31.2
+2025-10-21 08:14:06.855 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-10-21 08:14:09.548 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 431ms.
+2025-10-21 08:14:10.250 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64: ms-python.python
+2025-10-21 08:14:10.311 [info] Renamed to /home/usainzg/.vscode/extensions/ms-python.python-2025.16.0-linux-x64
+2025-10-21 08:14:10.323 [info] Marked extension as removed ms-python.python-2025.14.0-linux-x64
+2025-10-21 08:14:10.324 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-10-21 08:14:15.190 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 480ms.
+2025-10-21 08:14:17.341 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3: ms-python.vscode-pylance
+2025-10-21 08:14:17.471 [info] Renamed to /home/usainzg/.vscode/extensions/ms-python.vscode-pylance-2025.8.3
+2025-10-21 08:14:17.488 [info] Marked extension as removed ms-python.vscode-pylance-2025.8.2
+2025-10-21 08:14:17.489 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json

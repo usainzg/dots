@@ -1,0 +1,13 @@
+2025-08-23 09:29:46.166 [info] Getting Manifest... github.copilot-chat
+2025-08-23 09:29:46.256 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.103.2","date":"2025-08-20T16:45:34.255Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-08-23 09:29:48.145 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 959ms.
+2025-08-23 09:29:48.349 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/github.copilot-chat-0.30.3: github.copilot-chat
+2025-08-23 09:29:48.364 [info] Renamed to /home/usainzg/.vscode/extensions/github.copilot-chat-0.30.3
+2025-08-23 09:29:48.390 [info] Marked extension as removed github.copilot-chat-0.30.1
+2025-08-23 09:29:48.399 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json
+2025-08-23 09:30:38.901 [info] Getting Manifest... sainnhe.everforest
+2025-08-23 09:30:39.049 [info] Installing extension: sainnhe.everforest {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json","path":"/home/usainzg/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.103.2","date":"2025-08-20T16:45:34.255Z"}}
+2025-08-23 09:30:40.165 [info] Extension signature verification result for sainnhe.everforest: Success. Internal Code: 0. Executed: true. Duration: 713ms.
+2025-08-23 09:30:40.190 [info] Extracted extension to file:///home/usainzg/.vscode/extensions/sainnhe.everforest-0.3.0: sainnhe.everforest
+2025-08-23 09:30:40.194 [info] Renamed to /home/usainzg/.vscode/extensions/sainnhe.everforest-0.3.0
+2025-08-23 09:30:40.211 [info] Extension installed successfully: sainnhe.everforest vscode-userdata:/home/usainzg/.vscode/extensions/extensions.json

@@ -1,0 +1,15 @@
+{
+  "environment": {
+    "executable": "/home/usainzg/Projects/glowish/.venv/bin/python",
+    "prefix": "/home/usainzg/Projects/glowish/.venv",
+    "version": "3.13.7.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/usainzg/Projects/glowish/.venv/bin/python",
+      "/home/usainzg/Projects/glowish/.venv/bin/python3",
+      "/home/usainzg/Projects/glowish/.venv/bin/python3.11",
+      "/home/usainzg/Projects/glowish/.venv/bin/python3.13"
+    ]
+  },
+  "symlinks": []
+}

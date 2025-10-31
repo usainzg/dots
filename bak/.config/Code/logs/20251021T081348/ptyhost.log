@@ -1,0 +1,6 @@
+2025-10-21 08:13:49.570 [info] Revived process, old id 8cb414f0c540918a3c4fdef725d5872a-1 -> new id 1
+2025-10-21 08:13:49.639 [info] Expanding terminal instance, old id 8cb414f0c540918a3c4fdef725d5872a-1 -> new id 1
+2025-10-21 08:13:49.883 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-10-21 08:13:49.883 [info] Persistent process reconnection "1"
+2025-10-21 08:13:49.909 [info] Persistent process "1": Replaying 4800 chars and 1 size events
+2025-10-21 08:14:11.883 [error] Failed to set sticky bit on /tmp/usainzg-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/usainzg-code-zsh'

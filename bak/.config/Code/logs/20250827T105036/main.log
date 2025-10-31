@@ -1,0 +1,5 @@
+2025-08-27 10:50:36.681 [info] update#setState idle
+2025-08-27 10:51:06.683 [info] update#setState checking for updates
+2025-08-27 10:51:06.734 [info] update#setState idle
+2025-08-27 10:51:31.656 [info] Extension host with pid 130714 exited with code: 0, signal: unknown.
+2025-08-27 10:51:31.701 [info] Extension host with pid 130678 exited with code: 0, signal: unknown.
