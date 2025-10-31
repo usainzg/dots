@@ -1,7 +1,7 @@
 export OS="$(uname | tr '[:upper:]' '[:lower:]')"
 
-# export LC_ALL=en_ES.UTF-8
-# export LANG=en_ES.UTF-8
+# export LC_ALL=es_ES.UTF-8
+# export LANG=es_ES.UTF-8
 
 function __is_available {
   prog="${1}"
@@ -17,20 +17,23 @@ function __is_available {
 }
 
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+# include personal paths and cargo
+export PATH="$HOME/Scripts:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.deno/bin:$PATH"
+export PATH="$HOME/.atuin/bin:$PATH" # remove?
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export EDITOR="helix"
+export EDITOR="hx"
 export VISUAL="$EDITOR"
 
-export XDG_CONFIG_HOME="${HOME}/.config"
-export XDG_CACHE_HOME="${HOME}/.cache"
-export XDG_DATA_HOME="${HOME}/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_DOWNLOAD_DIR="${HOME}/Downloads"
 export XDG_DESKTOP_DIR="${HOME}/Desktop"
-# export XDG_TEMPLATES_DIR="${HOME}/"
-# export XDG_PUBLICSHARE_DIR="${HOME}/shared/public"
 export XDG_DOCUMENTS_DIR="${HOME}/Documents"
 # export XDG_MUSIC_DIR="${HOME}/cloud/music"
 # export XDG_PICTURES_DIR="${HOME}/cloud/photos"
@@ -183,17 +186,7 @@ function y() {
   rm -f -- "$tmp"
 }
 
-# include personal paths and cargo
-export PATH="$HOME/Scripts:$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.deno/bin:$PATH"
-export PATH="$HOME/.atuin/bin:$PATH" # remove?
-
-. "$HOME/.local/share/../bin/env"
 . "$HOME/.cargo/env"
-
-eval "$(atuin init zsh)"
-eval "$(starship init zsh)"
-
 . "$HOME/.atuin/bin/env"
 
 # BEGIN opam configuration
@@ -205,7 +198,8 @@ eval "$(starship init zsh)"
 # END opam configuration
 
 # add zig
-export PATH="$HOME/zig/zig-x86_64-linux-0.15.1/:$PATH"
+export PATH="$HOME/zig/zig-x86_64-linux-0.15.2/:$PATH"
 
-# zoxide
 eval "$(zoxide init zsh)"
+eval "$(atuin init zsh)"
+eval "$(starship init zsh)"
