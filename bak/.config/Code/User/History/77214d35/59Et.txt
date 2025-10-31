@@ -1,9 +1,0 @@
-torch
-torchvision
-pandas
-flwr[simulation]
-pathlib
-pyyaml
-hydra-core
-omegaconf
-matplotlib

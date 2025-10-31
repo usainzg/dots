@@ -1,5 +1,0 @@
-2025-07-31 20:01:41.284 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
-2025-07-31 20:01:41.891 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/usainzg/.vscode-oss/extensions/extensions.json","path":"/home/usainzg/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.35058","date":"2025-07-29T18:34:55.677Z"}}
-2025-07-31 20:01:42.409 [info] Extracted extension to file:///home/usainzg/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal: llvm-vs-code-extensions.vscode-clangd
-2025-07-31 20:01:42.412 [info] Renamed to /home/usainzg/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.2.0-universal
-2025-07-31 20:01:42.420 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd vscode-userdata:/home/usainzg/.vscode-oss/extensions/extensions.json

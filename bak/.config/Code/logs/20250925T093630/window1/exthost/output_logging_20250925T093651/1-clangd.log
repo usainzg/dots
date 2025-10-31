@@ -1,9 +1,0 @@
-I[09:36:52.941] clangd version 20.1.8
-I[09:36:52.941] Features: linux
-I[09:36:52.941] PID: 36147
-I[09:36:52.941] Working directory: /home/usainzg/Projects/u-sdb
-I[09:36:52.941] argv[0]: /usr/bin/clangd
-I[09:36:52.941] Starting LSP over stdin/stdout
-I[09:36:52.952] <-- initialize(0)
-I[09:36:52.952] --> reply:initialize(0) 0 ms
-I[09:36:52.974] <-- initialized

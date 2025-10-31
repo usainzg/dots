@@ -1,6 +1,0 @@
-{
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "cmake.mergedCompileCommands": "/home/usainzg/Projects/topoly-distmem/lib/Transform/Affine/AffineDistributeToMPI.cpp",
-    "vim.easymotion": true,
-    "vim.highlightedyank.enable": true
-}

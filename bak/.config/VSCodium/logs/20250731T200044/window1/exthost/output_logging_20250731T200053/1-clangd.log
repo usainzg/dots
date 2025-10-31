@@ -1,9 +1,0 @@
-I[20:01:42.693] clangd version 20.1.8
-I[20:01:42.693] Features: linux
-I[20:01:42.693] PID: 96556
-I[20:01:42.693] Working directory: /home/usainzg/Projects/topoly-distmem
-I[20:01:42.693] argv[0]: /usr/bin/clangd
-I[20:01:42.693] Starting LSP over stdin/stdout
-I[20:01:42.694] <-- initialize(0)
-I[20:01:42.701] --> reply:initialize(0) 7 ms
-I[20:01:42.704] <-- initialized

@@ -1,8 +1,0 @@
-[proc] Executing command: /usr/bin/cmake --version
-[proc] Executing command: /usr/bin/cmake -E capabilities
-[kit] Successfully loaded 4 kits from /home/usainzg/.local/share/CMakeTools/cmake-tools-kits.json
-[presetController] Reading and validating the presets file "/home/usainzg/Projects/u-sdb/CMakePresets.json"
-[presetController] Successfully validated /home/usainzg/Projects/u-sdb/CMakePresets.json against presets schema
-[proc] Executing command: uname -s
-[presetController] Expanding presets file /home/usainzg/Projects/u-sdb/CMakePresets.json
-[presetController] Successfully expanded presets file /home/usainzg/Projects/u-sdb/CMakePresets.json
