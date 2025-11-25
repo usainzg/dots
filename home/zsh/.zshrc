@@ -203,3 +203,7 @@ export PATH="$HOME/zig/zig-x86_64-linux-0.15.2/:$PATH"
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
+
+. "$HOME/.local/share/../bin/env"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

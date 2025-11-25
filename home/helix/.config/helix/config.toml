@@ -1,5 +1,5 @@
 theme = "everforest_dark"
-
+# theme = "nord"
 # reference config from: https://rushter.com/blog/helix-editor/
 
 [keys.select]
@@ -63,7 +63,7 @@ e = { w = ":write", c = ":bc", x = ":bco", l = ":toggle lsp.display-inlay-hints"
 #   ":redraw",
 # ]
 q = ":quit"
-l = ":reflow"
+l = ":reflow 120"
 
 [keys.normal."+"]
 f = ":format"
@@ -95,6 +95,7 @@ color-modes = true
 # rainbow-brackets = true
 # sync system clipboard
 default-yank-register = "+"
+cursorline = true
 
 [editor.inline-diagnostics]
 cursor-line = "warning"
@@ -116,6 +117,6 @@ after-delay.enable = true
 after-delay.timeout = 300000
 
 [editor.cursor-shape]
-insert = "bar"
 normal = "block"
+insert = "bar"
 select = "underline"

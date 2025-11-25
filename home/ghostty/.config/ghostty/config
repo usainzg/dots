@@ -2,11 +2,28 @@
 # all available config options and their default values.
 
 # --- usainzg ---
-font-family = "DepartureMono Nerd Font Mono"
-font-style = Regular
-font-style-bold = Bold
-font-style-italic = Light Oblique
-font-style-bold-italic = SemiBold Oblique
+# font-family = "DepartureMono Nerd Font Mono"
+# font-family = "Berkeley Mono"
+# font-family = "Iosevka"
+# font-style = Regular
+# font-style-bold = Bold
+# font-style-italic = Light Oblique
+# font-style-bold-italic = SemiBold Oblique
+
+# iosevka
+# font-family = "Iosevka"
+# font-family-bold = "Iosevka"
+# font-family-italic = "Maple Mono"
+# font-family-bold-italic = "Maple Mono"
+
+# pragmasevka
+font-family = "Pragmasevka Nerd Font"
+# font-family-bold = "Pragmasevka Nerd Font"
+# font-family-italic = "Pragmasevka Nerd Font"
+# font-family-bold-italic = "Pragmasevka Nerd Font"
+
+# fallback
+font-family = "Symbols Nerd Font Mono"
 
 # 11pt @ 2px/pt = 22px
 # font-size = 11
@@ -18,7 +35,7 @@ mouse-hide-while-typing = true
 gtk-single-instance = true
 theme = "Everforest Dark Hard"
 
-# cursor-invert-fg-bg = true
+cursor-invert-fg-bg = true
 cursor-opacity                     = 0.9
 cursor-style                       = block
 cursor-style-blink                 = false
