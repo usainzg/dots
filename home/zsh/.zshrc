@@ -57,8 +57,6 @@ fi
 
 # useful aliases
 alias n='nvim'
-alias nvim-lazy='NVIM_APPNAME="nvim-lazy" nvim'
-alias nl='nvim-lazy'
 alias gti='git'
 alias lzg='lazygit'
 alias rmrf='rm -rf'
@@ -73,7 +71,6 @@ alias jn="jj new"
 alias jg="jj git"
 alias jp="jj git push"
 alias js="jj st"
-
 
 # https://github.com/ajeetdsouza/zoxide
 __is_available zoxide \
@@ -209,6 +206,5 @@ eval "$(starship init zsh)"
 . "$HOME/.local/share/../bin/env"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 
 alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland "$@"'
