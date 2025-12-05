@@ -29,17 +29,18 @@ font-family = "Symbols Nerd Font Mono"
 # font-size = 11
 # 10pt @ 2px/pt = 20px
 font-size = 10
-background-opacity = 0.98
+# background-opacity = 0.98
 # background-blur-radius = 20
 mouse-hide-while-typing = true
 gtk-single-instance = true
 theme = "Everforest Dark Hard"
+# theme = "Monokai Pro"
 
-cursor-invert-fg-bg = true
-cursor-opacity                     = 0.9
-cursor-style                       = block
-cursor-style-blink                 = false
-cursor-click-to-move               = false
+# cursor-invert-fg-bg = true
+# cursor-opacity                     = 0.9
+# cursor-style                       = block
+# cursor-style-blink                 = false
+# cursor-click-to-move               = false
 # shell-integration-features         = no-cursor
 
 quit-after-last-window-closed = true

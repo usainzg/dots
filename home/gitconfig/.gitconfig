@@ -1,0 +1,54 @@
+# This is Git's per-user configuration file.
+# Please adapt and uncomment the following lines:
+
+[user]
+    name = usainzg
+    email = unaihtc70@gmail.com
+
+# [includeIf "gitdir:**/igalia/**"]
+#     path = ~/.gitconfig-work
+
+[alias]
+    lg = log --name-status --graph --color --pretty=format:'%Cred%h%Creset - %Cred%H%Creset  - %Cgreen%as%Creset - %C(yellow)%d%Creset %+C(bold blue)%an%Creset - %Cgreen%s%Creset '
+    br = branch
+    sts = status
+    co = checkout
+    cb = checkout -b
+    cm = commit -m
+
+    p = "!f() { git checkout \"$(git branch | fzf | sed 's/^..//')\"; }; f"
+    ds = diff --staged
+    dh = diff HEAD~1 HEAD
+
+    rc = rebase --continue
+    ra = rebase --abort
+    aoe = "!git commit --amend --no-edit"
+    brsel = "!git branch | fzf | pbcopy"
+
+[init]
+	defaultBranch = main
+
+[core]
+    hooksPath = ~/.git-hooks
+	pager = delta
+    # editor = nvim
+    editor = hx
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    side-by-side = true
+    line-numbers = true
+    hyperlinks = true
+    colorMoved = default
+
+[merge]
+    conflictstyle = zdiff3
+
+[pager]
+    blame = delta
+
+[feature]
+    manyFiles = true

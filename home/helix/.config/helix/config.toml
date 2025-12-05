@@ -1,4 +1,5 @@
-theme = "everforest_dark"
+# theme = "everforest_dark"
+theme = "monokai"
 # theme = "nord"
 # reference config from: https://rushter.com/blog/helix-editor/
 
@@ -63,7 +64,7 @@ e = { w = ":write", c = ":bc", x = ":bco", l = ":toggle lsp.display-inlay-hints"
 #   ":redraw",
 # ]
 q = ":quit"
-l = ":reflow 120"
+l = ":reflow"
 
 [keys.normal."+"]
 f = ":format"
@@ -86,7 +87,8 @@ d = [":vsplit-new", ":lang diff", ":insert-output git diff"]
 [editor]
 line-number = "relative"
 mouse = true
-rulers = [120]
+# rulers = [120]
+rulers = [80]
 true-color = true
 completion-replace = true
 trim-trailing-whitespace = true
@@ -96,6 +98,7 @@ color-modes = true
 # sync system clipboard
 default-yank-register = "+"
 cursorline = true
+text-width = 80
 
 [editor.inline-diagnostics]
 cursor-line = "warning"
@@ -120,3 +123,10 @@ after-delay.timeout = 300000
 normal = "block"
 insert = "bar"
 select = "underline"
+
+[editor.lsp]
+enable = true
+display-progress-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+snippets = true

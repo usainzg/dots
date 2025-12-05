@@ -199,6 +199,8 @@ function y() {
 
 # add zig
 export PATH="$HOME/zig/zig-x86_64-linux-0.15.2/:$PATH"
+# add ruby binaries installed with gem
+export PATH="$HOME/linuxbrew/.linuxbrew/lib/ruby/gems/3.4.0/bin/:$PATH"
 
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
@@ -207,3 +209,6 @@ eval "$(starship init zsh)"
 . "$HOME/.local/share/../bin/env"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+
+alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland "$@"'

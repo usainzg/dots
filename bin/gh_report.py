@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+
+import subprocess
+import os
+import sys
+from datetime import datetime, timedelta
+
+BOLD = '\033[1m'
+RESET = '\033[0m'
+
+env = os.environ.copy()
+env["CLICOLOR_FORCE"] = "1"
+env["FORCE_COLOR"] = "1"
+env["GH_PAGER"] = ""  # Disable pager
+
+
+def run_gh_command(cmd: list[str]) -> str:
+    """Run gh command and return output, preserving colors when possible"""
+    result = subprocess.run(
+        ["gh"] + cmd, capture_output=True, text=True, env=env)
+    if result.returncode != 0:
+        print(f"Error running {' '.join(cmd)}:\n{result.stderr}")
+        return ""
+    return result.stdout.strip()
+
+
+def get_since_date() -> str:
+    today = datetime.yesterday()
+    # Monday = 0, Sunday = 6
+    days_since_monday = today.weekday()
+    since_date = today - timedelta(days=days_since_monday)
+    return since_date.strftime("%Y-%m-%d")
+
+
+repo_full = run_gh_command(
+    ["repo", "view", "--json", "nameWithOwner", "--jq", ".nameWithOwner"])
+user_nick = run_gh_command(["api", "user", "--jq", ".login"])
+user_real_name = run_gh_command(["api", "user", "--jq", ".name"])
+since_date = get_since_date()
+
+
+def run_gh_command_direct(cmd: list[str]):
+    """Run gh command with direct output to terminal (preserves colors)"""
+    result = subprocess.run(["gh"] + cmd, env=env)
+    return result.returncode == 0
+
+
+def print_colored_header(user_nick: str, user_real_name: str,
+                         repo: str, since_date: str):
+    """Print a colorful header"""
+    today_str = datetime.today().strftime("%Y-%m-%d")
+    print("📊Weekly GitHub Activity Summary")
+    print(f"👤{RESET} User: {user_nick} ({user_real_name})")
+    print(f"📁{RESET} Repository: {repo}")
+    print(f"📅{RESET} Date range: {since_date} → {today_str}")
+    print(f"{'─' * 60}")
+
+
+def print_section_header(emoji: str, title: str):
+    """Print a colored section header"""
+    print(f"{BOLD}{emoji} {title}:")
+
+
+def main():
+    if not repo_full or not user_nick:
+        print("Error: Could not get repository or user information")
+        sys.exit(1)
+
+    print_colored_header(user_nick, user_real_name, repo_full, since_date)
+
+    # INFO: Pull Requests authored
+    print_section_header("✅", "Pull Requests authored")
+    run_gh_command_direct(["pr", "list", "--author", "@me",
+                          "--search",
+                           f"created:>={since_date}", "--state", "all"])
+    print()
+
+    # INFO: Issues filed
+    print_section_header("🐛", "Issues filed")
+    run_gh_command_direct(["issue", "list", "--author", "@me",
+                          "--search",
+                           f"created:>={since_date}", "--state", "all"])
+    print()
+
+    # INFO: Reviews & Comments
+    print_section_header("🔍", "Reviews & Comments")
+    run_gh_command_direct(["search", "prs", "--repo", repo_full,
+                          "--commenter", "@me",
+                           "--updated", f">={since_date}"])
+
+    run_gh_command_direct(["search", "issues", "--repo", repo_full,
+                          "--commenter", "@me",
+                           "--updated", f">={since_date}"])
+
+
+if __name__ == "__main__":
+    main()
