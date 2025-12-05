@@ -21,7 +21,7 @@
 (fn open-items []
   (let [{: goto-dir-and-edit : open-scratch-buffer : open-short-term} (require :core.keymaps)
         item (fn [name action] {: name : action :section :open})]
-    [(item :projects #(goto-dir-and-edit "~/projects"))
+    [(item :projects #(goto-dir-and-edit "~/Projects"))
      (item :journal :JournalOpen)
      (item :config #(goto-dir-and-edit (vim.fn.stdpath :config)))
      (item :lazy :Lazy)
