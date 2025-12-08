@@ -6,12 +6,14 @@
 
 (local servers {:clangd {}
                 :ts_ls {}
+                :zls {}
                 :fennel_ls {}
                 :julials {}
                 :lua_ls {}
-                :nixd {}
+                ; :nixd {}
                 :ocamllsp {}
-                :pyright {}})
+                :basedpyright {}})
+                ; :pyright {}
 
 (set servers.fennel_ls.settings {:fennel-ls {:extra-globals :vim}})
 (set servers.fennel_ls.root_dir

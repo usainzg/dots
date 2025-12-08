@@ -53,8 +53,6 @@ if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
     "${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration"
 fi
 
-# pacman stuff
-
 # useful aliases
 alias n='nvim'
 alias gti='git'
@@ -71,6 +69,26 @@ alias jn="jj new"
 alias jg="jj git"
 alias jp="jj git push"
 alias js="jj st"
+
+# cargo
+alias nt="cargo nextest"
+alias nrc="cargo nextest run --no-capture"
+alias nff="cargo nextest run --no-fail-fast"
+alias nr="cargo nextest run"
+alias carog="cargo"
+alias carg="cargo"
+alias cagro="cargo"
+alias carho="cargo"
+alias carho="cargo"
+alias crago="cargo"
+alias crd="cargo run" # cargo run "dev"
+alias crp="cargo run --release" # cargo run "prod"
+alias lg="lazygit"
+alias p="pnpm"
+alias npm="echo no"
+
+# load zsh completions
+autoload -Uz compinit && compinit
 
 # https://github.com/ajeetdsouza/zoxide
 __is_available zoxide \
@@ -205,6 +223,18 @@ eval "$(starship init zsh)"
 
 . "$HOME/.local/share/../bin/env"
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+if [ -f "/home/linuxbrew/.linuxbrew/bin/brew" ]; then
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
 
-alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland "$@"'
+# jujutsu completions
+source <(jj util completion zsh)
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/usainzg/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<

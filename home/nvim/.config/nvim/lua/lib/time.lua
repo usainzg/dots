@@ -1,17 +1,23 @@
 -- [nfnl] fnl/lib/time.fnl
 local _local_1_ = require("lib.math")
-local div = _local_1_["div"]
+local div = _local_1_.div
 local function round_month_to_quarter(month)
-  _G.assert((nil ~= month), "Missing argument month on /home/usainzg/.config/nvim/fnl/lib/time.fnl:5")
+  if (nil == month) then
+    _G.error("Missing argument month on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/time.fnl:5", 2)
+  else
+  end
   return math.ceil((month / 3))
 end
 local function weeks_in_year(year)
-  _G.assert((nil ~= year), "Missing argument year on /home/usainzg/.config/nvim/fnl/lib/time.fnl:9")
+  if (nil == year) then
+    _G.error("Missing argument year on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/time.fnl:9", 2)
+  else
+  end
   local p
-  local function _2_(y)
+  local function _4_(y)
     return math.fmod((y + div(y, 4) + ( - div(y, 100)) + div(y, 400)), 7)
   end
-  p = _2_
+  p = _4_
   if ((p(year) == 4) or (p((year - 1)) == 3)) then
     return 53
   else
@@ -19,11 +25,17 @@ local function weeks_in_year(year)
   end
 end
 local function quarter(date)
-  _G.assert((nil ~= date), "Missing argument date on /home/usainzg/.config/nvim/fnl/lib/time.fnl:17")
+  if (nil == date) then
+    _G.error("Missing argument date on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/time.fnl:17", 2)
+  else
+  end
   return round_month_to_quarter(date.month)
 end
 local function week(date)
-  _G.assert((nil ~= date), "Missing argument date on /home/usainzg/.config/nvim/fnl/lib/time.fnl:21")
+  if (nil == date) then
+    _G.error("Missing argument date on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/time.fnl:21", 2)
+  else
+  end
   local y = date.year
   local w = math.floor(((10 + date.yday + date.wday) / 7))
   if (w < 1) then

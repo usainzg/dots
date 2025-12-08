@@ -4,7 +4,6 @@ local opts = {ensure_installed = langs, highlight = {enable = true}, index = {en
 local function config()
   local ts = require("nvim-treesitter.configs")
   local compat = require("core.compat")
-  ts.setup(opts)
-  return compat["load-jabber-parser"]()
+  return ts.setup(opts)
 end
 return {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate", event = "BufRead", config = config}

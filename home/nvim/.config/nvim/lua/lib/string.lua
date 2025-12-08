@@ -1,7 +1,13 @@
 -- [nfnl] fnl/lib/string.fnl
 local function split_at(str, sep)
-  _G.assert((nil ~= sep), "Missing argument sep on /home/usainzg/.config/nvim/fnl/lib/string.fnl:3")
-  _G.assert((nil ~= str), "Missing argument str on /home/usainzg/.config/nvim/fnl/lib/string.fnl:3")
+  if (nil == sep) then
+    _G.error("Missing argument sep on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/string.fnl:3", 2)
+  else
+  end
+  if (nil == str) then
+    _G.error("Missing argument str on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/string.fnl:3", 2)
+  else
+  end
   local index = string.find(str, sep, 1, "plain")
   if (nil == index) then
     return nil
@@ -10,27 +16,39 @@ local function split_at(str, sep)
   end
 end
 local function prefix(str, sep)
-  _G.assert((nil ~= sep), "Missing argument sep on /home/usainzg/.config/nvim/fnl/lib/string.fnl:11")
-  _G.assert((nil ~= str), "Missing argument str on /home/usainzg/.config/nvim/fnl/lib/string.fnl:11")
-  local _3_
-  do
-    local t_2_ = split_at(str, sep)
-    if (nil ~= t_2_) then
-      t_2_ = t_2_.prefix
-    else
-    end
-    _3_ = t_2_
-  end
-  return (_3_ or str)
-end
-local function suffix(str, sep)
-  _G.assert((nil ~= sep), "Missing argument sep on /home/usainzg/.config/nvim/fnl/lib/string.fnl:15")
-  _G.assert((nil ~= str), "Missing argument str on /home/usainzg/.config/nvim/fnl/lib/string.fnl:15")
-  local t_5_ = split_at(str, sep)
-  if (nil ~= t_5_) then
-    t_5_ = t_5_.suffix
+  if (nil == sep) then
+    _G.error("Missing argument sep on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/string.fnl:11", 2)
   else
   end
-  return t_5_
+  if (nil == str) then
+    _G.error("Missing argument str on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/string.fnl:11", 2)
+  else
+  end
+  local _7_
+  do
+    local t_6_ = split_at(str, sep)
+    if (nil ~= t_6_) then
+      t_6_ = t_6_.prefix
+    else
+    end
+    _7_ = t_6_
+  end
+  return (_7_ or str)
+end
+local function suffix(str, sep)
+  if (nil == sep) then
+    _G.error("Missing argument sep on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/string.fnl:15", 2)
+  else
+  end
+  if (nil == str) then
+    _G.error("Missing argument str on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/string.fnl:15", 2)
+  else
+  end
+  local t_11_ = split_at(str, sep)
+  if (nil ~= t_11_) then
+    t_11_ = t_11_.suffix
+  else
+  end
+  return t_11_
 end
 return {["split-at"] = split_at, prefix = prefix, suffix = suffix}

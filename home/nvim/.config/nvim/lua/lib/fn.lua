@@ -1,13 +1,19 @@
 -- [nfnl] fnl/lib/fn.fnl
 local function const(x)
-  _G.assert((nil ~= x), "Missing argument x on /home/usainzg/.config/nvim/fnl/lib/fn.fnl:3")
-  local function _1_()
+  if (nil == x) then
+    _G.error("Missing argument x on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/fn.fnl:3", 2)
+  else
+  end
+  local function _2_()
     return x
   end
-  return _1_
+  return _2_
 end
 local function id(x)
-  _G.assert((nil ~= x), "Missing argument x on /home/usainzg/.config/nvim/fnl/lib/fn.fnl:7")
+  if (nil == x) then
+    _G.error("Missing argument x on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/fn.fnl:7", 2)
+  else
+  end
   return x
 end
 local function run_21(_3ff)

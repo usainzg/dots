@@ -4,7 +4,7 @@ local function run_tests_in_file()
 end
 local function make_bindings()
   local _let_1_ = require("lib.keymap")
-  local map = _let_1_["map"]
+  local map = _let_1_.map
   local buffer = vim.api.nvim_get_current_buf()
   local function _2_()
     return vim.cmd.RustLsp("codeAction")

@@ -1,14 +1,14 @@
 -- [nfnl] fnl/plugins/start-up.fnl
 local function lazy_stats()
   local _let_1_ = require("lazy")
-  local stats = _let_1_["stats"]
+  local stats = _let_1_.stats
   return stats()
 end
 local function header()
   local _let_2_ = lazy_stats()
-  local count = _let_2_["count"]
-  local loaded = _let_2_["loaded"]
-  local startuptime = _let_2_["startuptime"]
+  local count = _let_2_.count
+  local loaded = _let_2_.loaded
+  local startuptime = _let_2_.startuptime
   return string.format("loaded %d/%d plugins in %.3fms", loaded, count, startuptime)
 end
 local function footer()
@@ -25,7 +25,7 @@ local function open_items()
   end
   item = _4_
   local function _5_()
-    return goto_dir_and_edit("~/projects")
+    return goto_dir_and_edit("~/Projects")
   end
   local function _6_()
     return goto_dir_and_edit(vim.fn.stdpath("config"))
@@ -43,19 +43,19 @@ end
 local function recent_files()
   local starter = require("mini.starter")
   local items = starter.sections.recent_files(15)()
-  local tbl_21_ = {}
-  local i_22_ = 0
+  local tbl_26_ = {}
+  local i_27_ = 0
   for _, _8_ in ipairs(items) do
-    local name = _8_["name"]
-    local action = _8_["action"]
-    local val_23_ = {name = name, action = action, section = "recent files"}
-    if (nil ~= val_23_) then
-      i_22_ = (i_22_ + 1)
-      tbl_21_[i_22_] = val_23_
+    local name = _8_.name
+    local action = _8_.action
+    local val_28_ = {name = name, action = action, section = "recent files"}
+    if (nil ~= val_28_) then
+      i_27_ = (i_27_ + 1)
+      tbl_26_[i_27_] = val_28_
     else
     end
   end
-  return tbl_21_
+  return tbl_26_
 end
 local function actions()
   local item

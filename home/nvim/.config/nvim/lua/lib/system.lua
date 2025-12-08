@@ -23,14 +23,14 @@ local function _3_()
 end
 setmetatable(OS.WINDOWS, {__tostring = _3_})
 local function os()
-  local _4_ = vim.uv.os_uname().sysname
-  if (_4_ == "Darwin") then
+  local case_4_ = vim.uv.os_uname().sysname
+  if (case_4_ == "Darwin") then
     return OS.MACOS
-  elseif (_4_ == "Linux") then
+  elseif (case_4_ == "Linux") then
     return OS.LINUX
-  elseif (_4_ == "Windows") then
+  elseif (case_4_ == "Windows") then
     return OS.WINDOWS
-  elseif (_4_ == "Windows_NT") then
+  elseif (case_4_ == "Windows_NT") then
     return OS.WINDOWS
   else
     return nil
@@ -49,33 +49,45 @@ local function os_name()
   return tostring(os())
 end
 local function env_set_3f(name)
-  _G.assert((nil ~= name), "Missing argument name on /home/usainzg/.config/nvim/fnl/lib/system.fnl:47")
-  local _7_
-  do
-    local t_6_ = vim.env
-    if (nil ~= t_6_) then
-      t_6_ = t_6_[name]
-    else
-    end
-    _7_ = t_6_
-  end
-  return (nil ~= _7_)
-end
-local function env_var(name)
-  _G.assert((nil ~= name), "Missing argument name on /home/usainzg/.config/nvim/fnl/lib/system.fnl:51")
-  local t_9_ = vim.env
-  if (nil ~= t_9_) then
-    t_9_ = t_9_[name]
+  if (nil == name) then
+    _G.error("Missing argument name on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/system.fnl:47", 2)
   else
   end
-  return t_9_
+  local _8_
+  do
+    local t_7_ = vim.env
+    if (nil ~= t_7_) then
+      t_7_ = t_7_[name]
+    else
+    end
+    _8_ = t_7_
+  end
+  return (nil ~= _8_)
+end
+local function env_var(name)
+  if (nil == name) then
+    _G.error("Missing argument name on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/system.fnl:51", 2)
+  else
+  end
+  local t_11_ = vim.env
+  if (nil ~= t_11_) then
+    t_11_ = t_11_[name]
+  else
+  end
+  return t_11_
 end
 local function run_cmd(cmd, _3fopts, _3fon_exit)
-  _G.assert((nil ~= cmd), "Missing argument cmd on /home/usainzg/.config/nvim/fnl/lib/system.fnl:55")
+  if (nil == cmd) then
+    _G.error("Missing argument cmd on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/system.fnl:55", 2)
+  else
+  end
   return vim.system(cmd, _3fopts, _3fon_exit)
 end
 local function run_cmd_sync(cmd, _3fopts, _3fon_exit)
-  _G.assert((nil ~= cmd), "Missing argument cmd on /home/usainzg/.config/nvim/fnl/lib/system.fnl:59")
+  if (nil == cmd) then
+    _G.error("Missing argument cmd on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/system.fnl:59", 2)
+  else
+  end
   local res = vim.system(cmd, _3fopts, _3fon_exit):wait()
   return (res.code == 0), res.stdout, res.stderr
 end

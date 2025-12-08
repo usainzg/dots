@@ -74,7 +74,7 @@
   (let [ts (require :nvim-treesitter.configs)
         compat (require :core.compat)]
     (ts.setup opts)
-    (compat.load-jabber-parser)))
+    ))
 
 ;; plugin spec
 {1 :nvim-treesitter/nvim-treesitter

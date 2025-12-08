@@ -1,8 +1,8 @@
 -- [nfnl] fnl/plugins/idris2.fnl
 local function on_attach(_client)
   local _let_1_ = require("lib.keymap")
-  local map = _let_1_["map"]
-  local group = _let_1_["group"]
+  local map = _let_1_.map
+  local group = _let_1_.group
   local bufnr = vim.api.nvim_get_current_buf()
   local action = require("idris2.code_action")
   local repl = require("idris2.repl")

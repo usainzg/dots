@@ -1,7 +1,6 @@
 -- [nfnl] fnl/core/filetype.fnl
 local function setup(_self)
   vim.filetype.add({extension = {ebnf = "ebnf"}})
-  vim.filetype.add({extension = {jbr = "jabber"}})
   vim.filetype.add({extension = {lalrpop = "lalrpop"}})
   vim.filetype.add({extension = {tokeignore = "gitignore"}})
   vim.filetype.add({extension = {pm = "pollen"}})

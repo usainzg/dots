@@ -131,7 +131,7 @@
   (map :<leader>oj #(vim.cmd :JournalOpen) "Open journal")
   (map :<leader>ol #(vim.cmd :Lazy) "Open lazy")
   (map :<leader>om #(vim.cmd.Grapple :toggle_tags) "Open marks in scope")
-  (map :<leader>op #(goto-dir-and-edit "~/projects") "Open projects")
+  (map :<leader>op #(goto-dir-and-edit "~/Projects") "Open projects")
   (map :<leader>oP #(vim.cmd.Lazy :profile) "Open lazy profiler")
   (map :<leader>os open-scratch-buffer "Open new scratch buffer")
   (map :<leader>ot #(open-short-term) "Open terminal split")

@@ -12,8 +12,8 @@ end
 local function alacritty_3f()
   return ("alacritty" == vim.env.TERM)
 end
-local function iterm2_3f()
-  return ("iTerm.app" == vim.env.TERM_PROGRAM)
+local function kitty_3f()
+  return ("kitty" == vim.env.TERM_PROGRAM)
 end
 local function neovide_3f()
   local _2_
@@ -27,7 +27,7 @@ local function neovide_3f()
     return false
   end
 end
-local TERM = {ALACRITTY = {}, GHOSTTY = {}, ITERM2 = {}, NEOVIDE = {}, WEZTERM = {}, WINTERM = {}, UNKNOWN = {}}
+local TERM = {ALACRITTY = {}, GHOSTTY = {}, KITTY = {}, NEOVIDE = {}, WEZTERM = {}, WINTERM = {}, UNKNOWN = {}}
 local function _4_()
   return "Alacritty"
 end
@@ -37,9 +37,9 @@ local function _5_()
 end
 setmetatable(TERM.GHOSTTY, {__tostring = _5_})
 local function _6_()
-  return "iTerm2"
+  return "Kitty"
 end
-setmetatable(TERM.ITERM2, {__tostring = _6_})
+setmetatable(TERM.KITTY, {__tostring = _6_})
 local function _7_()
   return "Neovide"
 end
@@ -61,8 +61,8 @@ local function program()
     return TERM.ALACRITTY
   elseif ghostty_3f() then
     return TERM.GHOSTTY
-  elseif iterm2_3f() then
-    return TERM.ITERM2
+  elseif kitty_3f() then
+    return TERM.KITTY
   elseif neovide_3f() then
     return TERM.NEOVIDE
   elseif wezterm_3f() then
@@ -76,4 +76,4 @@ end
 local function program_name()
   return tostring(program())
 end
-return {TERM = TERM, program = program, ["program-name"] = program_name, ["wezterm?"] = wezterm_3f, ["alacritty?"] = alacritty_3f, ["ghostty?"] = ghostty_3f, ["iterm2?"] = iterm2_3f, ["neovide?"] = neovide_3f, ["windows-terminal?"] = windows_terminal_3f}
+return {TERM = TERM, program = program, ["program-name"] = program_name, ["wezterm?"] = wezterm_3f, ["alacritty?"] = alacritty_3f, ["ghostty?"] = ghostty_3f, ["kitty?"] = kitty_3f, ["neovide?"] = neovide_3f, ["windows-terminal?"] = windows_terminal_3f}

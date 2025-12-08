@@ -8,8 +8,9 @@
 (λ journal-dir-path []
   "Returns the path to the journal directory, or `nil` if it is unknown."
   (case (system.hostname-prefix)
-    :pilatus "~/Documents/Journal"
-    :RIGI "~/iCloudDrive/Documents/Journal"
+    ; :GALACTUS "~/Documents/Journal" ;; framework laptop
+    :GALACTUS "~/Projects/null-pointers/10-19 PhD/12 Log/12.00 Journal" ;; framework laptop
+    :PRIMUS "~/Documents/Journal" ;; gpu desktop
     _ nil))
 
 (λ todo-filename []
@@ -18,7 +19,7 @@
 
 (λ daily-entry-filename-on [{: year : month : day}]
   "Returns the filename of the daily journal entry for the given date."
-  (.. (string.format "%04d" year) (string.format "%02d" month)
+  (.. (string.format "%04d" year) :- (string.format "%02d" month) :-
       (string.format "%02d" day) ext))
 
 (λ weekly-entry-filename-on [{: year &as date}]
@@ -34,20 +35,23 @@
 (fn open-journal []
   (vim.cmd.edit (journal-dir-path)))
 
-(fn edit-journal [filename]
-  (vim.cmd.edit (vim.fs.joinpath (journal-dir-path) filename)))
+(fn edit-journal [entry-type filename]
+  (vim.cmd.edit (vim.fs.joinpath (vim.fs.joinpath (journal-dir-path) entry-type) filename)))
+
+(fn daily-entry-type []
+  "12.01 Daily")
 
 (fn edit-journal-todo []
   (edit-journal (todo-filename)))
 
 (fn edit-journal-today-daily []
-  (edit-journal (daily-entry-filename-on (time.now))))
+  (edit-journal (daily-entry-type daily-entry-filename-on (time.now))))
 
 (fn edit-journal-today-weekly []
-  (edit-journal (weekly-entry-filename-on (time.now))))
+  (edit-journal (weekly-entry-type weekly-entry-filename-on (time.now))))
 
 (fn edit-journal-today-quarterly []
-  (edit-journal (quarterly-entry-filename-on (time.now))))
+  (edit-journal (quarterly-entry-type quarterly-entry-filename-on (time.now))))
 
 (fn setup [_self]
   (let [command #(vim.api.nvim_create_user_command $1 $2 {})]

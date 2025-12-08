@@ -30,7 +30,10 @@ local function create(_3fopts)
   end
 end
 local function open(buf, _3fafter)
-  _G.assert((nil ~= buf), "Missing argument buf on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:10")
+  if (nil == buf) then
+    _G.error("Missing argument buf on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:10", 2)
+  else
+  end
   vim.api.nvim_win_set_buf(0, buf)
   if _3fafter then
     _3fafter(buf)
@@ -39,34 +42,61 @@ local function open(buf, _3fafter)
   return buf
 end
 local function rename_21(buf, name)
-  _G.assert((nil ~= name), "Missing argument name on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:16")
-  _G.assert((nil ~= buf), "Missing argument buf on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:16")
+  if (nil == name) then
+    _G.error("Missing argument name on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:16", 2)
+  else
+  end
+  if (nil == buf) then
+    _G.error("Missing argument buf on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:16", 2)
+  else
+  end
   vim.api.nvim_buf_set_name(buf, name)
   return nil
 end
 local function set_21(buf, name, value)
-  _G.assert((nil ~= value), "Missing argument value on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:21")
-  _G.assert((nil ~= name), "Missing argument name on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:21")
-  _G.assert((nil ~= buf), "Missing argument buf on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:21")
+  if (nil == value) then
+    _G.error("Missing argument value on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:21", 2)
+  else
+  end
+  if (nil == name) then
+    _G.error("Missing argument name on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:21", 2)
+  else
+  end
+  if (nil == buf) then
+    _G.error("Missing argument buf on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:21", 2)
+  else
+  end
   vim.api.nvim_set_option_value(name, value, {buf = buf})
   return nil
 end
 local function set_lines_21(buf, start, _end, lines, _3fopts)
-  _G.assert((nil ~= lines), "Missing argument lines on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:26")
-  _G.assert((nil ~= _end), "Missing argument end on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:26")
-  _G.assert((nil ~= start), "Missing argument start on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:26")
-  _G.assert((nil ~= buf), "Missing argument buf on /home/usainzg/.config/nvim/fnl/lib/buffer.fnl:26")
+  if (nil == lines) then
+    _G.error("Missing argument lines on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:26", 2)
+  else
+  end
+  if (nil == _end) then
+    _G.error("Missing argument end on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:26", 2)
+  else
+  end
+  if (nil == start) then
+    _G.error("Missing argument start on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:26", 2)
+  else
+  end
+  if (nil == buf) then
+    _G.error("Missing argument buf on /home/usainzg/Projects/dots/home/nvim/.config/nvim/fnl/lib/buffer.fnl:26", 2)
+  else
+  end
   local strict
-  local _10_
+  local _20_
   do
-    local t_9_ = _3fopts
-    if (nil ~= t_9_) then
-      t_9_ = t_9_.strict_indexing
+    local t_19_ = _3fopts
+    if (nil ~= t_19_) then
+      t_19_ = t_19_.strict_indexing
     else
     end
-    _10_ = t_9_
+    _20_ = t_19_
   end
-  strict = (_10_ or false)
+  strict = (_20_ or false)
   return vim.api.nvim_buf_set_lines(buf, start, _end, strict, lines)
 end
 return {create = create, open = open, ["rename!"] = rename_21, ["set!"] = set_21, ["set-lines!"] = set_lines_21}

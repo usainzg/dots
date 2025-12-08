@@ -2,13 +2,13 @@
 local function setup(_self)
   local system = require("lib.system")
   do
-    local _1_ = system.os()
-    if (_1_ == system.OS.WINDOWS) then
+    local case_1_ = system.os()
+    if (case_1_ == system.OS.WINDOWS) then
       vim.opt.guifont = "Berkeley Mono:h14"
-    elseif (_1_ == system.OS.MACOS) then
+    elseif (case_1_ == system.OS.MACOS) then
       vim.opt.guifont = "BerkeleyMono Nerd Font:h14:#e-subpixelantialias"
     else
-      local _ = _1_
+      local _ = case_1_
       vim.opt.guifont = ""
     end
   end

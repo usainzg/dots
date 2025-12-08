@@ -25,20 +25,20 @@
         (if (not= (vim.fn.getcwd) (table.last vim.v.argv))
             (vim.cmd.cd path)))))
 
-(local jabber-path "~/projects/final-year-project/tree-sitter-jabber")
-
-(local jabber-config {:filetype :jbr
-                      :install_info {:url jabber-path
-                                     :files [:src/parser.c]
-                                     :branch :main}})
-
-;; for lazy-loading reasons this function is used in plugins/treesitter.fnl, not here
-(λ load-jabber-parser []
-  "Loads the Jabber treesitter parser from `path` if it exists."
-  (if (vim.uv.fs_stat (vim.fs.normalize jabber-path))
-      (let [parsers (: (require :nvim-treesitter.parsers) :get_parser_configs)]
-        (vim.treesitter.language.register :jabber :jbr)
-        (set parsers.jabber jabber-config))))
+; (local jabber-path "~/projects/final-year-project/tree-sitter-jabber")
+;
+; (local jabber-config {:filetype :jbr
+;                       :install_info {:url jabber-path
+;                                      :files [:src/parser.c]
+;                                      :branch :main}})
+;
+; ;; for lazy-loading reasons this function is used in plugins/treesitter.fnl, not here
+; (λ load-jabber-parser []
+;   "Loads the Jabber treesitter parser from `path` if it exists."
+;   (if (vim.uv.fs_stat (vim.fs.normalize jabber-path))
+;       (let [parsers (: (require :nvim-treesitter.parsers) :get_parser_configs)]
+;         (vim.treesitter.language.register :jabber :jbr)
+;         (set parsers.jabber jabber-config))))
 
 (λ patch-neovim-30985 []
   "Fixes neovim/neovim#30985 for versions before v0.11."
@@ -60,6 +60,7 @@
     (vim.cmd.colorscheme (match (term.program)
                            term.TERM.WEZTERM :catppuccin-macchiato
                            term.TERM.GHOSTTY :alabaster
+                           term.TERM.KITTY :alabaster
                            term.TERM.NEOVIDE :everforest
                            term.TERM.WINTERM :everforest
                            _ default))))
@@ -70,6 +71,7 @@
     (set vim.opt.bg (match (term.program)
                       term.TERM.WEZTERM :dark
                       term.TERM.GHOSTTY :light
+                      term.TERM.KITTY :light
                       term.TERM.NEOVIDE :light
                       term.TERM.WINTERM :dark
                       _ default))))
@@ -78,8 +80,8 @@
   (disable-nvim-treesitter-git-downloads)
   (set-windows-treesitter-compilers [:zig])
   (set-default-neovide-path vim.env.HOME)
-  (load-colorscheme-by-term :catppuccin-latte)
+  (load-colorscheme-by-term :alabaster)
   (set-colorscheme-mode-by-term :dark)
   (patch-neovim-30985))
 
-{: load-jabber-parser : setup}
+{: setup}

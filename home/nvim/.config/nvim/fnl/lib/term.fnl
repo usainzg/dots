@@ -18,9 +18,9 @@
   "Returns `(= :alacritty vim.env.TERM)`."
   (= :alacritty vim.env.TERM))
 
-(λ iterm2? []
-  "Returns `(= :iTerm.app vim.env.TERM_PROGRAM)`."
-  (= :iTerm.app vim.env.TERM_PROGRAM))
+(λ kitty? []
+  "Returns `(= :kitty vim.env.TERM_PROGRAM)`."
+  (= :kitty vim.env.TERM_PROGRAM))
 
 (λ neovide? []
   "Returns `true` if `vim.g.neovide` is set, and `false` otherwise."
@@ -29,7 +29,7 @@
 ;; enum of recognised terminal emulators
 (local TERM {:ALACRITTY {}
              :GHOSTTY {}
-             :ITERM2 {}
+             :KITTY {}
              :NEOVIDE {}
              :WEZTERM {}
              :WINTERM {}
@@ -37,7 +37,7 @@
 
 (setmetatable TERM.ALACRITTY {:__tostring #:Alacritty})
 (setmetatable TERM.GHOSTTY {:__tostring #:Ghostty})
-(setmetatable TERM.ITERM2 {:__tostring #:iTerm2})
+(setmetatable TERM.KITTY {:__tostring #:Kitty})
 (setmetatable TERM.NEOVIDE {:__tostring #:Neovide})
 (setmetatable TERM.WEZTERM {:__tostring #:WezTerm})
 (setmetatable TERM.WINTERM {:__tostring #"Windows Terminal"})
@@ -47,7 +47,7 @@
   "Returns a `lib.term.TERM` value corresponding to the current terminal program."
   (if (alacritty?) TERM.ALACRITTY
       (ghostty?) TERM.GHOSTTY
-      (iterm2?) TERM.ITERM2
+      (kitty?) TERM.KITTY
       (neovide?) TERM.NEOVIDE
       (wezterm?) TERM.WEZTERM
       (windows-terminal?) TERM.WINTERM
@@ -64,6 +64,6 @@
  : wezterm?
  : alacritty?
  : ghostty?
- : iterm2?
+ : kitty?
  : neovide?
  : windows-terminal?}
