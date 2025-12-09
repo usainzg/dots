@@ -1,0 +1,16 @@
+/home/usainzg/.cache/
+/dev/
+/proc/
+/sys/
+/tmp/
+/run/
+/mnt/
+/media/
+/lost+found
+/var/cache/
+/var/log/
+/home/usainzg/.mozilla/
+/home/usainzg/.cargo/
+/home/usainzg/.thunderbird/
+/home/usainzg/.local/share/TelegramDesktop
+/home/usainzg/.local/share/Trash
