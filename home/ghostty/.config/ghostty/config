@@ -6,7 +6,8 @@
 
 #### BEGIN ####
 # https://luke.hsiao.dev/blog/berkeley-mono-ghostty/
-font-family = "Berkeley Mono"
+# font-family = "Berkeley Mono"
+font-family = "TX-02"
 # Font width (60 to 100)
 #  60 = UltraCondensed
 #  70 = ExtraCondensed
@@ -49,18 +50,18 @@ font-variation = slnt=0
 font-feature = +calt
 font-feature = +ss02
 
-font-size = 13
 # Personal preference
 adjust-cell-height = -2%
 
 #### END ####
-
 
 # font-family = "Iosevka"
 # font-style = Regular
 # font-style-bold = Bold
 # font-style-italic = Light Oblique
 # font-style-bold-italic = SemiBold Oblique
+
+# font-family = "Pragmata Pro Mono"
 
 # iosevka
 # font-family = "Iosevka"

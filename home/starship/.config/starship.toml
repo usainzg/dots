@@ -162,7 +162,7 @@ symbol = " "
 symbol = " "
 
 [memory_usage]
-symbol = "󰍛 "
+symbol = " "
 
 [meson]
 symbol = "󰔷 "
@@ -194,14 +194,14 @@ Debian = " "
 DragonFly = " "
 Emscripten = " "
 EndeavourOS = " "
-Fedora = " "
+Fedora = " "
 FreeBSD = " "
 Garuda = "󰛓 "
 Gentoo = " "
 HardenedBSD = "󰞌 "
 Illumos = "󰈸 "
 Kali = " "
-Linux = " "
+Linux = " "
 Mabox = " "
 Macos = " "
 Manjaro = " "
@@ -241,6 +241,7 @@ symbol = "󰏗 "
 
 [python]
 symbol = " "
+disabled = true
 
 [rlang]
 symbol = "󰟔 "

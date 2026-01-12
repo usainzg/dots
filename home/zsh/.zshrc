@@ -40,7 +40,7 @@ export XDG_DOCUMENTS_DIR="${HOME}/Documents"
 # export XDG_VIDEOS_DIR="${HOME}/cloud/videos"
 
 ZSH_THEME="robbyrussell"
-
+# ZSH_THEME="spaceship"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
